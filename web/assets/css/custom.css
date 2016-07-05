@@ -1,0 +1,115 @@
+.mg20{
+    margin: 40px;
+}
+
+.mgr20{
+    margin-right: 40px;
+}
+
+.mgl20{
+    margin-left: 40px;
+}
+
+.mgb20{
+    margin-bottom: 40px;
+}
+
+.mgt20{
+    margin-top: 40px;
+}
+
+.pd20{
+    padding: 20px;
+}
+
+/* NAVBAR */
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 17%;
+        text-align: center;
+    }
+    .navbar>.container .navbar-brand-centered,
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -11%;
+    }
+}
+
+/* SLIDER */
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+figure {
+    margin: 0;
+    font-family: 'Eurostile';
+    font-weight: 100;
+}
+div#slide {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+figure.slider {
+    position: relative;
+    width: 500%;
+    font-size: 0;
+    animation: 50s slidy infinite;
+}
+figure.slider figure {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    position: inherit;
+}
+figure.slider img {
+    width: 100%;
+    height: auto;
+}
+figure.slider figure figcaption {
+    position: absolute; bottom: 0;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    width: 100%;
+    font-size: 2rem;
+    padding: .6rem;
+}
+
+/* RANDOM PRODUCTS */
+.badgebox
+{
+    opacity: 0;
+}
+
+.badgebox + .badge
+{
+    /* Move the check mark away when unchecked */
+    text-indent: -999999px;
+    /* Makes the badge's width stay the same checked and unchecked */
+    width: 27px;
+}
+
+.badgebox:focus + .badge
+{
+    /* Adding a light border */
+    box-shadow: inset 0px 0px 5px;
+}
+
+.badgebox:checked + .badge
+{
+    /* Move the check mark back when checked */
+    text-indent: 0;
+}
+
+.buybutton {
+    margin-top: 0.5%
+}
