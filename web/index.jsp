@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <!-- CONTENT -->
+    <!-- COLLECTION -->
     <div class="container">
       <div class="row text-center">
         <div id="collections" class="container">
@@ -62,16 +62,25 @@
       </div>
     </div>
 
+    <!-- SIDEBAR -->
     <div id="content" class="container">
       <div class="row mgt20">
         <div class="col-lg-2">
           <ul class="nav nav-pills nav-stacked">
-            <li class="active"><a href="#">All categories</a></li>
-            <li ><a href="#">categorie 1</a></li>
-            <li ><a href="#">categorie 2</a></li>
-            <li ><a href="#">categorie 3</a></li>
-            <li ><a href="#">categorie 4</a></li>
-            <li ><a href="#">categorie 5</a></li>
+            <li class="active"><a href="#">CATEGORIES</a></li>
+            <li><a href="#">All categories</a></li>
+            <li><a href="#">Pants</a></li>
+            <li><a href="#">Top</a></li>
+            <li><a href="#">Dress</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accessories <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">Accessories subcategories</li>
+                <li><a href="#">Bag</a></li>
+                <li><a href="#">Jewelry</a></li>
+                <li><a href="#">Glasses</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
 
