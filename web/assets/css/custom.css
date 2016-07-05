@@ -58,6 +58,7 @@ div#slide {
     width: 100%;
     overflow: hidden;
     margin-bottom: 2%;
+    margin-top: 4.8%;
 }
 figure.slider {
     position: relative;
@@ -117,9 +118,18 @@ figure.slider figure figcaption {
 /* FOOTER */
 #footer {
     background: black;
+    /*bottom: 0;
+    position: fixed;
+    width: 100%;*/
 }
 
 #footer-text {
     margin-top: 1%;
     color: white;
+}
+
+/* IMAGE DRESSING */
+div#image-mydressing {
+    margin-bottom: 2%;
+    margin-top: 4.8%;
 }

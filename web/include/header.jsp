@@ -1,7 +1,7 @@
 <head>
     <title>My Fashion Schedule</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
 </head>
 
 <body class="container-fluid">
@@ -15,7 +15,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <div class="navbar-brand navbar-brand-centered"><img src="assets/img/logo.png" alt="My Fashion Schedule"></div>
+            <div class="navbar-brand navbar-brand-centered"><img src="../assets/img/logo.png" class="img-responsive" alt="My Fashion Schedule"></div>
         </div>
 
         <div class="navbar-collapse collapse" id="navbar-brand-centered">
@@ -28,7 +28,7 @@
                 </form>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li ><a href="#">My dressing</a></li>
+                <li ><a href="../dressing.jsp">My dressing</a></li>
                 <li><a href="#">Planning</a></li>
                 <li><a href="#">Future purchases</a></li>
                 <li class="dropdown">
