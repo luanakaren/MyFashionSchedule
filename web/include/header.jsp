@@ -20,11 +20,13 @@
 
         <div class="navbar-collapse collapse" id="navbar-brand-centered">
             <ul class="nav navbar-nav">
-                <form class="navbar-form" role="search">
-                    <div class="form-group">
+                <form class="navbar-form search-form">
+                    <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search for ...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit"> <span class="glyphicon glyphicon-search"></span></button>
+                        </span>
                     </div>
-                    <button class="btn btn-default" type="submit"> <span class="glyphicon glyphicon-search"></span> </button>
                 </form>
             </ul>
             <ul class="nav navbar-nav navbar-right">

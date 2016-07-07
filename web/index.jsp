@@ -63,7 +63,7 @@
         </div>
 
         <!-- CONTENT -->
-        <div id="content" class="container">
+        <div class="container">
             <div class="row mgt20">
                 <!-- SIDEBAR -->
                 <div class="col-lg-2">

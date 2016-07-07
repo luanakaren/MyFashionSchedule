@@ -37,6 +37,11 @@
     }
 }
 
+.search-form {
+    margin-left: 2%;
+    max-width: 300px
+}
+
 /* SLIDER */
 @keyframes slidy {
     0% { left: 0%; }
@@ -129,7 +134,13 @@ figure.slider figure figcaption {
 }
 
 /* IMAGE DRESSING */
-div#image-mydressing {
+div#image-other-page {
     margin-bottom: 2%;
     margin-top: 4.8%;
+}
+
+/* SEARCH DRESSING */
+#search-dressing {
+    min-width: 250px;
+    max-width: 300px
 }
