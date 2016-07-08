@@ -88,172 +88,171 @@
                 <!-- RANDOM PRODUCT -->
                 <div class="col-lg-10 row">
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                    <div class="thumbnail" >
-                        <h4 class="text-center"><span class="label label-info">Marque</span></h4>
-                        <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                        <div class="caption">
-                            <div class="row">
-                                <div class="col-md-6 col-xs-7">
-                                    <h5>Nom du vêtement</h5>
+                        <div class="thumbnail" >
+                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-7">
+                                        <h5>Nom du vêtement</h5>
+                                    </div>
+                                    <div class="col-md-6 col-xs-5 price">
+                                        <h5 class="pull-right">
+                                            <label>$649.99</label>
+                                        </h5>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-xs-5 price">
-                                    <h5>
-                                        <label>$649.99</label>
-                                    </h5>
-                                </div>
-                            </div>
-                            <p>Description</p>
-                            <div class="row">
-                                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                                    <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                                </div>
-                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                                    <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
+                                <p>Description</p>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
+                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
+                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                   </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                    <div class="thumbnail" >
-                      <h4 class="text-center"><span class="label label-info">Marque</span></h4>
-                      <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                      <div class="caption">
-                        <div class="row">
-                          <div class="col-md-6 col-xs-7">
-                            <h5>Nom du vêtement</h5>
-                          </div>
-                          <div class="col-md-6 col-xs-5 price">
-                            <h5>
-                              <label>$649.99</label>
-                            </h5>
-                          </div>
-                        </div>
-                        <p>Description</p>
-                        <div class="row">
-                          <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                            <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                          </div>
-                          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                            <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                    <div class="thumbnail" >
-                      <h4 class="text-center"><span class="label label-info">Marque</span></h4>
-                      <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                      <div class="caption">
-                        <div class="row">
-                          <div class="col-md-6 col-xs-7">
-                            <h5>Nom du vêtement</h5>
-                          </div>
-                          <div class="col-md-6 col-xs-5 price">
-                            <h5>
-                              <label>$649.99</label>
-                            </h5>
-                          </div>
-                        </div>
-                        <p>Description</p>
-                        <div class="row">
-                          <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                            <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                          </div>
-                          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                            <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                      <div class="thumbnail" >
-                        <h4 class="text-center"><span class="label label-info">Marque</span></h4>
-                        <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                        <div class="caption">
-                          <div class="row">
-                            <div class="col-md-6 col-xs-7">
-                              <h5>Nom du vêtement</h5>
+                        <div class="thumbnail" >
+                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-7">
+                                        <h5>Nom du vêtement</h5>
+                                    </div>
+                                    <div class="col-md-6 col-xs-5 price">
+                                        <h5 class="pull-right">
+                                            <label>$649.99</label>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <p>Description</p>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
+                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
+                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-xs-5 price">
-                              <h5>
-                                <label>$649.99</label>
-                              </h5>
-                            </div>
-                          </div>
-                          <p>Description</p>
-                          <div class="row">
-                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                              <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                            </div>
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                              <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                            </div>
-                          </div>
                         </div>
-                      </div>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                      <div class="thumbnail" >
-                        <h4 class="text-center"><span class="label label-info">Marque</span></h4>
-                        <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                        <div class="caption">
-                          <div class="row">
-                            <div class="col-md-6 col-xs-7">
-                              <h5>Nom du vêtement</h5>
+                        <div class="thumbnail" >
+                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-7">
+                                        <h5>Nom du vêtement</h5>
+                                    </div>
+                                    <div class="col-md-6 col-xs-5 price">
+                                        <h5 class="pull-right">
+                                            <label>$649.99</label>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <p>Description</p>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
+                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
+                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-xs-5 price">
-                              <h5>
-                                <label>$649.99</label>
-                              </h5>
-                            </div>
-                          </div>
-                          <p>Description</p>
-                          <div class="row">
-                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                              <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                            </div>
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                              <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                            </div>
-                          </div>
                         </div>
-                      </div>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                      <div class="thumbnail" >
-                        <h4 class="text-center"><span class="label label-info">Marque</span></h4>
-                        <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                        <div class="caption">
-                          <div class="row">
-                            <div class="col-md-6 col-xs-7">
-                              <h5>Nom du vêtement</h5>
+                        <div class="thumbnail" >
+                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-7">
+                                        <h5>Nom du vêtement</h5>
+                                    </div>
+                                    <div class="col-md-6 col-xs-5 price">
+                                        <h5 class="pull-right">
+                                            <label>$649.99</label>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <p>Description</p>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
+                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
+                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-xs-5 price">
-                              <h5>
-                                <label>$649.99</label>
-                              </h5>
-                            </div>
-                          </div>
-                          <p>Description</p>
-                          <div class="row">
-                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                              <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                            </div>
-                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                              <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                            </div>
-                          </div>
                         </div>
-                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
+                        <div class="thumbnail" >
+                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-7">
+                                        <h5>Nom du vêtement</h5>
+                                    </div>
+                                    <div class="col-md-6 col-xs-5 price">
+                                        <h5 class="pull-right">
+                                            <label>$649.99</label>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <p>Description</p>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
+                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
+                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
+                        <div class="thumbnail" >
+                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-7">
+                                        <h5>Nom du vêtement</h5>
+                                    </div>
+                                    <div class="col-md-6 col-xs-5 price">
+                                        <h5 class="pull-right">
+                                            <label>$649.99</label>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <p>Description</p>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
+                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
+                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
