@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-    <jsp:include page="include/header_planning.jsp"></jsp:include>
+    <jsp:include page="include/header_date_validator.jsp"></jsp:include>
 
     <div class="row after-navbar" id="image-other-page">
         <img src="assets/img/couv.png" class="img-responsive">
