@@ -179,3 +179,12 @@ div#image-other-page {
     top: 0;
     right: -15px;
 }
+
+#clothes-planning {
+    min-height: 250px;
+}
+
+#cloth-found-planning {
+    padding-left: 20%;
+    padding-right: 20%
+}
