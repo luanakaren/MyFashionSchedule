@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="form-group">
-                    <div class="col-xs-offset-4 col-sm-offset-4 col-lg-offset-4 col-md-offset-4 text-center">
+                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-4 col-lg-offset-4 col-md-offset-4 text-center">
                         <button type="submit" class="btn btn-default">Plan your clothes</button>
                     </div>
                 </div>
@@ -34,6 +34,7 @@
         <!-- PLANNING -->
         <div class="row mgt20 mgb20">
             <ul class="list-inline text-center">
+                <h6 style="color: grey;"> Disabled when the date is wrong and when we don't click the button </h6>
                 <!-- Disabled when the date is wrong and when we don't click the button -->
                 <li><input type="checkbox" disabled=""> T-shirt</li>
                 <li><input type="checkbox" disabled=""> Dress</li>

@@ -29,28 +29,28 @@
                     <div class="row">
                         <div class="col-lg-3 panel panel-primary pd20 mgr20 mgl20">
                             <div class="panel-heading">
-                                <h1 class="panel-title">Panel primary</h1>
+                                <h1 class="panel-title">Collection</h1>
                             </div>
                             <div class="panel-body">
-                                Panel content
+                                Picture of the collection
                             </div>
                         </div>
 
                         <div class="col-lg-3 panel panel-primary pd20 mgr20 mgl20">
                             <div class="panel-heading">
-                                <h1 class="panel-title">Panel primary</h1>
+                                <h1 class="panel-title">Collection</h1>
                             </div>
                             <div class="panel-body">
-                                Panel content
+                                Picture of the collection
                             </div>
                         </div>
 
                         <div class="col-lg-3 panel panel-primary pd20 mgr20 mgl20">
                             <div class="panel-heading">
-                                <h1 class="panel-title">Panel primary</h1>
+                                <h1 class="panel-title">Collection</h1>
                             </div>
                             <div class="panel-body">
-                                Panel content
+                                Picture of the collection
                             </div>
                         </div>
                     </div>
@@ -85,12 +85,12 @@
                 <div class="col-lg-10 row">
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                         <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
                             <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
                             <div class="caption">
                                 <div class="row">
                                     <div class="col-md-6 col-xs-7">
-                                        <h5>Nom du vêtement</h5>
+                                        <h5>Cloth's name</h5>
                                     </div>
                                     <div class="col-md-6 col-xs-5 price">
                                         <h5 class="pull-right">
@@ -113,12 +113,12 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                         <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
                             <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
                             <div class="caption">
                                 <div class="row">
                                     <div class="col-md-6 col-xs-7">
-                                        <h5>Nom du vêtement</h5>
+                                        <h5>Cloth's name</h5>
                                     </div>
                                     <div class="col-md-6 col-xs-5 price">
                                         <h5 class="pull-right">
@@ -141,12 +141,12 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                         <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
                             <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
                             <div class="caption">
                                 <div class="row">
                                     <div class="col-md-6 col-xs-7">
-                                        <h5>Nom du vêtement</h5>
+                                        <h5>Cloth's name</h5>
                                     </div>
                                     <div class="col-md-6 col-xs-5 price">
                                         <h5 class="pull-right">
@@ -169,12 +169,12 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                         <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
                             <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
                             <div class="caption">
                                 <div class="row">
                                     <div class="col-md-6 col-xs-7">
-                                        <h5>Nom du vêtement</h5>
+                                        <h5>Cloth's name</h5>
                                     </div>
                                     <div class="col-md-6 col-xs-5 price">
                                         <h5 class="pull-right">
@@ -197,12 +197,12 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                         <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
                             <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
                             <div class="caption">
                                 <div class="row">
                                     <div class="col-md-6 col-xs-7">
-                                        <h5>Nom du vêtement</h5>
+                                        <h5>Cloth's name</h5>
                                     </div>
                                     <div class="col-md-6 col-xs-5 price">
                                         <h5 class="pull-right">
@@ -225,12 +225,12 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                         <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Marque</span></h4>
+                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
                             <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
                             <div class="caption">
                                 <div class="row">
                                     <div class="col-md-6 col-xs-7">
-                                        <h5>Nom du vêtement</h5>
+                                        <h5>Cloth's name</h5>
                                     </div>
                                     <div class="col-md-6 col-xs-5 price">
                                         <h5 class="pull-right">
