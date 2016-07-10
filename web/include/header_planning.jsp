@@ -2,6 +2,8 @@
     <title>My Fashion Schedule</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-datepicker3.min.css">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -9,6 +11,8 @@
     <![endif]-->
 
     <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="../assets/js/validator.min.js"></script>
 </head>
 
 <body class="container-fluid">
