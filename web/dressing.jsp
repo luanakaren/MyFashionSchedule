@@ -3,7 +3,7 @@
 <html>
     <jsp:include page="include/header.jsp"></jsp:include>
 
-    <div class="row" id="image-other-page">
+    <div class="row after-navbar" id="image-other-page">
         <img src="assets/img/couv.png" class="img-responsive">
     </div>
 

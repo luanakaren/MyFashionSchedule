@@ -33,7 +33,7 @@
     }
     .navbar>.container .navbar-brand-centered,
     .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -11%;
+        margin-left: -9%;
     }
 }
 
@@ -42,7 +42,18 @@
     max-width: 300px
 }
 
+/* CONTAINER AFTER NAVBAR */
+.after-navbar {
+    margin-top: 64px;
+}
+
 /* SLIDER */
+#banner {
+    min-height: 300px;
+    border-bottom: none;
+    margin-bottom: 1em;
+}
+
 @keyframes slidy {
     0% { left: 0%; }
     20% { left: 0%; }
@@ -63,7 +74,6 @@ div#slide {
     width: 100%;
     overflow: hidden;
     margin-bottom: 2%;
-    margin-top: 4.8%;
 }
 figure.slider {
     position: relative;
@@ -80,14 +90,6 @@ figure.slider figure {
 figure.slider img {
     width: 100%;
     height: auto;
-}
-figure.slider figure figcaption {
-    position: absolute; bottom: 0;
-    background: rgba(0,0,0,0.4);
-    color: #fff;
-    width: 100%;
-    font-size: 2rem;
-    padding: .6rem;
 }
 
 /* RANDOM PRODUCTS */
@@ -133,7 +135,6 @@ figure.slider figure figcaption {
 /* IMAGE DRESSING */
 div#image-other-page {
     margin-bottom: 2%;
-    margin-top: 4.8%;
 }
 
 /* SEARCH DRESSING */

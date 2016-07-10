@@ -3,24 +3,20 @@
 <html>
     <jsp:include page="include/header.jsp"></jsp:include>
         <!-- SLIDER -->
-        <div class="row">
+        <div class="row after-navbar">
             <div id="slide">
                 <figure class="slider">
                     <figure>
                         <img src="assets/img/couv.png" alt>
-                        <figcaption>1</figcaption>
                     </figure>
                     <figure>
                         <img src="assets/img/couv.png" alt>
-                        <figcaption>2</figcaption>
                     </figure>
                     <figure>
                         <img src="assets/img/couv.png" alt>
-                        <figcaption>3</figcaption>
                     </figure>
                     <figure>
                         <img src="assets/img/couv.png" alt>
-                        <figcaption>4</figcaption>
                     </figure>
                 </figure>
             </div>
