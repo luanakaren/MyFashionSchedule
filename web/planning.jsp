@@ -1,3 +1,5 @@
+<%@ page import="mappingSimple.Brand" %>
+<%@ page import="java.util.List" %>
 <!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -6,7 +8,7 @@
     <div class="row after-navbar" id="image-other-page">
         <img src="assets/img/couv.png" class="img-responsive">
     </div>
-
+    <% List<Brand> brands = (List<Brand>)request.getAttribute("brands"); %>
     <div class="container">
         <!-- DATE -->
         <div class="row">
