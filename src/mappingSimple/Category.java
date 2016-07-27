@@ -2,10 +2,6 @@ package mappingSimple;
 
 import java.util.List;
 
-/**
- * Created by Jary on 06/07/2016.
- */
-
 public class Category {
 
     private int id;

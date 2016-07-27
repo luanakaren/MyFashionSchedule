@@ -1,8 +1,5 @@
 package mappingSimple;
 
-/**
- * Created by Jary on 06/07/2016.
- */
 public class Color {
 
 
