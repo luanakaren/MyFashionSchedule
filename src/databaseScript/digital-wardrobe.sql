@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* Nom de SGBD :  PostgreSQL 8                                  */
-/* Date de création :  27/07/2016 18:08:51                      */
+/* Date de crï¿½ation :  27/07/2016 18:08:51                      */
 /*==============================================================*/
 
 
@@ -287,7 +287,7 @@ ID_BRAND
 create table COLOR (
    ID_COLOR             SERIAL               not null,
    NAME_COLOR           VARCHAR(50)          not null,
-   REFERENCE_COLOR      VARCHAR(6)           not null,
+   REFERENCE_COLOR      VARCHAR(7)           not null,
    constraint PK_COLOR primary key (ID_COLOR)
 );
 
