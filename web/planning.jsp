@@ -1,19 +1,25 @@
 <%@ page import="mappingSimple.Brand" %>
 <%@ page import="java.util.List" %>
+<%@ page import="mappingSimple.Country" %>
 <!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<% List<Country> countries = (List<Country>)request.getAttribute("countries"); %>
 <html>
     <jsp:include page="include/header_date_validator.jsp"></jsp:include>
 
     <div class="row after-navbar" id="image-other-page">
         <img src="assets/img/couv.png" class="img-responsive">
     </div>
-    <% List<Brand> brands = (List<Brand>)request.getAttribute("brands"); %>
+
     <div class="container">
         <!-- DATE -->
         <div class="row">
             <h5>Hi Karen!</h5>
+            <% for (Country c: countries){%>
 
+                <li><a href="#"><% out.print(c.getName()); %></a></li>
+
+            <%}%>
             <form id="planningForm" method="post" class="form-horizontal">
                 <div class="form-group">
                     <label class="col-lg-6 col-md-6 col-xs-6 control-label">For what day would you like to plan your clothes ?</label>
