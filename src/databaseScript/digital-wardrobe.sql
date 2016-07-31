@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* Nom de SGBD :  PostgreSQL 8                                  */
-/* Date de cr�ation :  27/07/2016 18:08:51                      */
+/* Date de création :  31/07/2016 17:58:43                      */
 /*==============================================================*/
 
 
@@ -19,6 +19,8 @@ drop index CLOTHES_FK;
 drop index CLOTHES_PK;
 
 drop table CLOTHES;
+
+drop index CLOTHINGHAS_GENDERBELONGS_FK;
 
 drop index COLLECTIONHAS_CLOTHINGBELONGS_F;
 
@@ -58,6 +60,8 @@ drop index COUNTRY_PK;
 
 drop table COUNTRY;
 
+drop index CUSTOMERHAS_GENDERBELONGS_FK;
+
 drop index PICTUREBELONGS_CUSTOMERHAS_FK;
 
 drop index CUSTOMERHAS_DRESSINGBELONGS2_FK;
@@ -73,6 +77,10 @@ drop index CUSTOMERHAS_DRESSINGBELONGS_FK;
 drop index DRESSING_PK;
 
 drop table DRESSING;
+
+drop index GENDER_PK;
+
+drop table GENDER;
 
 drop index PICTURE_PK;
 
@@ -171,6 +179,7 @@ create table CLOTHING (
    ID_BRAND             INT4                 not null,
    ID_SUBCATEGORY       INT4                 null,
    ID_PICTURE           INT4                 not null,
+   ID_GENDER            INT4                 not null,
    NAME_CLOTHING        VARCHAR(200)         not null,
    REFERENCE_CLOTHING   VARCHAR(20)          not null,
    LINK_OFFICIALWEBSITE VARCHAR(1024)        not null,
@@ -210,6 +219,13 @@ ID_PICTURE
 /*==============================================================*/
 create  index COLLECTIONHAS_CLOTHINGBELONGS_F on CLOTHING (
 ID_COLLECTION
+);
+
+/*==============================================================*/
+/* Index : CLOTHINGHAS_GENDERBELONGS_FK                         */
+/*==============================================================*/
+create  index CLOTHINGHAS_GENDERBELONGS_FK on CLOTHING (
+ID_GENDER
 );
 
 /*==============================================================*/
@@ -287,7 +303,7 @@ ID_BRAND
 create table COLOR (
    ID_COLOR             SERIAL               not null,
    NAME_COLOR           VARCHAR(50)          not null,
-   REFERENCE_COLOR      VARCHAR(7)           not null,
+   REFERENCE_COLOR      VARCHAR(6)           not null,
    constraint PK_COLOR primary key (ID_COLOR)
 );
 
@@ -321,6 +337,7 @@ create table CUSTOMER (
    ID_CUSTOMER          SERIAL               not null,
    ID_DRESSING          INT4                 null,
    ID_PICTURE           INT4                 not null,
+   ID_GENDER            INT4                 not null,
    ID_COUNTRY           INT4                 not null,
    FIRSTNAME            VARCHAR(100)         not null,
    LASTNAME             VARCHAR(100)         not null,
@@ -359,6 +376,13 @@ ID_PICTURE
 );
 
 /*==============================================================*/
+/* Index : CUSTOMERHAS_GENDERBELONGS_FK                         */
+/*==============================================================*/
+create  index CUSTOMERHAS_GENDERBELONGS_FK on CUSTOMER (
+ID_GENDER
+);
+
+/*==============================================================*/
 /* Table : DRESSING                                             */
 /*==============================================================*/
 create table DRESSING (
@@ -379,6 +403,22 @@ ID_DRESSING
 /*==============================================================*/
 create  index CUSTOMERHAS_DRESSINGBELONGS_FK on DRESSING (
 ID_CUSTOMER
+);
+
+/*==============================================================*/
+/* Table : GENDER                                               */
+/*==============================================================*/
+create table GENDER (
+   ID_GENDER            SERIAL               not null,
+   NAME_GENDER          VARCHAR(5)           not null,
+   constraint PK_GENDER primary key (ID_GENDER)
+);
+
+/*==============================================================*/
+/* Index : GENDER_PK                                            */
+/*==============================================================*/
+create unique index GENDER_PK on GENDER (
+ID_GENDER
 );
 
 /*==============================================================*/
@@ -500,6 +540,11 @@ alter table CLOTHING
       on delete restrict on update restrict;
 
 alter table CLOTHING
+   add constraint FK_CLOTHING_CLOTHINGH_GENDER foreign key (ID_GENDER)
+      references GENDER (ID_GENDER)
+      on delete restrict on update restrict;
+
+alter table CLOTHING
    add constraint FK_CLOTHING_COLLECTIO_COLLECTI foreign key (ID_COLLECTION)
       references COLLECTION (ID_COLLECTION)
       on delete restrict on update restrict;
@@ -547,6 +592,11 @@ alter table CUSTOMER
 alter table CUSTOMER
    add constraint FK_CUSTOMER_CUSTOMERH_DRESSING foreign key (ID_DRESSING)
       references DRESSING (ID_DRESSING)
+      on delete restrict on update restrict;
+
+alter table CUSTOMER
+   add constraint FK_CUSTOMER_CUSTOMERH_GENDER foreign key (ID_GENDER)
+      references GENDER (ID_GENDER)
       on delete restrict on update restrict;
 
 alter table CUSTOMER
