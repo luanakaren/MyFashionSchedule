@@ -10,6 +10,7 @@ public class Clothing {
     private Brand brand;
     private SubCategory subCategory;
     private Picture picture;
+    private Gender gender;
 
     public int getId() {
         return id;
@@ -75,6 +76,14 @@ public class Clothing {
         this.picture = picture;
     }
 
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
+    }
+
     public Clothing(String name) {
         this.name = name;
     }
@@ -82,7 +91,7 @@ public class Clothing {
     public Clothing() {
     }
 
-    public Clothing(String name, String reference, String linkOfficialWebsite, Collection collection, Brand brand, SubCategory subCategory, Picture picture) {
+    public Clothing(String name, String reference, String linkOfficialWebsite, Collection collection, Brand brand, SubCategory subCategory, Picture picture, Gender gender) {
         this.name = name;
         this.reference = reference;
         this.linkOfficialWebsite = linkOfficialWebsite;
@@ -90,5 +99,6 @@ public class Clothing {
         this.brand = brand;
         this.subCategory = subCategory;
         this.picture = picture;
+        this.gender = gender;
     }
 }

@@ -13,6 +13,7 @@ public class Customer {
     private Dressing dressing;
     private Picture picture;
     private Country country;
+    private Gender gender;
 
     public int getId() {
         return id;
@@ -86,10 +87,18 @@ public class Customer {
         this.country = country;
     }
 
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
+    }
+
     public Customer() {
     }
 
-    public Customer(String firstName, String lastName, Date birthDate, String email, String password, Dressing dressing, Picture picture, Country country) {
+    public Customer(String firstName, String lastName, Date birthDate, String email, String password, Dressing dressing, Picture picture, Country country, Gender gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthDate = birthDate;
@@ -98,5 +107,6 @@ public class Customer {
         this.dressing = dressing;
         this.picture = picture;
         this.country = country;
+        this.gender = gender;
     }
 }
