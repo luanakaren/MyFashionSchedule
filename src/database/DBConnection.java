@@ -11,7 +11,7 @@ public class DBConnection {
 
     public DBConnection() throws Exception {
         Class.forName("org.postgresql.Driver");
-        this.connection = DriverManager.getConnection("jdbc:postgresql://127.0.01:5432/karen","postgres", "admin");
+        this.connection = DriverManager.getConnection("jdbc:postgresql://127.0.01:5432/wardrobe","postgres", "jary2902");
     }
 
     public void close() throws SQLException {
