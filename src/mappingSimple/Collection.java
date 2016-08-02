@@ -1,5 +1,6 @@
 package mappingSimple;
 
+import java.util.Date;
 import java.util.List;
 
 public class Collection {
@@ -7,6 +8,7 @@ public class Collection {
     private int id;
     private String name;
     private Brand brand;
+    private Date date;
     private List<Clothing> clothingList;
 
     public int getId() {
@@ -33,6 +35,14 @@ public class Collection {
         this.brand = brand;
     }
 
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
     public List<Clothing> getClothingList() {
         return clothingList;
     }
@@ -48,8 +58,9 @@ public class Collection {
     public Collection() {
     }
 
-    public Collection(String name, Brand brand) {
+    public Collection(String name, Brand brand, Date date) {
         this.name = name;
         this.brand = brand;
+        this.date = date;
     }
 }
