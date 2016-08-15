@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand navbar-brand-centered">
-                <a href="../index.jsp"><img src="../assets/img/logo.png" class="img-responsive" alt="My Fashion Schedule"></a>
+                <a href="../olddesign/index.jsp"><img src="../assets/img/logo.png" class="img-responsive" alt="My Fashion Schedule"></a>
             </div>
         </div>
 

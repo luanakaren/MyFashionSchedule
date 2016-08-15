@@ -4,258 +4,139 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-    <jsp:include page="include/header.jsp"></jsp:include>
-        <!-- SLIDER -->
-        <div class="row after-navbar">
-            <div id="slide">
-                <figure class="slider">
-                    <figure>
-                        <img src="assets/img/couv.png" alt>
-                    </figure>
-                    <figure>
-                        <img src="assets/img/couv.png" alt>
-                    </figure>
-                    <figure>
-                        <img src="assets/img/couv.png" alt>
-                    </figure>
-                    <figure>
-                        <img src="assets/img/couv.png" alt>
-                    </figure>
-                </figure>
+<jsp:include page="include/header_date_validator.jsp"></jsp:include>
+
+    <div class="row after-navbar mgb20"></div>
+
+    <div class="container mgb20">
+        <div class="text-center">
+            <h1><b>Hi !</b></h1>
+            <h4>Welcome to "My Fashion Schedule", your online dressing.</h4>
+            <h4>You need to login or register to access the site.</h4>
+            <br>
+
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h5 class="text-center">LOGIN</h5>
+
+                        <form class="form form-signin" role="form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    <input type="text" class="form-control" placeholder="Username" />
+                                </div>
+                            </div>
+
+                            <!-- Password -->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                    <input type="password" class="form-control" placeholder="Password" />
+                                </div>
+                            </div>
+
+                            <!-- Button -->
+                            <a href="#" class="btn btn-primary btn-block" role="button">SIGN IN</a>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <!-- COLLECTION -->
-        <div class="container">
-            <div class="row text-center">
-                <div id="collections" class="container">
-                    <div class="row">
-                        <div class="col-lg-3 panel panel-primary pd20 mgr20 mgl20">
-                            <div class="panel-heading">
-                                <h1 class="panel-title">Collection</h1>
-                            </div>
-                            <div class="panel-body">
-                                Picture of the collection
-                            </div>
-                        </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h5 class="text-center">REGISTER</h5>
 
-                        <div class="col-lg-3 panel panel-primary pd20 mgr20 mgl20">
-                            <div class="panel-heading">
-                                <h1 class="panel-title">Collection</h1>
+                        <form class="form form-signup" role="form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    <input type="text" class="form-control" placeholder="First name" />
+                                </div>
                             </div>
-                            <div class="panel-body">
-                                Picture of the collection
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    <input type="text" class="form-control" placeholder="Last name" />
+                                </div>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <div class="date">
+                                    <div class="input-group input-append date" id="datePicker">
+                                        <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+                                        <input type="text" class="form-control" name="date" placeholder="Birth date"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                    <input type="text" class="form-control" placeholder="Email Address" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                    <input type="password" class="form-control" placeholder="Password" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
+                                    <select class="form-control" id="select">
+                                        <option>Madagascar</option>
+                                        <option>USA</option>
+                                        <option>France</option>
+                                        <option>Japan</option>
+                                        <option>Mauritius</option>
+                                    </select>
+                                </div>
+                            </div>
 
-                        <div class="col-lg-3 panel panel-primary pd20 mgr20 mgl20">
-                            <div class="panel-heading">
-                                <h1 class="panel-title">Collection</h1>
-                            </div>
-                            <div class="panel-body">
-                                Picture of the collection
-                            </div>
-                        </div>
+                            <a href="#" class="btn btn-primary btn-block" role="button">SUBMIT</a>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- CONTENT -->
-        <div class="container">
-            <div class="row mgt20">
-                <!-- SIDEBAR -->
-                <div class="col-lg-2">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li class="active"><a href="#">CATEGORIES</a></li>
-                        <li><a href="#">All categories</a></li>
-                        <li><a href="#">Pants</a></li>
-                        <li><a href="#">Top</a></li>
-                        <li><a href="#">Dress</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accessories <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                              <li class="dropdown-header">Accessories subcategories</li>
-                              <li><a href="#">Bag</a></li>
-                              <li><a href="#">Jewelry</a></li>
-                              <li><a href="#">Glasses</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+    <script>
+        $(document).ready(function() {
+            $('#datePicker')
+                    .datepicker({
+                        autoclose: true,
+                        format: 'dd/mm/yyyy'
+                    })
+                    .on('changeDate', function(e) {
+                        // Revalidate the date field
+                        $('#planningForm').formValidation('revalidateField', 'date');
+                    });
 
-                <!-- RANDOM PRODUCT -->
-                <div class="col-lg-10 row">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                        <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
-                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                            <div class="caption">
-                                <div class="row">
-                                    <div class="col-md-6 col-xs-7">
-                                        <h5>Cloth's name</h5>
-                                    </div>
-                                    <div class="col-md-6 col-xs-5 price">
-                                        <h5 class="pull-right">
-                                            <label>$649.99</label>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <p>Description</p>
-                                <div class="row">
-                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                                    </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            $('#planningForm').formValidation({
+                framework: 'bootstrap',
+                icon: {
+                    valid: 'glyphicon glyphicon-ok',
+                    invalid: 'glyphicon glyphicon-remove',
+                    validating: 'glyphicon glyphicon-refresh'
+                },
+                fields: {
+                    date: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The date is required'
+                            },
+                            date: {
+                                format: 'DD/MM/YYYY',
+                                message: 'The date is not a valid'
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
 
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                        <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
-                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                            <div class="caption">
-                                <div class="row">
-                                    <div class="col-md-6 col-xs-7">
-                                        <h5>Cloth's name</h5>
-                                    </div>
-                                    <div class="col-md-6 col-xs-5 price">
-                                        <h5 class="pull-right">
-                                            <label>$649.99</label>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <p>Description</p>
-                                <div class="row">
-                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                                    </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                        <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
-                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                            <div class="caption">
-                                <div class="row">
-                                    <div class="col-md-6 col-xs-7">
-                                        <h5>Cloth's name</h5>
-                                    </div>
-                                    <div class="col-md-6 col-xs-5 price">
-                                        <h5 class="pull-right">
-                                            <label>$649.99</label>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <p>Description</p>
-                                <div class="row">
-                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                                    </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                        <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
-                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                            <div class="caption">
-                                <div class="row">
-                                    <div class="col-md-6 col-xs-7">
-                                        <h5>Cloth's name</h5>
-                                    </div>
-                                    <div class="col-md-6 col-xs-5 price">
-                                        <h5 class="pull-right">
-                                            <label>$649.99</label>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <p>Description</p>
-                                <div class="row">
-                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                                    </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                        <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
-                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                            <div class="caption">
-                                <div class="row">
-                                    <div class="col-md-6 col-xs-7">
-                                        <h5>Cloth's name</h5>
-                                    </div>
-                                    <div class="col-md-6 col-xs-5 price">
-                                        <h5 class="pull-right">
-                                            <label>$649.99</label>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <p>Description</p>
-                                <div class="row">
-                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                                    </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
-                        <div class="thumbnail" >
-                            <h4 class="text-center"><span class="label label-info">Brand</span></h4>
-                            <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-responsive">
-                            <div class="caption">
-                                <div class="row">
-                                    <div class="col-md-6 col-xs-7">
-                                        <h5>Cloth's name</h5>
-                                    </div>
-                                    <div class="col-md-6 col-xs-5 price">
-                                        <h5 class="pull-right">
-                                            <label>$649.99</label>
-                                        </h5>
-                                    </div>
-                                </div>
-                                <p>Description</p>
-                                <div class="row">
-                                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 text-center">
-                                        <label class="btn btn-primary btn-product">I have it<input type="checkbox" class="badgebox"><span class="badge">&check;</span></label>
-                                    </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 buybutton text-center">
-                                        <a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    <jsp:include page="include/footer.jsp"></jsp:include>
+<jsp:include page="include/footer.jsp"></jsp:include>
 </html>
