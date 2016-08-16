@@ -47,7 +47,7 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="#">My profile</a></li>
                         <li><a href="#">Login</a></li>
-                        <li><a href="../signup.jsp">Sign up</a></li>
+                        <li><a href="../olddesign/signup.jsp">Sign up</a></li>
                         <li><a href="#">Language</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Account settings</a></li>
