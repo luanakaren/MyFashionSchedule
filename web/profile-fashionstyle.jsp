@@ -6,7 +6,7 @@
 
     <div class="row after-navbar mgb20"></div>
 
-    <div class="container mgb20">
+    <div class="container content mgb20">
         <div class="text-center">
             <h4>Rate thoses looks by preference <i class="fa fa-smile-o"></i> .</h4>
             <br>

@@ -5,7 +5,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <% List<Country> countries = (List<Country>)request.getAttribute("countries"); %>
 <html>
-    <jsp:include page="include/header_date_validator.jsp"></jsp:include>
+    <jsp:include page="include/header_home_date_validator.jsp"></jsp:include>
 
     <div class="row after-navbar" id="image-other-page">
         <img src="assets/img/couv.png" class="img-responsive">
