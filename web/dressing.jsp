@@ -175,5 +175,5 @@
         </div>
     </section>
 
-    <jsp:include page="include/footer_dressing.jsp"></jsp:include>
+    <jsp:include page="include/footer_wardrobe_management.jsp"></jsp:include>
 </html>
