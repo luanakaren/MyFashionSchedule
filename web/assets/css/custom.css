@@ -266,6 +266,10 @@ div#image-other-page {
     border: 1px solid black;
 }
 
+.save-for-another-day {
+    padding-left: 0;
+}
+
 /* WARDROBE MANAGEMENT PAGE - ACCORDION */
 
 .panel-body { padding: 0px; }

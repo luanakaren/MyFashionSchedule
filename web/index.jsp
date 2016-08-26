@@ -23,7 +23,17 @@
                 <div class="radio">
                     <label>
                         <input name="choice" id="save-for-another-day" value="" checked="" type="radio">
-                        Save for another day
+                        Save for another day :
+                        <select class="form-control">
+                            <option>When ?</option>
+                            <option>Monday XX/XX/XXXX</option>
+                            <option>Tuesday XX/XX/XXXX</option>
+                            <option>Wednesday XX/XX/XXXX</option>
+                            <option>Thursday XX/XX/XXXX</option>
+                            <option>Friday XX/XX/XXXX</option>
+                            <option>Saturday XX/XX/XXXX</option>
+                            <option>Sunday XX/XX/XXXX</option>
+                        </select>
                     </label>
                 </div>
                 <div class="radio">
@@ -32,6 +42,7 @@
                         Doesn't suit me
                     </label>
                 </div>
+                <a href="#" class="btn btn-primary">Submit</a>
             </div>
         </div>
 
