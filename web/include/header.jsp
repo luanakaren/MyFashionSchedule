@@ -49,7 +49,7 @@
                     </ul>
                 </li>
                 <li ><a href="../wardrobe-management.jsp">Wardrobe management</a></li>
-                <li><a href="../planning.jsp">Outfits management</a></li>
+                <li><a href="../outfits-management.jsp">Outfits management</a></li>
             </ul>
         </div>
     </div>
