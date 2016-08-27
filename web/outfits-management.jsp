@@ -2,13 +2,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-<jsp:include page="include/header.jsp"></jsp:include>
+<jsp:include page="include/header_outfits_calendar.jsp"></jsp:include>
 
     <div class="row after-navbar mgb20"></div>
 
     <div class="container content mgb20">
         <!-- SET THE TYPICAL WEEK -->
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 col-xs-12">
             <h4 class="text-center">My typical week</h4>
 
             <div class="panel-group" id="accordion">
@@ -358,7 +358,7 @@
         </div>
 
         <!-- SPECIAL EVENTS -->
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 col-xs-12">
             <h4 class="text-center">My special events</h4>
 
             <div class="panel-group" id="accordion">
@@ -461,9 +461,45 @@
         </div>
 
         <!-- OUTFITS CALENDAR -->
-        <div class="col-md-4 col-sm-6 col-xs-12">
-
-        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 outfits-calendar"></div>
     </div>
+
+    <script>
+        /*$('.outfits-calendar').calendar({
+            startYear: new Date().getFullYear(),
+            minDate: minDate,
+        maxDate: maxDate,
+        language: 'en', // or 'fr'
+        allowOverlap: true,
+        displayWeekNumber: false,
+        displayDisabledDataSource: false,
+        displayHeader: true,
+        alwaysHalfDay: false,
+        dataSource: [], // an array of data
+        style: 'border',
+        enableRangeSelection: false,
+        disabledDays: [],
+        disabledWeekDays: [],
+        hiddenWeekDays: [],
+        roundRangeLimits: false,
+        contextMenuItems: [], // an array of menu items,
+        customDayRenderer : null,
+        customDataSourceRenderer: null,
+        // Callback Events
+        clickDay: null,
+        daycontextMenu: null,
+        selectRange: null,
+        mouseOnDay: null,
+        mouseOutDay: null,
+        renderEnd: null
+        });*/
+
+        $(function() {
+            $('.outfits-calendar').calendar({
+                startYear: new Date().getFullYear(),
+                minDate: new Date(2016, 7, 1)
+            });
+        });
+    </script>
 
 <jsp:include page="include/footer.jsp"></jsp:include>
