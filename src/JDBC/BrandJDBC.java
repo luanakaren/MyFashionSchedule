@@ -1,36 +1,33 @@
 package JDBC;
 
 import database.DBConnection;
-import mappingSimple.Country;
+import mappingSimple.Brand;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+public class BrandJDBC {
 
-public class CountryJDBC {
+    public List<Brand> getAllBrands() throws Exception {
+        String sql = "select * from brand";
+        List<Brand> brands = new ArrayList<Brand>();
 
-    public List<Country> getAllCountries() throws Exception {
-        String sql = "select * from country";
-        List<Country> countries = new ArrayList<Country>();
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
 
-        try{
-
+        try {
             resultSet = statement.executeQuery(sql);
-            while(resultSet.next()){//tant qu'il y a un resultat
-                Country country = new Country();
+            while(resultSet.next()) {
+                Brand brand = new Brand();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                brand.setId(resultSet.getInt("id_brand"));
+                brand.setName(resultSet.getString("name_brand"));
 
-                countries.add(country);
+                brands.add(brand);
             }
-
-
         }
         catch (Exception e){
             System.out.print(e.getMessage());
@@ -41,26 +38,25 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return countries;
-
+        return brands;
     }
 
-    public Country getCountryByID(int idCountry) throws Exception {
-        String sql = "select * from country where id_country = " + idCountry + " limit 1";
+    public Brand getBrandByID(int idBrand) throws Exception {
+        String sql = "select * from brand where id_brand = " + idBrand + " limit 1";
 
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
 
-        Country country = null;
+        Brand brand = null;
 
         try {
             resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
-                country = new Country();
+                brand = new Brand();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                brand.setId(resultSet.getInt("id_brand"));
+                brand.setName(resultSet.getString("name_brand"));
             }
         } catch (Exception e) {
             System.out.print(e.getMessage());
@@ -70,7 +66,6 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return country;
+        return brand;
     }
-
 }

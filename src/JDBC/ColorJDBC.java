@@ -1,19 +1,18 @@
 package JDBC;
 
 import database.DBConnection;
-import mappingSimple.Country;
+import mappingSimple.Color;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+public class ColorJDBC {
 
-public class CountryJDBC {
-
-    public List<Country> getAllCountries() throws Exception {
-        String sql = "select * from country";
-        List<Country> countries = new ArrayList<Country>();
+    public List<Color> getAllColors() throws Exception {
+        String sql = "select * from color";
+        List<Color> colors = new ArrayList<Color>();
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
@@ -22,15 +21,14 @@ public class CountryJDBC {
 
             resultSet = statement.executeQuery(sql);
             while(resultSet.next()){//tant qu'il y a un resultat
-                Country country = new Country();
+                Color color = new Color();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                color.setId(resultSet.getInt("id_color"));
+                color.setName(resultSet.getString("name_color"));
+                color.setReference(resultSet.getString("reference_color"));
 
-                countries.add(country);
+                colors.add(color);
             }
-
-
         }
         catch (Exception e){
             System.out.print(e.getMessage());
@@ -41,26 +39,27 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return countries;
+        return colors;
 
     }
 
-    public Country getCountryByID(int idCountry) throws Exception {
-        String sql = "select * from country where id_country = " + idCountry + " limit 1";
+    public Color getColorByID(int idColor) throws Exception {
+        String sql = "select * from color where id_color = " + idColor + " limit 1";
 
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
 
-        Country country = null;
+        Color color = null;
 
         try {
             resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
-                country = new Country();
+                color = new Color();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                color.setId(resultSet.getInt("id_color"));
+                color.setName(resultSet.getString("name_color"));
+                color.setReference(resultSet.getString("reference_color"));
             }
         } catch (Exception e) {
             System.out.print(e.getMessage());
@@ -70,7 +69,6 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return country;
+        return color;
     }
-
 }

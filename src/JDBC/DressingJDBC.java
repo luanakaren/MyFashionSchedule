@@ -1,19 +1,18 @@
 package JDBC;
 
 import database.DBConnection;
-import mappingSimple.Country;
+import mappingSimple.Dressing;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+public class DressingJDBC {
 
-public class CountryJDBC {
-
-    public List<Country> getAllCountries() throws Exception {
-        String sql = "select * from country";
-        List<Country> countries = new ArrayList<Country>();
+    public List<Dressing> getAllDressings() throws Exception {
+        String sql = "select * from dressing";
+        List<Dressing> dressings = new ArrayList<Dressing>();
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
@@ -22,12 +21,12 @@ public class CountryJDBC {
 
             resultSet = statement.executeQuery(sql);
             while(resultSet.next()){//tant qu'il y a un resultat
-                Country country = new Country();
+                Dressing dressing = new Dressing();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                dressing.setId(resultSet.getInt("id_dressing"));
+                dressing.setCustomer(new CustomerJDBC().getCustomerByID(resultSet.getInt("id_customer")));
 
-                countries.add(country);
+                dressings.add(dressing);
             }
 
 
@@ -41,26 +40,26 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return countries;
+        return dressings;
 
     }
 
-    public Country getCountryByID(int idCountry) throws Exception {
-        String sql = "select * from country where id_country = " + idCountry + " limit 1";
+    public Dressing getDressingByID(int idDressing) throws Exception {
+        String sql = "select * from dressing where id_dressing = " + idDressing + " limit 1";
 
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
 
-        Country country = null;
+        Dressing dressing = null;
 
         try {
             resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
-                country = new Country();
+                dressing = new Dressing();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                dressing.setId(resultSet.getInt("id_dressing"));
+                dressing.setCustomer(new CustomerJDBC().getCustomerByID(resultSet.getInt("id_customer")));
             }
         } catch (Exception e) {
             System.out.print(e.getMessage());
@@ -70,7 +69,6 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return country;
+        return dressing;
     }
-
 }

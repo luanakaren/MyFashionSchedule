@@ -1,19 +1,18 @@
 package JDBC;
 
 import database.DBConnection;
-import mappingSimple.Country;
+import mappingSimple.Gender;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+public class GenderJDBC {
 
-public class CountryJDBC {
-
-    public List<Country> getAllCountries() throws Exception {
-        String sql = "select * from country";
-        List<Country> countries = new ArrayList<Country>();
+    public List<Gender> getAllGenders() throws Exception {
+        String sql = "select * from gender";
+        List<Gender> genders = new ArrayList<Gender>();
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
@@ -22,15 +21,13 @@ public class CountryJDBC {
 
             resultSet = statement.executeQuery(sql);
             while(resultSet.next()){//tant qu'il y a un resultat
-                Country country = new Country();
+                Gender gender = new Gender();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                gender.setId(resultSet.getInt("id_gender"));
+                gender.setName(resultSet.getString("name_gender"));
 
-                countries.add(country);
+                genders.add(gender);
             }
-
-
         }
         catch (Exception e){
             System.out.print(e.getMessage());
@@ -41,26 +38,26 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return countries;
+        return genders;
 
     }
 
-    public Country getCountryByID(int idCountry) throws Exception {
-        String sql = "select * from country where id_country = " + idCountry + " limit 1";
+    public Gender getGenderByID(int idGender) throws Exception {
+        String sql = "select * from gender where id_gender = " + idGender + " limit 1";
 
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
 
-        Country country = null;
+        Gender gender = null;
 
         try {
             resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
-                country = new Country();
+                gender = new Gender();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                gender.setId(resultSet.getInt("id_gender"));
+                gender.setName(resultSet.getString("name_gender"));
             }
         } catch (Exception e) {
             System.out.print(e.getMessage());
@@ -70,7 +67,6 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return country;
+        return gender;
     }
-
 }

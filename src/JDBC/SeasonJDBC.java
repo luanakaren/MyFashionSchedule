@@ -1,19 +1,18 @@
 package JDBC;
 
 import database.DBConnection;
-import mappingSimple.Country;
+import mappingSimple.Season;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+public class SeasonJDBC {
 
-public class CountryJDBC {
-
-    public List<Country> getAllCountries() throws Exception {
-        String sql = "select * from country";
-        List<Country> countries = new ArrayList<Country>();
+    public List<Season> getAllSeasons() throws Exception {
+        String sql = "select * from color";
+        List<Season> seasons = new ArrayList<Season>();
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
@@ -22,15 +21,13 @@ public class CountryJDBC {
 
             resultSet = statement.executeQuery(sql);
             while(resultSet.next()){//tant qu'il y a un resultat
-                Country country = new Country();
+                Season season = new Season();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                season.setId(resultSet.getInt("id_season"));
+                season.setName(resultSet.getString("name_season"));
 
-                countries.add(country);
+                seasons.add(season);
             }
-
-
         }
         catch (Exception e){
             System.out.print(e.getMessage());
@@ -41,26 +38,26 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return countries;
+        return seasons;
 
     }
 
-    public Country getCountryByID(int idCountry) throws Exception {
-        String sql = "select * from country where id_country = " + idCountry + " limit 1";
+    public Season getSeasonByID(int idSeason) throws Exception {
+        String sql = "select * from season where id_season = " + idSeason + " limit 1";
 
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
 
-        Country country = null;
+        Season season = null;
 
         try {
             resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
-                country = new Country();
+                season = new Season();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                season.setId(resultSet.getInt("id_season"));
+                season.setName(resultSet.getString("name_season"));
             }
         } catch (Exception e) {
             System.out.print(e.getMessage());
@@ -70,7 +67,6 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return country;
+        return season;
     }
-
 }

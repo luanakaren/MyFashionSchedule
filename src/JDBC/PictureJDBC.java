@@ -1,19 +1,18 @@
 package JDBC;
 
 import database.DBConnection;
-import mappingSimple.Country;
+import mappingSimple.Picture;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+public class PictureJDBC {
 
-public class CountryJDBC {
-
-    public List<Country> getAllCountries() throws Exception {
-        String sql = "select * from country";
-        List<Country> countries = new ArrayList<Country>();
+    public List<Picture> getAllPictures() throws Exception {
+        String sql = "select * from picture";
+        List<Picture> pictures = new ArrayList<Picture>();
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
@@ -22,15 +21,13 @@ public class CountryJDBC {
 
             resultSet = statement.executeQuery(sql);
             while(resultSet.next()){//tant qu'il y a un resultat
-                Country country = new Country();
+                Picture picture = new Picture();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                picture.setId(resultSet.getInt("id_picture"));
+                picture.setLink(resultSet.getString("link"));
 
-                countries.add(country);
+                pictures.add(picture);
             }
-
-
         }
         catch (Exception e){
             System.out.print(e.getMessage());
@@ -41,26 +38,26 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return countries;
+        return pictures;
 
     }
 
-    public Country getCountryByID(int idCountry) throws Exception {
-        String sql = "select * from country where id_country = " + idCountry + " limit 1";
+    public Picture getPictureByID(int idPicture) throws Exception {
+        String sql = "select * from picture where id_picture = " + idPicture + " limit 1";
 
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
         Statement statement = dbConnection.getConnection().createStatement();
 
-        Country country = null;
+        Picture picture = null;
 
         try {
             resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
-                country = new Country();
+                picture = new Picture();
 
-                country.setId(resultSet.getInt("id_country"));
-                country.setName(resultSet.getString("name_country"));
+                picture.setId(resultSet.getInt("id_picture"));
+                picture.setLink(resultSet.getString("link"));
             }
         } catch (Exception e) {
             System.out.print(e.getMessage());
@@ -70,7 +67,6 @@ public class CountryJDBC {
             dbConnection.close();
         }
 
-        return country;
+        return picture;
     }
-
 }
