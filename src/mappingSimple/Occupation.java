@@ -2,11 +2,11 @@ package mappingSimple;
 
 import java.util.List;
 
-public class Gender {
+public class Occupation {
 
     private int id;
     private String name;
-    private List<Clothing> clothingList;
+    private List<Customer> customerList;
 
     public int getId() {
         return id;
@@ -24,18 +24,9 @@ public class Gender {
         this.name = name;
     }
 
-    public List<Clothing> getClothingList() {
-        return clothingList;
-    }
+    public Occupation() {}
 
-    public void setClothingList(List<Clothing> clothingList) {
-        this.clothingList = clothingList;
-    }
-
-    public Gender() {
-    }
-
-    public Gender(String name) {
+    public Occupation(String name) {
         this.name = name;
     }
 }

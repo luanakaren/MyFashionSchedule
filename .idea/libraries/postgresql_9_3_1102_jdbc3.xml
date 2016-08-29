@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="postgresql-9.3-1102.jdbc3">
     <CLASSES>
-      <root url="jar://C:/postgresql-9.3-1102.jdbc3.jar!/" />
+      <root url="jar://D:/driver/postgresql-9.3-1102.jdbc3.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
