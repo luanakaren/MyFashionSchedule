@@ -35,4 +35,5 @@ public class IndexController extends BaseController {
         return "planning";
         //inclue les jsp-api.jar et servlet-api.jar dans ton projet, c'est dans le dossier lib
     }
+
 }
