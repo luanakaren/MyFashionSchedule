@@ -10,6 +10,7 @@
     <![endif]-->
 
     <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
 </head>
 
 <body class="container-fluid">
@@ -24,7 +25,7 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand navbar-brand-centered">
-                <a href="../olddesign/index.jsp"><img src="../assets/img/logo.png" class="img-responsive" alt="My Fashion Schedule"></a>
+                <a href="../index.jsp"><img src="../assets/img/logo.png" class="img-responsive" alt="My Fashion Schedule"></a>
             </div>
         </div>
 
@@ -40,23 +41,19 @@
                 </form>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li ><a href="dressing.jsp">My dressing</a></li>
-                <li><a href="../planning.jsp">Planning</a></li>
-                <li><a href="#">Future purchases</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Luana Karen<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hi Luana Karen<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="#">My profile</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="../olddesign/signup.jsp">Sign up</a></li>
-                        <li><a href="#">Language</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Account settings</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Log out</a></li>
                     </ul>
                 </li>
+                <li ><a href="../wardrobe-management.jsp">Wardrobe management</a></li>
+                <li><a href="../outfits-management.jsp">Outfits management</a></li>
+                <li><a href="../add-clothes.jsp">Add clothes</a></li>
             </ul>
         </div>
     </div>
 </div>
+

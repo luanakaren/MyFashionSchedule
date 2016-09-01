@@ -44,7 +44,7 @@
                 </form>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li ><a href="../dressing.jsp">My dressing</a></li>
+                <li ><a href="dressing.jsp">My dressing</a></li>
                 <li><a href="../planning.jsp">Planning</a></li>
                 <li><a href="#">Future purchases</a></li>
                 <li class="dropdown">
