@@ -60,3 +60,11 @@ INSERT INTO style(name_style)
 INSERT INTO style(name_style)
     VALUES ('Bobo chic');
 
+/* CUSTOMER_STYLES */
+INSERT INTO customer_styles(
+            id_style, id_customer, date_style_choice)
+    VALUES (3, 1, '03-09-2016');
+
+INSERT INTO customer_styles(
+            id_style, id_customer, date_style_choice)
+    VALUES (1, 1, '03-09-2016');
