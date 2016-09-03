@@ -71,6 +71,9 @@ INSERT INTO subcategory(id_category, name_subcategory)
     VALUES (2, 'Mocassins');
 
 INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (2, 'Sneakers');
+
+INSERT INTO subcategory(id_category, name_subcategory)
     VALUES (3, 'Scarfs');
 
 INSERT INTO subcategory(id_category, name_subcategory)
@@ -145,5 +148,18 @@ INSERT INTO color(name_color, reference_color)
 
 INSERT INTO color(name_color, reference_color)
     VALUES ('Emerald green', '01D758');
+
+/* SEASON */
+INSERT INTO season(name_season)
+    VALUES ('Summer');
+
+INSERT INTO season(name_season)
+    VALUES ('Winter');
+
+INSERT INTO season(name_season)
+    VALUES ('Spring');
+
+INSERT INTO season(name_season)
+    VALUES ('Autumn');
 
 
