@@ -61,51 +61,51 @@ INSERT INTO public.season(name_season)
 
 /* COLOR */
 INSERT INTO color(name_color, reference_color)
-    VALUES ('White', '#FFFFFF');
+    VALUES ('White', 'FFFFFF');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Off-white', '#FEFEE2');
+    VALUES ('Off-white', 'FEFEE2');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Egg shell', '#FDE9E0');
+    VALUES ('Egg shell', 'FDE9E0');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Black', '#000000');
+    VALUES ('Black', '000000');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Blackcurrant', '#2C030B');
+    VALUES ('Blackcurrant', '2C030B');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Gold', '#FFD700');
+    VALUES ('Gold', 'FFD700');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Saffron', '#F4C430 ');
+    VALUES ('Saffron', 'F4C430 ');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Yellow chick', '#F7E35F');
+    VALUES ('Yellow chick', 'F7E35F');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Coral', '#E73E01');
+    VALUES ('Coral', 'E73E01');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Orange', '#ED7F10');
+    VALUES ('Orange', 'ED7F10');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Carrot', '#F4661B');
+    VALUES ('Carrot', 'F4661B');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Cherry', '#DE3163');
+    VALUES ('Cherry', 'DE3163');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Peach', '#FDBFB7');
+    VALUES ('Peach', 'FDBFB7');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Salmon', '#F88E55');
+    VALUES ('Salmon', 'F88E55');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Kaki', '#94812B');
+    VALUES ('Kaki', '94812B');
 
 INSERT INTO color(name_color, reference_color)
-    VALUES ('Emerald green', '#01D758');
+    VALUES ('Emerald green', '01D758');
 
 
