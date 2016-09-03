@@ -10,54 +10,92 @@ INSERT INTO country(name_country)
 
 /* CATEGORY */
 INSERT INTO category(name_category)
-    VALUES ('Outerwear');
+    VALUES ('Clothes');
 
 INSERT INTO category(name_category)
-    VALUES ('Top');
+    VALUES ('Shoes');
 
 INSERT INTO category(name_category)
-    VALUES ('Pants');
+    VALUES ('Accessories');
 
 INSERT INTO category(name_category)
-    VALUES ('Dress');
+    VALUES ('Jewels');
 
 INSERT INTO category(name_category)
-    VALUES ('Skirt');
+    VALUES ('Perfumes');
 
 /* SUBCATEGORY */
-INSERT INTO public.subcategory(id_category, name_subcategory)
-    VALUES (1, 'Jacket');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Underwear');
 
-INSERT INTO public.subcategory(id_category, name_subcategory)
-    VALUES (1, 'Bomber');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Dress');
 
-INSERT INTO public.subcategory(id_category, name_subcategory)
-    VALUES (2, 'T-shirt');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Skirt');
 
-INSERT INTO public.subcategory(id_category, name_subcategory)
-    VALUES (2, 'Sweater');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Blouse - shirt');
 
-INSERT INTO public.subcategory(id_category, name_subcategory)
-    VALUES (2, 'Blouse');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Pull');
 
-INSERT INTO public.subcategory(id_category, name_subcategory)
-    VALUES (3, 'Jeans');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Pants');
 
-INSERT INTO public.subcategory(id_category, name_subcategory)
-    VALUES (3, 'Short');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Top and t-shirts');
 
-/* SEASON */
-INSERT INTO public.season(name_season)
-    VALUES ('Summer');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Short');
 
-INSERT INTO public.season(name_season)
-    VALUES ('Winter');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Blazers');
 
-INSERT INTO public.season(name_season)
-    VALUES ('Spring');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (1, 'Trench - coat');
 
-INSERT INTO public.season(name_season)
-    VALUES ('Autum');
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (2, 'Boots');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (2, 'Heels');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (2, 'Flat');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (2, 'Sandals');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (2, 'Mocassins');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (3, 'Scarfs');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (3, 'Belts');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (3, 'Handbags');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (4, 'Necklace');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (4, 'Earcuffs');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (4, 'Bracelets');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (4, 'Brooches');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (4, 'Watches');
+
+INSERT INTO subcategory(id_category, name_subcategory)
+    VALUES (4, 'Rings');
 
 /* COLOR */
 INSERT INTO color(name_color, reference_color)
