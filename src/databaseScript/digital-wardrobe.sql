@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* Nom de SGBD :  PostgreSQL 8                                  */
-/* Date de création :  31/07/2016 17:58:43                      */
+/* Date de création :  03/09/2016 16:28:06                      */
 /*==============================================================*/
 
 
@@ -20,15 +20,15 @@ drop index CLOTHES_PK;
 
 drop table CLOTHES;
 
-drop index CLOTHINGHAS_GENDERBELONGS_FK;
+drop index ASSOCIATION_14_FK;
 
-drop index COLLECTIONHAS_CLOTHINGBELONGS_F;
+drop index ASSOCIATION_10_FK;
 
-drop index PICTUREBELONGS_CLOTHINGHAS_FK;
+drop index ASSOCIATION_9_FK;
 
-drop index SUBCATEGORYBELONGS_CLOTHINGHAS_;
+drop index ASSOCIATION_7_FK;
 
-drop index BRANDBELONGS_CLOTHINGHAS_FK;
+drop index ASSOCIATION_5_FK;
 
 drop index CLOTHING_PK;
 
@@ -38,15 +38,19 @@ drop index CLOTHING_COLORS2_FK;
 
 drop index CLOTHING_COLORS_FK;
 
+drop index CLOTHING_COLORS_PK;
+
 drop table CLOTHING_COLORS;
 
 drop index CLOTHING_SEASONS2_FK;
 
 drop index CLOTHING_SEASONS_FK;
 
+drop index CLOTHING_SEASONS_PK;
+
 drop table CLOTHING_SEASONS;
 
-drop index COLLECTIONBELONGS_BRANDHAS_FK;
+drop index ASSOCIATION_6_FK;
 
 drop index COLLECTION_PK;
 
@@ -60,33 +64,65 @@ drop index COUNTRY_PK;
 
 drop table COUNTRY;
 
-drop index CUSTOMERHAS_GENDERBELONGS_FK;
+drop index ASSOCIATION_19_FK;
 
-drop index PICTUREBELONGS_CUSTOMERHAS_FK;
+drop index ASSOCIATION_17_FK;
 
-drop index CUSTOMERHAS_DRESSINGBELONGS2_FK;
-
-drop index COUNTRYBELONGS_CUSTOMERHAS_FK;
+drop index ASSOCIATION_2_FK;
 
 drop index CUSTOMER_PK;
 
 drop table CUSTOMER;
 
-drop index CUSTOMERHAS_DRESSINGBELONGS_FK;
+drop index CUSTOMER_STYLES2_FK;
+
+drop index CUSTOMER_STYLES_FK;
+
+drop index CUSTOMER_STYLES_PK;
+
+drop table CUSTOMER_STYLES;
+
+drop index ASSOCIATION_16_FK;
 
 drop index DRESSING_PK;
 
 drop table DRESSING;
 
+drop index FAVORITE2_FK;
+
+drop index FAVORITE_FK;
+
+drop index FAVORITE_PK;
+
+drop table FAVORITE;
+
 drop index GENDER_PK;
 
 drop table GENDER;
+
+drop index OCCUPATION_PK;
+
+drop table OCCUPATION;
+
+drop index ASSOCIATION_12_FK;
+
+drop index OUTFIT_PK;
+
+drop table OUTFIT;
+
+drop index OUTFIT_CLOTHES2_FK;
+
+drop index OUTFIT_CLOTHES_FK;
+
+drop index OUTFIT_CLOTHES_PK;
+
+drop table OUTFIT_CLOTHES;
 
 drop index PICTURE_PK;
 
 drop table PICTURE;
 
-drop index CUSTOMERHAS_PLANNINGBELONGS_FK;
+drop index ASSOCIATION_18_FK;
 
 drop index PLANNING_PK;
 
@@ -96,17 +132,31 @@ drop index PLANNING_CLOTHES2_FK;
 
 drop index PLANNING_CLOTHES_FK;
 
+drop index PLANNING_CLOTHES_PK;
+
 drop table PLANNING_CLOTHES;
 
 drop index SEASON_PK;
 
 drop table SEASON;
 
-drop index SUBCATEGORYBELONGS_CATEGORYHAS_;
+drop index STYLE_PK;
+
+drop table STYLE;
+
+drop index ASSOCIATION_8_FK;
 
 drop index SUBCATEGORY_PK;
 
 drop table SUBCATEGORY;
+
+drop index VOTE2_FK;
+
+drop index VOTE_FK;
+
+drop index VOTE_PK;
+
+drop table VOTE;
 
 /*==============================================================*/
 /* Table : BRAND                                                */
@@ -144,30 +194,31 @@ ID_CATEGORY
 /* Table : CLOTHES                                              */
 /*==============================================================*/
 create table CLOTHES (
-   ID_DRESSING          INT4                 not null,
    ID_CLOTHING          INT4                 not null,
-   constraint PK_CLOTHES primary key (ID_CLOTHING)
+   ID_DRESSING          INT4                 not null,
+   constraint PK_CLOTHES primary key (ID_CLOTHING, ID_DRESSING)
 );
 
 /*==============================================================*/
 /* Index : CLOTHES_PK                                           */
 /*==============================================================*/
 create unique index CLOTHES_PK on CLOTHES (
-ID_CLOTHING
+ID_CLOTHING,
+ID_DRESSING
 );
 
 /*==============================================================*/
 /* Index : CLOTHES_FK                                           */
 /*==============================================================*/
 create  index CLOTHES_FK on CLOTHES (
-ID_DRESSING
+ID_CLOTHING
 );
 
 /*==============================================================*/
 /* Index : CLOTHES2_FK                                          */
 /*==============================================================*/
 create  index CLOTHES2_FK on CLOTHES (
-ID_CLOTHING
+ID_DRESSING
 );
 
 /*==============================================================*/
@@ -175,11 +226,11 @@ ID_CLOTHING
 /*==============================================================*/
 create table CLOTHING (
    ID_CLOTHING          SERIAL               not null,
-   ID_COLLECTION        INT4                 null,
-   ID_BRAND             INT4                 not null,
    ID_SUBCATEGORY       INT4                 null,
-   ID_PICTURE           INT4                 not null,
+   ID_COLLECTION        INT4                 not null,
    ID_GENDER            INT4                 not null,
+   ID_PICTURE           INT4                 not null,
+   ID_BRAND             INT4                 not null,
    NAME_CLOTHING        VARCHAR(200)         not null,
    REFERENCE_CLOTHING   VARCHAR(20)          not null,
    LINK_OFFICIALWEBSITE VARCHAR(1024)        not null,
@@ -194,37 +245,37 @@ ID_CLOTHING
 );
 
 /*==============================================================*/
-/* Index : BRANDBELONGS_CLOTHINGHAS_FK                          */
+/* Index : ASSOCIATION_5_FK                                     */
 /*==============================================================*/
-create  index BRANDBELONGS_CLOTHINGHAS_FK on CLOTHING (
+create  index ASSOCIATION_5_FK on CLOTHING (
 ID_BRAND
 );
 
 /*==============================================================*/
-/* Index : SUBCATEGORYBELONGS_CLOTHINGHAS_                      */
+/* Index : ASSOCIATION_7_FK                                     */
 /*==============================================================*/
-create  index SUBCATEGORYBELONGS_CLOTHINGHAS_ on CLOTHING (
-ID_SUBCATEGORY
-);
-
-/*==============================================================*/
-/* Index : PICTUREBELONGS_CLOTHINGHAS_FK                        */
-/*==============================================================*/
-create  index PICTUREBELONGS_CLOTHINGHAS_FK on CLOTHING (
-ID_PICTURE
-);
-
-/*==============================================================*/
-/* Index : COLLECTIONHAS_CLOTHINGBELONGS_F                      */
-/*==============================================================*/
-create  index COLLECTIONHAS_CLOTHINGBELONGS_F on CLOTHING (
+create  index ASSOCIATION_7_FK on CLOTHING (
 ID_COLLECTION
 );
 
 /*==============================================================*/
-/* Index : CLOTHINGHAS_GENDERBELONGS_FK                         */
+/* Index : ASSOCIATION_9_FK                                     */
 /*==============================================================*/
-create  index CLOTHINGHAS_GENDERBELONGS_FK on CLOTHING (
+create  index ASSOCIATION_9_FK on CLOTHING (
+ID_SUBCATEGORY
+);
+
+/*==============================================================*/
+/* Index : ASSOCIATION_10_FK                                    */
+/*==============================================================*/
+create  index ASSOCIATION_10_FK on CLOTHING (
+ID_PICTURE
+);
+
+/*==============================================================*/
+/* Index : ASSOCIATION_14_FK                                    */
+/*==============================================================*/
+create  index ASSOCIATION_14_FK on CLOTHING (
 ID_GENDER
 );
 
@@ -233,7 +284,16 @@ ID_GENDER
 /*==============================================================*/
 create table CLOTHING_COLORS (
    ID_COLOR             INT4                 not null,
-   ID_CLOTHING          INT4                 not null
+   ID_CLOTHING          INT4                 not null,
+   constraint PK_CLOTHING_COLORS primary key (ID_COLOR, ID_CLOTHING)
+);
+
+/*==============================================================*/
+/* Index : CLOTHING_COLORS_PK                                   */
+/*==============================================================*/
+create unique index CLOTHING_COLORS_PK on CLOTHING_COLORS (
+ID_COLOR,
+ID_CLOTHING
 );
 
 /*==============================================================*/
@@ -255,7 +315,16 @@ ID_CLOTHING
 /*==============================================================*/
 create table CLOTHING_SEASONS (
    ID_SEASON            INT4                 not null,
-   ID_CLOTHING          INT4                 not null
+   ID_CLOTHING          INT4                 not null,
+   constraint PK_CLOTHING_SEASONS primary key (ID_SEASON, ID_CLOTHING)
+);
+
+/*==============================================================*/
+/* Index : CLOTHING_SEASONS_PK                                  */
+/*==============================================================*/
+create unique index CLOTHING_SEASONS_PK on CLOTHING_SEASONS (
+ID_SEASON,
+ID_CLOTHING
 );
 
 /*==============================================================*/
@@ -291,9 +360,9 @@ ID_COLLECTION
 );
 
 /*==============================================================*/
-/* Index : COLLECTIONBELONGS_BRANDHAS_FK                        */
+/* Index : ASSOCIATION_6_FK                                     */
 /*==============================================================*/
-create  index COLLECTIONBELONGS_BRANDHAS_FK on COLLECTION (
+create  index ASSOCIATION_6_FK on COLLECTION (
 ID_BRAND
 );
 
@@ -319,7 +388,7 @@ ID_COLOR
 /*==============================================================*/
 create table COUNTRY (
    ID_COUNTRY           SERIAL               not null,
-   NAME_COUNTRY         VARCHAR(30)          not null,
+   NAME_COUNTRY         VARCHAR(50)          not null,
    constraint PK_COUNTRY primary key (ID_COUNTRY)
 );
 
@@ -336,14 +405,28 @@ ID_COUNTRY
 create table CUSTOMER (
    ID_CUSTOMER          SERIAL               not null,
    ID_DRESSING          INT4                 null,
-   ID_PICTURE           INT4                 not null,
-   ID_GENDER            INT4                 not null,
+   ID_OCCUPATION        INT4                 not null,
    ID_COUNTRY           INT4                 not null,
    FIRSTNAME            VARCHAR(100)         not null,
    LASTNAME             VARCHAR(100)         not null,
    BIRTHDATE            DATE                 not null,
-   EMAIL                VARCHAR(50)          not null,
+   GENDER               VARCHAR(5)           not null,
+   USERNAME             VARCHAR(50)          not null,
+   EMAIL                VARCHAR(100)         not null,
    PASSWORD             VARCHAR(50)          not null,
+   TALL                 INT4                 null,
+   WEIGHT               INT4                 null,
+   SKIN_COLOR           VARCHAR(50)          null,
+   HAIR_DYING           VARCHAR(30)          null,
+   NECK                 INT4                 null,
+   SHOULDER             INT4                 null,
+   BUST                 INT4                 null,
+   WAIST                INT4                 null,
+   HIPS                 INT4                 null,
+   BELLY                BOOL                 null,
+   EYES_COLOR           VARCHAR(50)          null,
+   SHOES_SIZE           DECIMAL              not null,
+   FACEBOOK             BOOL                 not null,
    constraint PK_CUSTOMER primary key (ID_CUSTOMER)
 );
 
@@ -355,31 +438,56 @@ ID_CUSTOMER
 );
 
 /*==============================================================*/
-/* Index : COUNTRYBELONGS_CUSTOMERHAS_FK                        */
+/* Index : ASSOCIATION_2_FK                                     */
 /*==============================================================*/
-create  index COUNTRYBELONGS_CUSTOMERHAS_FK on CUSTOMER (
-ID_COUNTRY
+create  index ASSOCIATION_2_FK on CUSTOMER (
+ID_OCCUPATION
 );
 
 /*==============================================================*/
-/* Index : CUSTOMERHAS_DRESSINGBELONGS2_FK                      */
+/* Index : ASSOCIATION_17_FK                                    */
 /*==============================================================*/
-create  index CUSTOMERHAS_DRESSINGBELONGS2_FK on CUSTOMER (
+create  index ASSOCIATION_17_FK on CUSTOMER (
 ID_DRESSING
 );
 
 /*==============================================================*/
-/* Index : PICTUREBELONGS_CUSTOMERHAS_FK                        */
+/* Index : ASSOCIATION_19_FK                                    */
 /*==============================================================*/
-create  index PICTUREBELONGS_CUSTOMERHAS_FK on CUSTOMER (
-ID_PICTURE
+create  index ASSOCIATION_19_FK on CUSTOMER (
+ID_COUNTRY
 );
 
 /*==============================================================*/
-/* Index : CUSTOMERHAS_GENDERBELONGS_FK                         */
+/* Table : CUSTOMER_STYLES                                      */
 /*==============================================================*/
-create  index CUSTOMERHAS_GENDERBELONGS_FK on CUSTOMER (
-ID_GENDER
+create table CUSTOMER_STYLES (
+   ID_STYLE             INT4                 not null,
+   ID_CUSTOMER          INT4                 not null,
+   DATE_STYLE_CHOICE    DATE                 not null,
+   constraint PK_CUSTOMER_STYLES primary key (ID_STYLE, ID_CUSTOMER)
+);
+
+/*==============================================================*/
+/* Index : CUSTOMER_STYLES_PK                                   */
+/*==============================================================*/
+create unique index CUSTOMER_STYLES_PK on CUSTOMER_STYLES (
+ID_STYLE,
+ID_CUSTOMER
+);
+
+/*==============================================================*/
+/* Index : CUSTOMER_STYLES_FK                                   */
+/*==============================================================*/
+create  index CUSTOMER_STYLES_FK on CUSTOMER_STYLES (
+ID_STYLE
+);
+
+/*==============================================================*/
+/* Index : CUSTOMER_STYLES2_FK                                  */
+/*==============================================================*/
+create  index CUSTOMER_STYLES2_FK on CUSTOMER_STYLES (
+ID_CUSTOMER
 );
 
 /*==============================================================*/
@@ -388,6 +496,7 @@ ID_GENDER
 create table DRESSING (
    ID_DRESSING          SERIAL               not null,
    ID_CUSTOMER          INT4                 null,
+   REFERENCE_DRESSING   VARCHAR(50)          not null,
    constraint PK_DRESSING primary key (ID_DRESSING)
 );
 
@@ -399,9 +508,41 @@ ID_DRESSING
 );
 
 /*==============================================================*/
-/* Index : CUSTOMERHAS_DRESSINGBELONGS_FK                       */
+/* Index : ASSOCIATION_16_FK                                    */
 /*==============================================================*/
-create  index CUSTOMERHAS_DRESSINGBELONGS_FK on DRESSING (
+create  index ASSOCIATION_16_FK on DRESSING (
+ID_CUSTOMER
+);
+
+/*==============================================================*/
+/* Table : FAVORITE                                             */
+/*==============================================================*/
+create table FAVORITE (
+   ID_CLOTHING          INT4                 not null,
+   ID_CUSTOMER          INT4                 not null,
+   ID_FAVORITE          SERIAL               null,
+   constraint PK_FAVORITE primary key (ID_CLOTHING, ID_CUSTOMER)
+);
+
+/*==============================================================*/
+/* Index : FAVORITE_PK                                          */
+/*==============================================================*/
+create unique index FAVORITE_PK on FAVORITE (
+ID_CLOTHING,
+ID_CUSTOMER
+);
+
+/*==============================================================*/
+/* Index : FAVORITE_FK                                          */
+/*==============================================================*/
+create  index FAVORITE_FK on FAVORITE (
+ID_CLOTHING
+);
+
+/*==============================================================*/
+/* Index : FAVORITE2_FK                                         */
+/*==============================================================*/
+create  index FAVORITE2_FK on FAVORITE (
 ID_CUSTOMER
 );
 
@@ -419,6 +560,77 @@ create table GENDER (
 /*==============================================================*/
 create unique index GENDER_PK on GENDER (
 ID_GENDER
+);
+
+/*==============================================================*/
+/* Table : OCCUPATION                                           */
+/*==============================================================*/
+create table OCCUPATION (
+   ID_OCCUPATION        SERIAL               not null,
+   NAME_OCCUPATION      VARCHAR(50)          not null,
+   constraint PK_OCCUPATION primary key (ID_OCCUPATION)
+);
+
+/*==============================================================*/
+/* Index : OCCUPATION_PK                                        */
+/*==============================================================*/
+create unique index OCCUPATION_PK on OCCUPATION (
+ID_OCCUPATION
+);
+
+/*==============================================================*/
+/* Table : OUTFIT                                               */
+/*==============================================================*/
+create table OUTFIT (
+   ID_OUTFIT            SERIAL               not null,
+   ID_STYLE             INT4                 not null,
+   REFERENCE_OUTFIT     VARCHAR(50)          not null,
+   constraint PK_OUTFIT primary key (ID_OUTFIT)
+);
+
+/*==============================================================*/
+/* Index : OUTFIT_PK                                            */
+/*==============================================================*/
+create unique index OUTFIT_PK on OUTFIT (
+ID_OUTFIT
+);
+
+/*==============================================================*/
+/* Index : ASSOCIATION_12_FK                                    */
+/*==============================================================*/
+create  index ASSOCIATION_12_FK on OUTFIT (
+ID_STYLE
+);
+
+/*==============================================================*/
+/* Table : OUTFIT_CLOTHES                                       */
+/*==============================================================*/
+create table OUTFIT_CLOTHES (
+   ID_CLOTHING          INT4                 not null,
+   ID_OUTFIT            INT4                 not null,
+   constraint PK_OUTFIT_CLOTHES primary key (ID_CLOTHING, ID_OUTFIT)
+);
+
+/*==============================================================*/
+/* Index : OUTFIT_CLOTHES_PK                                    */
+/*==============================================================*/
+create unique index OUTFIT_CLOTHES_PK on OUTFIT_CLOTHES (
+ID_CLOTHING,
+ID_OUTFIT
+);
+
+/*==============================================================*/
+/* Index : OUTFIT_CLOTHES_FK                                    */
+/*==============================================================*/
+create  index OUTFIT_CLOTHES_FK on OUTFIT_CLOTHES (
+ID_CLOTHING
+);
+
+/*==============================================================*/
+/* Index : OUTFIT_CLOTHES2_FK                                   */
+/*==============================================================*/
+create  index OUTFIT_CLOTHES2_FK on OUTFIT_CLOTHES (
+ID_OUTFIT
 );
 
 /*==============================================================*/
@@ -444,6 +656,7 @@ create table PLANNING (
    ID_PLANNING          SERIAL               not null,
    ID_CUSTOMER          INT4                 null,
    DATE_PLANNING        DATE                 not null,
+   EVENT                VARCHAR(20)          null,
    constraint PK_PLANNING primary key (ID_PLANNING)
 );
 
@@ -455,9 +668,9 @@ ID_PLANNING
 );
 
 /*==============================================================*/
-/* Index : CUSTOMERHAS_PLANNINGBELONGS_FK                       */
+/* Index : ASSOCIATION_18_FK                                    */
 /*==============================================================*/
-create  index CUSTOMERHAS_PLANNINGBELONGS_FK on PLANNING (
+create  index ASSOCIATION_18_FK on PLANNING (
 ID_CUSTOMER
 );
 
@@ -467,21 +680,30 @@ ID_CUSTOMER
 create table PLANNING_CLOTHES (
    ID_PLANNING          INT4                 not null,
    ID_CLOTHING          INT4                 not null,
-   CREATIONDATE_PLANNING DATE                 not null
+   CREATIONDATE_PLANNING DATE                 not null,
+   constraint PK_PLANNING_CLOTHES primary key (ID_PLANNING, ID_CLOTHING)
+);
+
+/*==============================================================*/
+/* Index : PLANNING_CLOTHES_PK                                  */
+/*==============================================================*/
+create unique index PLANNING_CLOTHES_PK on PLANNING_CLOTHES (
+ID_PLANNING,
+ID_CLOTHING
 );
 
 /*==============================================================*/
 /* Index : PLANNING_CLOTHES_FK                                  */
 /*==============================================================*/
 create  index PLANNING_CLOTHES_FK on PLANNING_CLOTHES (
-ID_CLOTHING
+ID_PLANNING
 );
 
 /*==============================================================*/
 /* Index : PLANNING_CLOTHES2_FK                                 */
 /*==============================================================*/
 create  index PLANNING_CLOTHES2_FK on PLANNING_CLOTHES (
-ID_PLANNING
+ID_CLOTHING
 );
 
 /*==============================================================*/
@@ -498,6 +720,22 @@ create table SEASON (
 /*==============================================================*/
 create unique index SEASON_PK on SEASON (
 ID_SEASON
+);
+
+/*==============================================================*/
+/* Table : STYLE                                                */
+/*==============================================================*/
+create table STYLE (
+   ID_STYLE             SERIAL               not null,
+   NAME_STYLE           VARCHAR(50)          not null,
+   constraint PK_STYLE primary key (ID_STYLE)
+);
+
+/*==============================================================*/
+/* Index : STYLE_PK                                             */
+/*==============================================================*/
+create unique index STYLE_PK on STYLE (
+ID_STYLE
 );
 
 /*==============================================================*/
@@ -518,44 +756,76 @@ ID_SUBCATEGORY
 );
 
 /*==============================================================*/
-/* Index : SUBCATEGORYBELONGS_CATEGORYHAS_                      */
+/* Index : ASSOCIATION_8_FK                                     */
 /*==============================================================*/
-create  index SUBCATEGORYBELONGS_CATEGORYHAS_ on SUBCATEGORY (
+create  index ASSOCIATION_8_FK on SUBCATEGORY (
 ID_CATEGORY
 );
 
-alter table CLOTHES
-   add constraint FK_CLOTHES_CLOTHES_DRESSING foreign key (ID_DRESSING)
-      references DRESSING (ID_DRESSING)
-      on delete restrict on update restrict;
+/*==============================================================*/
+/* Table : VOTE                                                 */
+/*==============================================================*/
+create table VOTE (
+   ID_OUTFIT            INT4                 not null,
+   ID_CUSTOMER          INT4                 not null,
+   NOTATION             INT4                 null,
+   constraint PK_VOTE primary key (ID_OUTFIT, ID_CUSTOMER)
+);
+
+/*==============================================================*/
+/* Index : VOTE_PK                                              */
+/*==============================================================*/
+create unique index VOTE_PK on VOTE (
+ID_OUTFIT,
+ID_CUSTOMER
+);
+
+/*==============================================================*/
+/* Index : VOTE_FK                                              */
+/*==============================================================*/
+create  index VOTE_FK on VOTE (
+ID_OUTFIT
+);
+
+/*==============================================================*/
+/* Index : VOTE2_FK                                             */
+/*==============================================================*/
+create  index VOTE2_FK on VOTE (
+ID_CUSTOMER
+);
 
 alter table CLOTHES
-   add constraint FK_CLOTHES_CLOTHES2_CLOTHING foreign key (ID_CLOTHING)
+   add constraint FK_CLOTHES_CLOTHES_CLOTHING foreign key (ID_CLOTHING)
       references CLOTHING (ID_CLOTHING)
       on delete restrict on update restrict;
 
-alter table CLOTHING
-   add constraint FK_CLOTHING_BRANDBELO_BRAND foreign key (ID_BRAND)
-      references BRAND (ID_BRAND)
+alter table CLOTHES
+   add constraint FK_CLOTHES_CLOTHES2_DRESSING foreign key (ID_DRESSING)
+      references DRESSING (ID_DRESSING)
       on delete restrict on update restrict;
 
 alter table CLOTHING
-   add constraint FK_CLOTHING_CLOTHINGH_GENDER foreign key (ID_GENDER)
-      references GENDER (ID_GENDER)
-      on delete restrict on update restrict;
-
-alter table CLOTHING
-   add constraint FK_CLOTHING_COLLECTIO_COLLECTI foreign key (ID_COLLECTION)
-      references COLLECTION (ID_COLLECTION)
-      on delete restrict on update restrict;
-
-alter table CLOTHING
-   add constraint FK_CLOTHING_PICTUREBE_PICTURE foreign key (ID_PICTURE)
+   add constraint FK_CLOTHING_ASSOCIATI_PICTURE foreign key (ID_PICTURE)
       references PICTURE (ID_PICTURE)
       on delete restrict on update restrict;
 
 alter table CLOTHING
-   add constraint FK_CLOTHING_SUBCATEGO_SUBCATEG foreign key (ID_SUBCATEGORY)
+   add constraint FK_CLOTHING_ASSOCIATI_GENDER foreign key (ID_GENDER)
+      references GENDER (ID_GENDER)
+      on delete restrict on update restrict;
+
+alter table CLOTHING
+   add constraint FK_CLOTHING_ASSOCIATI_BRAND foreign key (ID_BRAND)
+      references BRAND (ID_BRAND)
+      on delete restrict on update restrict;
+
+alter table CLOTHING
+   add constraint FK_CLOTHING_ASSOCIATI_COLLECTI foreign key (ID_COLLECTION)
+      references COLLECTION (ID_COLLECTION)
+      on delete restrict on update restrict;
+
+alter table CLOTHING
+   add constraint FK_CLOTHING_ASSOCIATI_SUBCATEG foreign key (ID_SUBCATEGORY)
       references SUBCATEGORY (ID_SUBCATEGORY)
       on delete restrict on update restrict;
 
@@ -580,43 +850,68 @@ alter table CLOTHING_SEASONS
       on delete restrict on update restrict;
 
 alter table COLLECTION
-   add constraint FK_COLLECTI_COLLECTIO_BRAND foreign key (ID_BRAND)
+   add constraint FK_COLLECTI_ASSOCIATI_BRAND foreign key (ID_BRAND)
       references BRAND (ID_BRAND)
       on delete restrict on update restrict;
 
 alter table CUSTOMER
-   add constraint FK_CUSTOMER_COUNTRYBE_COUNTRY foreign key (ID_COUNTRY)
-      references COUNTRY (ID_COUNTRY)
-      on delete restrict on update restrict;
-
-alter table CUSTOMER
-   add constraint FK_CUSTOMER_CUSTOMERH_DRESSING foreign key (ID_DRESSING)
+   add constraint FK_CUSTOMER_ASSOCIATI_DRESSING foreign key (ID_DRESSING)
       references DRESSING (ID_DRESSING)
       on delete restrict on update restrict;
 
 alter table CUSTOMER
-   add constraint FK_CUSTOMER_CUSTOMERH_GENDER foreign key (ID_GENDER)
-      references GENDER (ID_GENDER)
+   add constraint FK_CUSTOMER_ASSOCIATI_COUNTRY foreign key (ID_COUNTRY)
+      references COUNTRY (ID_COUNTRY)
       on delete restrict on update restrict;
 
 alter table CUSTOMER
-   add constraint FK_CUSTOMER_PICTUREBE_PICTURE foreign key (ID_PICTURE)
-      references PICTURE (ID_PICTURE)
+   add constraint FK_CUSTOMER_ASSOCIATI_OCCUPATI foreign key (ID_OCCUPATION)
+      references OCCUPATION (ID_OCCUPATION)
+      on delete restrict on update restrict;
+
+alter table CUSTOMER_STYLES
+   add constraint FK_CUSTOMER_CUSTOMER__STYLE foreign key (ID_STYLE)
+      references STYLE (ID_STYLE)
+      on delete restrict on update restrict;
+
+alter table CUSTOMER_STYLES
+   add constraint FK_CUSTOMER_CUSTOMER__CUSTOMER foreign key (ID_CUSTOMER)
+      references CUSTOMER (ID_CUSTOMER)
       on delete restrict on update restrict;
 
 alter table DRESSING
-   add constraint FK_DRESSING_CUSTOMERH_CUSTOMER foreign key (ID_CUSTOMER)
+   add constraint FK_DRESSING_ASSOCIATI_CUSTOMER foreign key (ID_CUSTOMER)
       references CUSTOMER (ID_CUSTOMER)
+      on delete restrict on update restrict;
+
+alter table FAVORITE
+   add constraint FK_FAVORITE_FAVORITE_CLOTHING foreign key (ID_CLOTHING)
+      references CLOTHING (ID_CLOTHING)
+      on delete restrict on update restrict;
+
+alter table FAVORITE
+   add constraint FK_FAVORITE_FAVORITE2_CUSTOMER foreign key (ID_CUSTOMER)
+      references CUSTOMER (ID_CUSTOMER)
+      on delete restrict on update restrict;
+
+alter table OUTFIT
+   add constraint FK_OUTFIT_ASSOCIATI_STYLE foreign key (ID_STYLE)
+      references STYLE (ID_STYLE)
+      on delete restrict on update restrict;
+
+alter table OUTFIT_CLOTHES
+   add constraint FK_OUTFIT_C_OUTFIT_CL_CLOTHING foreign key (ID_CLOTHING)
+      references CLOTHING (ID_CLOTHING)
+      on delete restrict on update restrict;
+
+alter table OUTFIT_CLOTHES
+   add constraint FK_OUTFIT_C_OUTFIT_CL_OUTFIT foreign key (ID_OUTFIT)
+      references OUTFIT (ID_OUTFIT)
       on delete restrict on update restrict;
 
 alter table PLANNING
-   add constraint FK_PLANNING_CUSTOMERH_CUSTOMER foreign key (ID_CUSTOMER)
+   add constraint FK_PLANNING_ASSOCIATI_CUSTOMER foreign key (ID_CUSTOMER)
       references CUSTOMER (ID_CUSTOMER)
-      on delete restrict on update restrict;
-
-alter table PLANNING_CLOTHES
-   add constraint FK_PLANNING_PLANNING__CLOTHING foreign key (ID_CLOTHING)
-      references CLOTHING (ID_CLOTHING)
       on delete restrict on update restrict;
 
 alter table PLANNING_CLOTHES
@@ -624,8 +919,23 @@ alter table PLANNING_CLOTHES
       references PLANNING (ID_PLANNING)
       on delete restrict on update restrict;
 
+alter table PLANNING_CLOTHES
+   add constraint FK_PLANNING_PLANNING__CLOTHING foreign key (ID_CLOTHING)
+      references CLOTHING (ID_CLOTHING)
+      on delete restrict on update restrict;
+
 alter table SUBCATEGORY
-   add constraint FK_SUBCATEG_SUBCATEGO_CATEGORY foreign key (ID_CATEGORY)
+   add constraint FK_SUBCATEG_ASSOCIATI_CATEGORY foreign key (ID_CATEGORY)
       references CATEGORY (ID_CATEGORY)
+      on delete restrict on update restrict;
+
+alter table VOTE
+   add constraint FK_VOTE_VOTE_OUTFIT foreign key (ID_OUTFIT)
+      references OUTFIT (ID_OUTFIT)
+      on delete restrict on update restrict;
+
+alter table VOTE
+   add constraint FK_VOTE_VOTE2_CUSTOMER foreign key (ID_CUSTOMER)
+      references CUSTOMER (ID_CUSTOMER)
       on delete restrict on update restrict;
 
