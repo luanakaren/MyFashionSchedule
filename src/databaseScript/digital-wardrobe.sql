@@ -226,8 +226,8 @@ ID_DRESSING
 /*==============================================================*/
 create table CLOTHING (
    ID_CLOTHING          SERIAL               not null,
-   ID_SUBCATEGORY       INT4                 null,
-   ID_COLLECTION        INT4                 not null,
+   ID_SUBCATEGORY       INT4                 not null,
+   ID_COLLECTION        INT4                 null,
    ID_GENDER            INT4                 not null,
    ID_PICTURE           INT4                 not null,
    ID_BRAND             INT4                 not null,
