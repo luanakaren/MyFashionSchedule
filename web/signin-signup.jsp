@@ -5,15 +5,16 @@
 
 <html>
 <jsp:include page="include/header_home_date_validator.jsp"></jsp:include>
+
     <script>
-        function submitForm() {
+        /*function submitForm() {
 
             var username = $('#username').val;
             var password = $('#password').value();
             alert(username);
             $.ajax({
                 type: 'POST',
-                url: 'http://localhost:8080/login.json?username='+username+'&password='+password+'',
+                url: 'http://localhost:8282/login.json?username='+username+'&password='+password+'',
 
                 beforeSend: function () {
 
@@ -31,8 +32,11 @@
                 }
 
             });
-        }
+        }*/
+
+
     </script>
+
     <div class="row after-navbar mgb20"></div>
 
     <div class="container content mgb20">
@@ -42,6 +46,8 @@
             <h4>You need to login or register to access the site.</h4>
             <br>
 
+            <div id="toastem"></div>
+
             <!-- LOGIN -->
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="panel panel-default">
@@ -49,11 +55,6 @@
                         <h5 class="text-center">LOGIN</h5>
 
                         <form id="login-form" class="form form-signin" method="post" role="form">
-
-                            <div id="error">
-
-                            </div>
-
                             <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
@@ -70,7 +71,7 @@
                             </div>
 
                             <!-- Button -->
-                            <button onclick="submitForm()" type="submit" id="btn-login" href="#" class="btn btn-primary btn-block" role="button">SIGN IN</button>
+                            <button type="submit" id="btn-login" href="#" class="btn btn-primary btn-block" role="button">SIGN IN</button>
                         </form>
 
                     </div>
@@ -200,6 +201,23 @@
                         $('#planningForm').formValidation('revalidateField', 'date');
                     });
 
+            $("#btn-login").on('click', function (e) {
+
+                var username = $("#username").val();
+                var password = $("#password").val();
+
+                if(username == 'luanakaren' && password == 'luanakaren') {
+                    toastem.success('Welcome ' +username+ ' !');
+                    window.location = "http://localhost:8282/index.jsp";
+                    alert(window.location);
+                }
+                else {
+                    toastem.error("Your username or password is wrong");
+                }
+
+            });
+
+
            /* $('#planningForm').formValidation({
                 framework: 'bootstrap',
                 icon: {
@@ -226,7 +244,6 @@
 
 
         });
-
 
     </script>
 
