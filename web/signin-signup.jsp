@@ -5,7 +5,34 @@
 
 <html>
 <jsp:include page="include/header_home_date_validator.jsp"></jsp:include>
+    <script>
+        function submitForm() {
 
+            var username = $('#username').val;
+            var password = $('#password').value();
+            alert(username);
+            $.ajax({
+                type: 'POST',
+                url: 'http://localhost:8080/login.json?username='+username+'&password='+password+'',
+
+                beforeSend: function () {
+
+                    $("#error").fadeOut();
+                    $("#btn-login").html('<span class="glyphicon glyphicon-transfer"> &nbsp; sending... </span>')
+                },
+                success: function (response) {
+                    alert(response);
+                },
+                error: function (response) {
+                    $("#error").fadeIn(1000, function(){
+                        $("#error").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; '+response+' !</div>');
+                        $("#btn-login").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In');
+                    });
+                }
+
+            });
+        }
+    </script>
     <div class="row after-navbar mgb20"></div>
 
     <div class="container content mgb20">
@@ -21,11 +48,16 @@
                     <div class="panel-body">
                         <h5 class="text-center">LOGIN</h5>
 
-                        <form class="form form-signin" role="form">
+                        <form id="login-form" class="form form-signin" method="post" role="form">
+
+                            <div id="error">
+
+                            </div>
+
                             <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                                    <input type="text" class="form-control" placeholder="Username" />
+                                    <input id="username" name="username" type="text" class="form-control" placeholder="Username" />
                                 </div>
                             </div>
 
@@ -33,13 +65,14 @@
                             <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                                    <input type="password" class="form-control" placeholder="Password" />
+                                    <input type="password" id="password" name="password" class="form-control" placeholder="Password" />
                                 </div>
                             </div>
 
                             <!-- Button -->
-                            <a href="#" class="btn btn-primary btn-block" role="button">SIGN IN</a>
+                            <button onclick="submitForm()" type="submit" id="btn-login" href="#" class="btn btn-primary btn-block" role="button">SIGN IN</button>
                         </form>
+
                     </div>
                 </div>
             </div>
@@ -74,7 +107,7 @@
                             <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-venus-mars"></i></span>
-                                    <select class="form-control" id="select">
+                                    <select class="form-control" >
                                         <option>Gender</option>
                                         <option>Woman</option>
                                         <option>Man</option>
@@ -96,7 +129,7 @@
                             <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                    <select class="form-control" id="select">
+                                    <select class="form-control" >
                                         <option>Skin color</option>
                                         <option>Light</option>
                                         <option>Light/Medium</option>
@@ -107,7 +140,7 @@
                             <div class="form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                    <select class="form-control" id="select">
+                                    <select class="form-control" >
                                         <option>Hair dying</option>
                                         <option>Black</option>
                                         <option>Brown</option>
@@ -162,12 +195,12 @@
                         autoclose: true,
                         format: 'dd/mm/yyyy'
                     })
-                    .on('changeDate', function(e) {
+                    .on('changeDate', function (e) {
                         // Revalidate the date field
                         $('#planningForm').formValidation('revalidateField', 'date');
                     });
 
-            $('#planningForm').formValidation({
+           /* $('#planningForm').formValidation({
                 framework: 'bootstrap',
                 icon: {
                     valid: 'glyphicon glyphicon-ok',
@@ -187,8 +220,14 @@
                         }
                     }
                 }
-            });
+            });*/
+
+
+
+
         });
+
+
     </script>
 
 <jsp:include page="include/footer.jsp"></jsp:include>
