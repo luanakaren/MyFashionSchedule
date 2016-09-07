@@ -11,7 +11,7 @@ import java.util.List;
 public class OutfitJDBC {
 
     public List<Outfit> getAllOutfits() throws Exception {
-        String sql = "select * from style";
+        String sql = "select * from outfit";
         List<Outfit> outfitList = new ArrayList<Outfit>();
         DBConnection dbConnection = new DBConnection();
         ResultSet resultSet = null;
