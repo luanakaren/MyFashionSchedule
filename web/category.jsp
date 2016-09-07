@@ -4,6 +4,34 @@
 <html>
 <jsp:include page="include/header_category.jsp"></jsp:include>
 
+    <script>
+        $(document).ready(function()
+        {
+
+            $('body').on("click",'.heart',function()
+            {
+
+                var A = $(this).attr("id");
+                var B = A.split("like");
+                $(this).css("background-position","")
+                var D=$(this).attr("rel");
+
+                if(D === 'like')
+                {
+                    $(this).addClass("heartAnimation").attr("rel","unlike");
+
+                }
+                else
+                {
+                    $(this).removeClass("heartAnimation").attr("rel","like");
+                    $(this).css("background-position","left");
+                }
+            });
+
+
+        });
+    </script>
+
     <div class="row after-navbar mgb20"></div>
 
     <div class="container content mgb20">
@@ -198,31 +226,36 @@
         <div class="col-md-8 col-sm-8 col-xs-12">
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                 <div class="thumbnail">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 1" class="img-responsive"></a>
+                    <div class="heart" id="like" rel="like"></div>
+                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 1" class="img-responsive"></a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                 <div class="thumbnail">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 2" class="img-responsive"></a>
+                    <div class="heart" id="like" rel="like"></div>
+                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 2" class="img-responsive"></a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                 <div class="thumbnail">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 3" class="img-responsive"></a>
+                    <div class="heart" id="like" rel="like"></div>
+                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 3" class="img-responsive"></a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                 <div class="thumbnail">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 4" class="img-responsive"></a>
+                    <div class="heart" id="like" rel="like"></div>
+                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 4" class="img-responsive"></a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                 <div class="thumbnail">
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 5" class="img-responsive"></a>
+                    <div class="heart" id="like" rel="like"></div>
+                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date, brand, last time and number of times it was worn"><img src="http://placehold.it/650x450&text=Clothing 5" class="img-responsive"></a>
                 </div>
             </div>
         </div>

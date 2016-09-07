@@ -10,9 +10,10 @@
 
     <div class="container content mgb20">
         <div class="col-md-8">
-            <div class="ootd row">
-                <p>OUTFIT OF THE DAY</p>
+            <div class="ootd row mgb20">
+                <p></p>
             </div>
+
             <div class="row">
                 <div class="radio">
                     <label>
