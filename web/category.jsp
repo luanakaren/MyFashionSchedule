@@ -35,7 +35,7 @@
     <div class="row after-navbar mgb20"></div>
 
     <div class="container content mgb20">
-        <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -223,7 +223,7 @@
             </div>
         </div>
 
-        <div class="col-md-8 col-sm-8 col-xs-12">
+        <div class="col-md-9 col-sm-9 col-xs-12">
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mgb20">
                 <div class="thumbnail">
                     <div class="heart" id="like" rel="like"></div>
