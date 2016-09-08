@@ -9,9 +9,33 @@
     <div class="row after-navbar mgb20"></div>
 
     <div class="container content mgb20">
-        <div class="col-md-8">
-            <div class="ootd row mgb20">
-                <p></p>
+        <div class="col-md-8"><div class="ootd row mgb20">
+                <div class="row">
+                    <h4 class="text-center">OUTFIT OF THE DAY</h4>
+                    <div class="col-md-4 mgb10 mgt10"></div>
+                    <div class="col-md-4 mgb10 mgt10">
+                        <img src="assets/img/clothes/AY9005.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-4 mgb10 mgt10">
+                        <img src="assets/img/clothes/73063018.jpg" class="img-responsive">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mgb10"></div>
+                    <div class="col-md-4 mgb10">
+                        <img src="assets/img/clothes/AX5469.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-4 mgb10"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mgb10"></div>
+                    <div class="col-md-4 mgb10">
+                        <img src="assets/img/clothes/BB1970.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-4 mgb10"></div>
+                </div>
             </div>
 
             <div class="row">
@@ -46,14 +70,14 @@
             </div>
         </div>
 
-        <div class="vote-advice col-md-4">
+        <div class="col-md-4">
             <div class="row">
                 <div class="thumbnail" >
                     <h4 class="text-center">Vote for friends look</h4>
-                    <img src="http://placehold.it/150x150&text=Friend's look" class="img-responsive">
+                    <img src="assets/img/clothes/look1.JPG" class="img-responsive img-clothing mgb10">
                     <div class="caption">
                         <div class="row">
-                            <fieldset class="rating">
+                            <fieldset class="rating" style="margin-left:9%">
                                 <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="I love it"></label>
                                 <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Pretty good"></label>
                                 <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Hmmm nope"></label>
@@ -65,7 +89,10 @@
             </div>
 
             <div class="row">
-                <p>PURCHASING ADVICE</p>
+                <div class="thumbnail" >
+                    <h4 class="text-center">Purchasing advice</h4>
+                    <img src="assets/img/clothes/73010132.jpg" class="img-responsive img-clothing mgb10">
+                </div>
             </div>
         </div>
     </div>

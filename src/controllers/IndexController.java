@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/")
 public class IndexController extends BaseController {
 
-    @RequestMapping("index")
+    @RequestMapping("signin-signup")
     public String index(){
         return "signin-signup";
     }
