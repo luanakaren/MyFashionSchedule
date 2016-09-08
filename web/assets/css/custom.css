@@ -169,6 +169,7 @@ div#image-other-page {
     color: black;
     text-decoration: none;
     padding: 6px;
+    font-size: 15px;
 }
 .portfolio-sorting li a:hover,
 .portfolio-sorting li a.active
@@ -446,6 +447,16 @@ div#image-other-page {
 a {
     color: black;
     text-decoration: none;
+}
+
+/* MY DRESSING PAGE */
+.label-info {
+    background-color: black;
+    color: #d4af37;
+}
+
+.my-dressing {
+    min-height: 394px;
 }
 
 /* OUTFITS MANAGEMENT PAGE - CALENDAR */
