@@ -74,7 +74,7 @@ INSERT INTO clothing(id_subcategory, id_gender, id_picture, id_brand, name_cloth
 VALUES (11, 2, 29, 6, 'Leather chelsea ankle boots', 'REF. 73085560 - CHEALSEA3', 'http://shop.mango.com/AU/p0/woman/accessories/shoes/boots-and-ankle-boots/leather-chelsea-ankle-boots/?id=73085560_99&n=1&s=accesorios.zapatos');
 
 INSERT INTO clothing(id_subcategory, id_gender, id_picture, id_brand, name_clothing, reference_clothing, link_officialwebsite)
-VALUES (14, 2, 30, 6, 'Interwoven cord sandas', 'REF. 73060085 - NUDOFLAT', 'http://shop.mango.com/AU/p0/woman/accessories/shoes/flat-sandals/interwoven-cord-sandals/?id=73060085_15&n=1&s=accesorios.zapatos');
+VALUES (14, 2, 30, 6, 'Interwoven cord sandals', 'REF. 73060085 - NUDOFLAT', 'http://shop.mango.com/AU/p0/woman/accessories/shoes/flat-sandals/interwoven-cord-sandals/?id=73060085_15&n=1&s=accesorios.zapatos');
 
 INSERT INTO clothing(id_subcategory, id_gender, id_picture, id_brand, name_clothing, reference_clothing, link_officialwebsite)
 VALUES (13, 2, 31, 6, 'Pointed toe flat shoes', 'REF. 73093524 - BOL', 'http://shop.mango.com/AU/p0/woman/accessories/shoes/flat-shoes/pointed-toe-flat-shoes/?id=73093524_99&n=1&s=accesorios.zapatos');
