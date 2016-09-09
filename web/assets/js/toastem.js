@@ -1,7 +1,7 @@
 var toastem = (function($){
 
   var normal = function(content){
-  $("#btn-login").on('click', function(){
+
     var item = $('<div class="notification normal"><span>'+content+'</span></div>');
     $("#toastem").append($(item));
     $(item).animate({"right":"12px"}, "fast");
@@ -10,7 +10,7 @@ var toastem = (function($){
         $(item).remove();
       });
     },4000);
-  });
+
 };
 
 
