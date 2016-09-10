@@ -352,7 +352,7 @@
         </div>
     </div>-->
 
-    <section class="portfolio mgt20">
+    <section class="portfolio mgt20 content">
         <div class="container">
             <div class="row">
                 <ul class="portfolio-sorting list-inline text-center">
