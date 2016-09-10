@@ -511,43 +511,43 @@
             <div class="panel-group">
                 <div class="panel panel-default">
                     <div class="panel-heading typical-week">
-                        <h4 class="panel-title" id="monday">Monday : </h4>
+                        <h4 class="panel-title" id="set-monday">Monday : </h4>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
                     <div class="panel-heading typical-week">
-                        <h4 class="panel-title" id="tuesday">Tuesday : </h4>
+                        <h4 class="panel-title" id="set-tuesday">Tuesday : </h4>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
                     <div class="panel-heading typical-week">
-                        <h4 class="panel-title" id="wednesday">Wednesday : </h4>
+                        <h4 class="panel-title" id="set-wednesday">Wednesday : </h4>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
                     <div class="panel-heading typical-week">
-                        <h4 class="panel-title" id="thursday">Thursday : </h4>
+                        <h4 class="panel-title" id="set-thursday">Thursday : </h4>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
                     <div class="panel-heading typical-week">
-                        <h4 class="panel-title" id="friday">Friday : </h4>
+                        <h4 class="panel-title" id="set-friday">Friday : </h4>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
                     <div class="panel-heading typical-week">
-                        <h4 class="panel-title" id="saturday">Saturday : </h4>
+                        <h4 class="panel-title" id="set-saturday">Saturday : </h4>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
                     <div class="panel-heading typical-week">
-                        <h4 class="panel-title" id="sunday">Sunday : </h4>
+                        <h4 class="panel-title" id="set-sunday">Sunday : </h4>
                     </div>
                 </div>
             </div>
@@ -678,11 +678,258 @@
 
     <script>
 
-
+        /* MONDAY */
         $("#dress-monday").on('click', function (e) {
-            var dressmonday = $("#dress-monday").val();
-            $("#monday").append("<h4>" + dressmonday + "</h4>");
+            var dress = $("#dress-monday").val();
+            $("#set-monday").append(dress);
         });
+
+        $("#suits-monday").on('click', function (e) {
+            var suits = $("#suits-monday").val();
+            $("#set-monday").append(suits);
+        });
+
+        $("#skirts-monday").on('click', function (e) {
+            var skirt = $("#skirts-monday").val();
+            $("#set-monday").append(skirt);
+        });
+
+        $("#denim-monday").on('click', function (e) {
+            var denim = $("#denim-monday").val();
+            $("#set-monday").append(denim);
+        });
+
+        $("#pants-monday").on('click', function (e) {
+            var pants = $("#pants-monday").val();
+            $("#set-monday").append(pants);
+        });
+
+        $("#casual-monday").on('click', function (e) {
+            var casual = $("#casual-monday").val();
+            $("#set-monday").append(casual);
+        });
+
+        $("#sporty-monday").on('click', function (e) {
+            var sporty = $("#sporty-monday").val();
+            $("#set-monday").append(sporty);
+        });
+
+        /* TUESDAY */
+        $("#dress-tuesday").on('click', function (e) {
+            var dress = $("#dress-tuesday").val();
+            $("#set-tuesday").append(dress);
+        });
+
+        $("#suits-tuesday").on('click', function (e) {
+            var suits = $("#suits-tuesday").val();
+            $("#set-tuesday").append(suits);
+        });
+
+        $("#skirts-tuesday").on('click', function (e) {
+            var skirt = $("#skirts-tuesday").val();
+            $("#set-tuesday").append(skirt);
+        });
+
+        $("#denim-tuesday").on('click', function (e) {
+            var denim = $("#denim-tuesday").val();
+            $("#set-tuesday").append(denim);
+        });
+
+        $("#pants-tuesday").on('click', function (e) {
+            var pants = $("#pants-tuesday").val();
+            $("#set-tuesday").append(pants);
+        });
+
+        $("#casual-tuesday").on('click', function (e) {
+            var casual = $("#casual-tuesday").val();
+            $("#set-tuesday").append(casual);
+        });
+
+        $("#sporty-tuesday").on('click', function (e) {
+            var sporty = $("#sporty-tuesday").val();
+            $("#set-tuesday").append(sporty);
+        });
+
+        /* WEDNESDAY */
+        $("#dress-wednesday").on('click', function (e) {
+            var dress = $("#dress-wednesday").val();
+            $("#set-wednesday").append(dress);
+        });
+
+        $("#suits-wednesday").on('click', function (e) {
+            var suits = $("#suits-wednesday").val();
+            $("#set-wednesday").append(suits);
+        });
+
+        $("#skirts-wednesday").on('click', function (e) {
+            var skirt = $("#skirts-wednesday").val();
+            $("#set-wednesday").append(skirt);
+        });
+
+        $("#denim-wednesday").on('click', function (e) {
+            var denim = $("#denim-wednesday").val();
+            $("#set-wednesday").append(denim);
+        });
+
+        $("#pants-wednesday").on('click', function (e) {
+            var pants = $("#pants-wednesday").val();
+            $("#set-wednesday").append(pants);
+        });
+
+        $("#casual-wednesday").on('click', function (e) {
+            var casual = $("#casual-wednesday").val();
+            $("#set-wednesday").append(casual);
+        });
+
+        $("#sporty-wednesday").on('click', function (e) {
+            var sporty = $("#sporty-wednesday").val();
+            $("#set-wednesday").append(sporty);
+        });
+
+        /* THURSDAY */
+        $("#dress-thursday").on('click', function (e) {
+            var dress = $("#dress-thursday").val();
+            $("#set-thursday").append(dress);
+        });
+
+        $("#suits-thursday").on('click', function (e) {
+            var suits = $("#suits-thursday").val();
+            $("#set-thursday").append(suits);
+        });
+
+        $("#skirts-thursday").on('click', function (e) {
+            var skirt = $("#skirts-thursday").val();
+            $("#set-thursday").append(skirt);
+        });
+
+        $("#denim-thursday").on('click', function (e) {
+            var denim = $("#denim-thursday").val();
+            $("#set-thursday").append(denim);
+        });
+
+        $("#pants-thursday").on('click', function (e) {
+            var pants = $("#pants-thursday").val();
+            $("#set-thursday").append(pants);
+        });
+
+        $("#casual-thursday").on('click', function (e) {
+            var casual = $("#casual-thursday").val();
+            $("#set-thursday").append(casual);
+        });
+
+        $("#sporty-thursday").on('click', function (e) {
+            var sporty = $("#sporty-thursday").val();
+            $("#set-thursday").append(sporty);
+        });
+
+        /* FRIDAY */
+        $("#dress-friday").on('click', function (e) {
+            var dress = $("#dress-friday").val();
+            $("#set-friday").append(dress);
+        });
+
+        $("#suits-friday").on('click', function (e) {
+            var suits = $("#suits-friday").val();
+            $("#set-friday").append(suits);
+        });
+
+        $("#skirts-friday").on('click', function (e) {
+            var skirt = $("#skirts-friday").val();
+            $("#set-friday").append(skirt);
+        });
+
+        $("#denim-friday").on('click', function (e) {
+            var denim = $("#denim-friday").val();
+            $("#set-friday").append(denim);
+        });
+
+        $("#pants-friday").on('click', function (e) {
+            var pants = $("#pants-friday").val();
+            $("#set-friday").append(pants);
+        });
+
+        $("#casual-friday").on('click', function (e) {
+            var casual = $("#casual-friday").val();
+            $("#set-friday").append(casual);
+        });
+
+        $("#sporty-friday").on('click', function (e) {
+            var sporty = $("#sporty-friday").val();
+            $("#set-friday").append(sporty);
+        });
+
+        /* SATURDAY */
+        $("#dress-saturday").on('click', function (e) {
+            var dress = $("#dress-saturday").val();
+            $("#set-saturday").append(dress);
+        });
+
+        $("#suits-saturday").on('click', function (e) {
+            var suits = $("#suits-saturday").val();
+            $("#set-saturday").append(suits);
+        });
+
+        $("#skirts-saturday").on('click', function (e) {
+            var skirt = $("#skirts-saturday").val();
+            $("#set-saturday").append(skirt);
+        });
+
+        $("#denim-saturday").on('click', function (e) {
+            var denim = $("#denim-saturday").val();
+            $("#set-saturday").append(denim);
+        });
+
+        $("#pants-saturday").on('click', function (e) {
+            var pants = $("#pants-saturday").val();
+            $("#set-saturday").append(pants);
+        });
+
+        $("#casual-saturday").on('click', function (e) {
+            var casual = $("#casual-saturday").val();
+            $("#set-saturday").append(casual);
+        });
+
+        $("#sporty-saturday").on('click', function (e) {
+            var sporty = $("#sporty-saturday").val();
+            $("#set-saturday").append(sporty);
+        });
+
+        /* SUNDAY */
+        $("#dress-sunday").on('click', function (e) {
+            var dress = $("#dress-sunday").val();
+            $("#set-sunday").append(dress);
+        });
+
+        $("#suits-sunday").on('click', function (e) {
+            var suits = $("#suits-sunday").val();
+            $("#set-sunday").append(suits);
+        });
+
+        $("#skirts-sunday").on('click', function (e) {
+            var skirt = $("#skirts-sunday").val();
+            $("#set-sunday").append(skirt);
+        });
+
+        $("#denim-sunday").on('click', function (e) {
+            var denim = $("#denim-sunday").val();
+            $("#set-sunday").append(denim);
+        });
+
+        $("#pants-sunday").on('click', function (e) {
+            var pants = $("#pants-sunday").val();
+            $("#set-sunday").append(pants);
+        });
+
+        $("#casual-sunday").on('click', function (e) {
+            var casual = $("#casual-sunday").val();
+            $("#set-sunday").append(casual);
+        });
+
+        $("#sporty-sunday").on('click', function (e) {
+            var sporty = $("#sporty-sunday").val();
+            $("#set-sunday").append(sporty);
+        });
+
 
         $(function() {
             function updateMonthYear() {
