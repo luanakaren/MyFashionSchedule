@@ -10,9 +10,9 @@
     <![endif]-->
 
     <script src="../assets/js/jquery.min.js"></script>
+    <link href="../assets/css/calendar.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="../assets/css/bootstrap-year-calendar.css">
-    <script src="../assets/js/bootstrap-year-calendar.js"></script>
+    <script src="../assets/js/modernizr.custom.63321.js"></script>
 </head>
 
 <body class="container-fluid">

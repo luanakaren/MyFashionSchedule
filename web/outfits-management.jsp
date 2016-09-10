@@ -461,45 +461,93 @@
         </div>
 
         <!-- OUTFITS CALENDAR -->
-        <div class="col-md-6 col-sm-12 col-xs-12 outfits-calendar"></div>
+        <!--<div class="col-md-6 col-sm-12 col-xs-12 outfits-calendar"></div>-->
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <section class="main">
+                <div class="custom-calendar-wrap">
+                    <div id="custom-inner" class="custom-inner">
+                        <div class="custom-header clearfix">
+                            <nav>
+                                <span id="custom-prev" class="custom-prev"></span>
+                                <span id="custom-next" class="custom-next"></span>
+                            </nav>
+                            <h2 id="custom-month" class="custom-month"></h2>
+                            <h3 id="custom-year" class="custom-year"></h3>
+                        </div>
+                        <div id="calendar" class="fc-calendar-container"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 
     <script>
-        /*$('.outfits-calendar').calendar({
-            startYear: new Date().getFullYear(),
-            minDate: minDate,
-        maxDate: maxDate,
-        language: 'en', // or 'fr'
-        allowOverlap: true,
-        displayWeekNumber: false,
-        displayDisabledDataSource: false,
-        displayHeader: true,
-        alwaysHalfDay: false,
-        dataSource: [], // an array of data
-        style: 'border',
-        enableRangeSelection: false,
-        disabledDays: [],
-        disabledWeekDays: [],
-        hiddenWeekDays: [],
-        roundRangeLimits: false,
-        contextMenuItems: [], // an array of menu items,
-        customDayRenderer : null,
-        customDataSourceRenderer: null,
-        // Callback Events
-        clickDay: null,
-        daycontextMenu: null,
-        selectRange: null,
-        mouseOnDay: null,
-        mouseOutDay: null,
-        renderEnd: null
-        });*/
 
         $(function() {
-            $('.outfits-calendar').calendar({
-                startYear: new Date().getFullYear(),
-                minDate: new Date(2016, 7, 1)
+            function updateMonthYear() {
+                $( '#custom-month' ).html( $( '#calendar' ).calendario('getMonthName') );
+                $( '#custom-year' ).html( $( '#calendar' ).calendario('getYear'));
+            }
+
+            $(document).on('finish.calendar.calendario', function(e){
+                $( '#custom-month' ).html( $( '#calendar' ).calendario('getMonthName') );
+                $( '#custom-year' ).html( $( '#calendar' ).calendario('getYear'));
+                $( '#custom-next' ).on( 'click', function() {
+                    $( '#calendar' ).calendario('gotoNextMonth', updateMonthYear);
+                } );
+                $( '#custom-prev' ).on( 'click', function() {
+                    $( '#calendar' ).calendario('gotoPreviousMonth', updateMonthYear);
+                } );
+                $( '#custom-current' ).on( 'click', function() {
+                    $( '#calendar' ).calendario('gotoNow', updateMonthYear);
+                } );
             });
+
+            $('#calendar').on('shown.calendar.calendario', function(){
+                $('div.fc-row > div').on('onDayClick.calendario', function(e, dateprop) {
+                    console.log(dateprop);
+                    if(dateprop.data) {
+                        showEvents(dateprop.data.html, dateprop);
+                    }
+                });
+            });
+
+            var transEndEventNames = {
+                        'WebkitTransition' : 'webkitTransitionEnd',
+                        'MozTransition' : 'transitionend',
+                        'OTransition' : 'oTransitionEnd',
+                        'msTransition' : 'MSTransitionEnd',
+                        'transition' : 'transitionend'
+                    },
+                    transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+                    $wrapper = $( '#custom-inner' );
+
+            function showEvents( contentEl, dateprop ) {
+                hideEvents();
+                var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>Events for ' + dateprop.monthname + ' '
+                                + dateprop.day + ', ' + dateprop.year + '</h4></div>' ),
+                        $close = $( '<span class="custom-content-close"></span>' ).on( 'click', hideEvents);
+                $events.append( contentEl.join('') , $close ).insertAfter( $wrapper );
+                setTimeout( function() {
+                    $events.css( 'top', '0%' );
+                }, 25);
+            }
+
+            function hideEvents() {
+                var $events = $( '#custom-content-reveal' );
+                if( $events.length > 0 ) {
+                    $events.css( 'top', '100%' );
+                    Modernizr.csstransitions ? $events.on( transEndEventName, function() { $( this ).remove(); } ) : $events.remove();
+                }
+            }
+
+            $( '#calendar' ).calendario({
+                caldata : events,
+                displayWeekAbbr : true,
+                events: ['click', 'focus']
+            });
+
         });
     </script>
 
-<jsp:include page="include/footer.jsp"></jsp:include>
+<jsp:include page="include/footer_outfits_calendar.jsp"></jsp:include>
