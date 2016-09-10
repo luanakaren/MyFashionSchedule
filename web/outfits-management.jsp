@@ -5,6 +5,7 @@
 <jsp:include page="include/header_outfits_calendar.jsp"></jsp:include>
 
     <div class="row after-navbar mgb20"></div>
+    <div class="row mgb8"></div>
 
     <div class="container content mgb20">
         <!-- SET THE TYPICAL WEEK -->
