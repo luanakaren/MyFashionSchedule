@@ -23,37 +23,58 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Dress</a>
+                                        <label>
+                                            <input name="choice" id="dress-monday" value="Dress" checked="" type="radio">
+                                            Dress
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Suits</a>
+                                        <label>
+                                            <input name="choice" id="suits-monday" value="Suits" checked="" type="radio">
+                                            Suits
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Skirts</a>
+                                        <label>
+                                            <input name="choice" id="skirts-monday" value="Skirts" checked="" type="radio">
+                                            Skirts
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Denim</a>
+                                        <label>
+                                            <input name="choice" id="denim-monday" value="Denim" checked="" type="radio">
+                                            Denim
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Pants</a>
+                                        <label>
+                                            <input name="choice" id="pants-monday" value="Pants" checked="" type="radio">
+                                            Pants
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Casual</a>
+                                        <label>
+                                            <input name="choice" id="casual-monday" value="Casual" checked="" type="radio">
+                                            Casual
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Sporty</a>
+                                        <label>
+                                            <input name="choice" id="sporty-monday" value="Sportu" checked="" type="radio">
+                                            Sporty
+                                        </label>
                                     </td>
                                 </tr>
                             </table>
@@ -72,37 +93,58 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Dress</a>
+                                        <label>
+                                            <input name="choice" id="dress-tuesday" value="Dress" checked="" type="radio">
+                                            Dress
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Suits</a>
+                                        <label>
+                                            <input name="choice" id="suits-tuesday" value="Suits" checked="" type="radio">
+                                            Suits
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Skirts</a>
+                                        <label>
+                                            <input name="choice" id="skirts-tuesday" value="Skirts" checked="" type="radio">
+                                            Skirts
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Denim</a>
+                                        <label>
+                                            <input name="choice" id="denim-tuesday" value="Denim" checked="" type="radio">
+                                            Denim
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Pants</a>
+                                        <label>
+                                            <input name="choice" id="pants-tuesday" value="Pants" checked="" type="radio">
+                                            Pants
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Casual</a>
+                                        <label>
+                                            <input name="choice" id="casual-tuesday" value="Casual" checked="" type="radio">
+                                            Casual
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Sporty</a>
+                                        <label>
+                                            <input name="choice" id="sporty-tuesday" value="Sporty" checked="" type="radio">
+                                            Sporty
+                                        </label>
                                     </td>
                                 </tr>
                             </table>
@@ -121,37 +163,58 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Dress</a>
+                                        <label>
+                                            <input name="choice" id="dress-wednesday" value="Dress" checked="" type="radio">
+                                            Dress
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Suits</a>
+                                        <label>
+                                            <input name="choice" id="suits-wednesday" value="Suits" checked="" type="radio">
+                                            Suits
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Skirts</a>
+                                        <label>
+                                            <input name="choice" id="skirts-wednesday" value="Skirts" checked="" type="radio">
+                                            Skirts
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Denim</a>
+                                        <label>
+                                            <input name="choice" id="denim-wednesday" value="Denim" checked="" type="radio">
+                                            Denim
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Pants</a>
+                                        <label>
+                                            <input name="choice" id="pants-wednesday" value="Pants" checked="" type="radio">
+                                            Pants
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Casual</a>
+                                        <label>
+                                            <input name="choice" id="casual-wednesday" value="Casual" checked="" type="radio">
+                                            Casual
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Sporty</a>
+                                        <label>
+                                            <input name="choice" id="sporty-wednesday" value="Sporty" checked="" type="radio">
+                                            Sporty
+                                        </label>
                                     </td>
                                 </tr>
                             </table>
@@ -170,37 +233,58 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Dress</a>
+                                        <label>
+                                            <input name="choice" id="dress-thursday" value="Dress" checked="" type="radio">
+                                            Dress
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Suits</a>
+                                        <label>
+                                            <input name="choice" id="suits-thursday" value="Suits" checked="" type="radio">
+                                            Suits
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Skirts</a>
+                                        <label>
+                                            <input name="choice" id="skirts-thursday" value="Skirts" checked="" type="radio">
+                                            Skirts
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Denim</a>
+                                        <label>
+                                            <input name="choice" id="denim-thursday" value="Denim" checked="" type="radio">
+                                            Denim
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Pants</a>
+                                        <label>
+                                            <input name="choice" id="pants-thursday" value="Pants" checked="" type="radio">
+                                            Pants
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Casual</a>
+                                        <label>
+                                            <input name="choice" id="casual-thursday" value="Casual" checked="" type="radio">
+                                            Casual
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Sporty</a>
+                                        <label>
+                                            <input name="choice" id="sporty-thursday" value="Sporty" checked="" type="radio">
+                                            Sporty
+                                        </label>
                                     </td>
                                 </tr>
                             </table>
@@ -219,37 +303,58 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Dress</a>
+                                        <label>
+                                            <input name="choice" id="dress-friday" value="Dress" checked="" type="radio">
+                                            Dress
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Suits</a>
+                                        <label>
+                                            <input name="choice" id="suits-friday" value="Suits" checked="" type="radio">
+                                            Suits
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Skirts</a>
+                                        <label>
+                                            <input name="choice" id="skirts-friday" value="Skirts" checked="" type="radio">
+                                            Skirts
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Denim</a>
+                                        <label>
+                                            <input name="choice" id="denim-friday" value="Denim" checked="" type="radio">
+                                            Denim
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Pants</a>
+                                        <label>
+                                            <input name="choice" id="pants-friday" value="Pants" checked="" type="radio">
+                                            Pants
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Casual</a>
+                                        <label>
+                                            <input name="choice" id="casual-friday" value="Casual" checked="" type="radio">
+                                            Casual
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Sporty</a>
+                                        <label>
+                                            <input name="choice" id="sporty-friday" value="Sporty" checked="" type="radio">
+                                            Sporty
+                                        </label>
                                     </td>
                                 </tr>
                             </table>
@@ -268,37 +373,58 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Dress</a>
+                                        <label>
+                                            <input name="choice" id="dress-saturday" value="Dress" checked="" type="radio">
+                                            Dress
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Suits</a>
+                                        <label>
+                                            <input name="choice" id="suits-saturday" value="Suits" checked="" type="radio">
+                                            Suits
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Skirts</a>
+                                        <label>
+                                            <input name="choice" id="skirts-saturday" value="Skirts" checked="" type="radio">
+                                            Skirts
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Denim</a>
+                                        <label>
+                                            <input name="choice" id="denim-saturday" value="Denim" checked="" type="radio">
+                                            Denim
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Pants</a>
+                                        <label>
+                                            <input name="choice" id="pants-saturday" value="Pants" checked="" type="radio">
+                                            Pants
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Casual</a>
+                                        <label>
+                                            <input name="choice" id="casual-saturday" value="Casual" checked="" type="radio">
+                                            Casual
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Sporty</a>
+                                        <label>
+                                            <input name="choice" id="sporty-saturday" value="Sporty" checked="" type="radio">
+                                            Sporty
+                                        </label>
                                     </td>
                                 </tr>
                             </table>
@@ -317,37 +443,58 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="#">Dress</a>
+                                        <label>
+                                            <input name="choice" id="dress-sunday" value="Dress" checked="" type="radio">
+                                            Dress
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Suits</a>
+                                        <label>
+                                            <input name="choice" id="suits-sunday" value="Suits" checked="" type="radio">
+                                            Suits
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Skirts</a>
+                                        <label>
+                                            <input name="choice" id="skirts-sunday" value="Skirts" checked="" type="radio">
+                                            Skirts
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Denim</a>
+                                        <label>
+                                            <input name="choice" id="denim-sunday" value="Denim" checked="" type="radio">
+                                            Denim
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Pants</a>
+                                        <label>
+                                            <input name="choice" id="pants-sunday" value="Pants" checked="" type="radio">
+                                            Pants
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Casual</a>
+                                        <label>
+                                            <input name="choice" id="casual-sunday" value="Casual" checked="" type="radio">
+                                            Casual
+                                        </label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="#">Sporty</a>
+                                        <label>
+                                            <input name="choice" id="sporty-sunday" value="Sporty" checked="" type="radio">
+                                            Sporty
+                                        </label>
                                     </td>
                                 </tr>
                             </table>
@@ -359,6 +506,54 @@
 
         <!-- SPECIAL EVENTS -->
         <div class="col-md-3 col-sm-6 col-xs-12">
+            <h4 class="text-center">My settings</h4>
+
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading typical-week">
+                        <h4 class="panel-title" id="monday">Monday : </h4>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading typical-week">
+                        <h4 class="panel-title" id="tuesday">Tuesday : </h4>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading typical-week">
+                        <h4 class="panel-title" id="wednesday">Wednesday : </h4>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading typical-week">
+                        <h4 class="panel-title" id="thursday">Thursday : </h4>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading typical-week">
+                        <h4 class="panel-title" id="friday">Friday : </h4>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading typical-week">
+                        <h4 class="panel-title" id="saturday">Saturday : </h4>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading typical-week">
+                        <h4 class="panel-title" id="sunday">Sunday : </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="col-md-3 col-sm-6 col-xs-12">
             <h4 class="text-center">My special events</h4>
 
             <div class="panel-group" id="accordion">
@@ -458,7 +653,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <!-- OUTFITS CALENDAR -->
         <!--<div class="col-md-6 col-sm-12 col-xs-12 outfits-calendar"></div>-->
@@ -482,6 +677,12 @@
     </div>
 
     <script>
+
+
+        $("#dress-monday").on('click', function (e) {
+            var dressmonday = $("#dress-monday").val();
+            $("#monday").append("<h4>" + dressmonday + "</h4>");
+        });
 
         $(function() {
             function updateMonthYear() {

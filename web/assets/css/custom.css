@@ -434,7 +434,6 @@ div#image-other-page {
 }
 
 /* WARDROBE MANAGEMENT PAGE - ACCORDION */
-
 .panel-body { padding: 0px; }
 .panel-body table tr td { padding-left: 15px }
 .panel-body .table {margin-bottom: 0px; }
@@ -467,6 +466,11 @@ a {
 /* OUTFITS MANAGEMENT PAGE - CALENDAR */
 .calendar .month-container {
     margin-bottom: 9%;
+}
+
+.panel-default > .panel-heading.typical-week {
+    background: white;
+    color: #666666;
 }
 
 /* Custom calendar elements */
@@ -718,7 +722,7 @@ a {
 }
 
 .fc-calendar .fc-row > div.fc-today.fc-content:after {
-    color: #b02c42;
+    color: #fecf71;
 }
 
 .fc-calendar .fc-row > div.fc-content:hover:after{

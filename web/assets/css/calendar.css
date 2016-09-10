@@ -20,7 +20,7 @@
 .fc-calendar .fc-head {
 	height: 30px;
 	line-height: 30px;
-	background: #ccc;
+	background: #d4af37;
 	color: #fff;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .fc-calendar .fc-row > div.fc-today {
-	background: #fff4c3;
+	background: #d4af37;
 }
 
 .fc-calendar .fc-row > div.fc-out {
