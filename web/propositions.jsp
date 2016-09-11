@@ -6,7 +6,290 @@
 
     <div class="row after-navbar mgb20"></div>
 
-    <div class="container content mgb20">
+    <section class="portfolio mgt20 content">
+        <div class="container">
+            <div class="row">
+                <ul class="portfolio-sorting list-inline text-center">
+                    <li><a href="#" data-group="all" class="active">All</a></li>
+                    <li><a href="#" data-group="everyday">Everyday</a></li>
+                    <li><a href="#" data-group="interview">Interview</a></li>
+                    <li><a href="#" data-group="businessmeeting">Business meeting</a></li>
+                    <li><a href="#" data-group="outwithfriends">Out with friends</a></li>
+                    <li><a href="#" data-group="date">Date</a></li>
+                    <li><a href="#" data-group="cocktail">Cocktail</a></li>
+                    <li><a href="#" data-group="Ceremony">Ceremony</a></li>
+                    <li><a href="#" data-group="trip">Trip</a></li>
+                    <li><a href="#" data-group="funeral">Funeral</a></li>
+                    <li><a href="#" data-group="shopping">Shopping</a></li>
+                    <li><a href="#" data-group="gala">Gala</a></li>
+                    <li><a href="#" data-group="party">Party</a></li>
+                </ul>
+
+                <ul class="portfolio-items list-unstyled" id="grid">
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday", "trip"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="assets/img/clothes/looktoday.jpg" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Pull : Crop hoodie</p>
+                                            <p>Bottom : 3-Stripes tapered pants</p>
+                                            <p>Accessories : Front pocket backpack</p>
+                                            <p>Shoes : NMD_R1 shoes</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
+                                            <button type="submit" class="btn btn-primary">Approved</button>
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                            <select class="form-control">
+                                                <option>Today XX/XX/XXXX</option>
+                                                <option>Monday XX/XX/XXXX</option>
+                                                <option>Tuesday XX/XX/XXXX</option>
+                                                <option>Wednesday XX/XX/XXXX</option>
+                                                <option>Thursday XX/XX/XXXX</option>
+                                                <option>Friday XX/XX/XXXX</option>
+                                                <option>Saturday XX/XX/XXXX</option>
+                                                <option>Sunday XX/XX/XXXX</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="http://placehold.it/650x450&text=Everyday 2" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Top :</p>
+                                            <p>Bottom :</p>
+                                            <p>Pull :</p>
+                                            <p>Coat :</p>
+                                            <p>Accessories :</p>
+                                            <p>Shoes :</p>
+                                            <p>Jewels :</p>
+                                            <p>Perfume :</p>
+                                            <p>Underwear :</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="http://placehold.it/650x450&text=Everyday 3" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Top :</p>
+                                            <p>Bottom :</p>
+                                            <p>Pull :</p>
+                                            <p>Coat :</p>
+                                            <p>Accessories :</p>
+                                            <p>Shoes :</p>
+                                            <p>Jewels :</p>
+                                            <p>Perfume :</p>
+                                            <p>Underwear :</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="http://placehold.it/650x450&text=Everyday 4" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Top :</p>
+                                            <p>Bottom :</p>
+                                            <p>Pull :</p>
+                                            <p>Coat :</p>
+                                            <p>Accessories :</p>
+                                            <p>Shoes :</p>
+                                            <p>Jewels :</p>
+                                            <p>Perfume :</p>
+                                            <p>Underwear :</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="http://placehold.it/650x450&text=Everyday 5" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Top :</p>
+                                            <p>Bottom :</p>
+                                            <p>Pull :</p>
+                                            <p>Coat :</p>
+                                            <p>Accessories :</p>
+                                            <p>Shoes :</p>
+                                            <p>Jewels :</p>
+                                            <p>Perfume :</p>
+                                            <p>Underwear :</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="http://placehold.it/650x450&text=Trip 2" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Top :</p>
+                                            <p>Bottom :</p>
+                                            <p>Pull :</p>
+                                            <p>Coat :</p>
+                                            <p>Accessories :</p>
+                                            <p>Shoes :</p>
+                                            <p>Jewels :</p>
+                                            <p>Perfume :</p>
+                                            <p>Underwear :</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="http://placehold.it/650x450&text=Trip 3" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Top :</p>
+                                            <p>Bottom :</p>
+                                            <p>Pull :</p>
+                                            <p>Coat :</p>
+                                            <p>Accessories :</p>
+                                            <p>Shoes :</p>
+                                            <p>Jewels :</p>
+                                            <p>Perfume :</p>
+                                            <p>Underwear :</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="http://placehold.it/650x450&text=Trip 4" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Top :</p>
+                                            <p>Bottom :</p>
+                                            <p>Pull :</p>
+                                            <p>Coat :</p>
+                                            <p>Accessories :</p>
+                                            <p>Shoes :</p>
+                                            <p>Jewels :</p>
+                                            <p>Perfume :</p>
+                                            <p>Underwear :</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="http://placehold.it/650x450&text=Trip 5" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Top :</p>
+                                            <p>Bottom :</p>
+                                            <p>Pull :</p>
+                                            <p>Coat :</p>
+                                            <p>Accessories :</p>
+                                            <p>Shoes :</p>
+                                            <p>Jewels :</p>
+                                            <p>Perfume :</p>
+                                            <p>Underwear :</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--<div class="container content mgb20">
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail" >
@@ -152,6 +435,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
-<jsp:include page="include/footer.jsp"></jsp:include>
+<jsp:include page="include/footer_wardrobe_management.jsp"></jsp:include>

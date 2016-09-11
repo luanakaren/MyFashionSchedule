@@ -958,6 +958,9 @@
                     if(dateprop.data) {
                         showEvents(dateprop.data.html, dateprop);
                     }
+                    else {
+                        window.location = "http://localhost:8282/propositions";
+                    }
                 });
             });
 
@@ -973,8 +976,8 @@
 
             function showEvents( contentEl, dateprop ) {
                 hideEvents();
-                var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>Events for ' + dateprop.monthname + ' '
-                                + dateprop.day + ', ' + dateprop.year + '</h4></div>' ),
+                var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>Events for ' + dateprop.day + ' '
+                                + dateprop.monthname + ', ' + dateprop.year + '</h4></div>' ),
                         $close = $( '<span class="custom-content-close"></span>' ).on( 'click', hideEvents);
                 $events.append( contentEl.join('') , $close ).insertAfter( $wrapper );
                 setTimeout( function() {

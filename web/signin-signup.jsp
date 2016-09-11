@@ -223,9 +223,8 @@
                 var password = $("#password").val();
 
                 if(username == 'luanakaren' && password == 'luanakaren') {
-                    toastem.success('Welcome ' +username+ ' !');
-                    window.location = "http://localhost:8282/index.jsp";
-                    setTimeout(alert(window.location), 4000);
+                    window.location = "http://localhost:8282/home";
+                    alert(window.location);
                 }
                 else {
                     toastem.error("Your username or password is wrong");
