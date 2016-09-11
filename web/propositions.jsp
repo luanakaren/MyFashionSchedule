@@ -43,14 +43,13 @@
                                     <div class="row" style="margin-top: 9%">
                                         <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                                             <select class="form-control">
-                                                <option value="today">Today : 17-09-2016</option>
-                                                <option value="19-09-2016">19-09-2016</option>
-                                                <option value="20-09-2016">20-09-2016</option>
-                                                <option value="21-09-2016">21-09-2016</option>
-                                                <option value="22-09-2016">22-09-2016</option>
-                                                <option value="23-09-2016">23-09-2016</option>
-                                                <option value="24-09-2016">24-09-2016</option>
-                                                <option value="25-09-2016">25-09-2016</option>
+                                                <option value="today">17-09-2016</option>
+                                                <option value="19-09-2016">12-09-2016</option>
+                                                <option value="20-09-2016">13-09-2016</option>
+                                                <option value="21-09-2016">14-09-2016</option>
+                                                <option value="22-09-2016">15-09-2016</option>
+                                                <option value="23-09-2016">16-09-2016</option>
+                                                <option value="24-09-2016">18-09-2016</option>
                                             </select>
                                         </div>
                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">

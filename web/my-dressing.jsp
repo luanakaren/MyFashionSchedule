@@ -2,42 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-<jsp:include page="include/header.jsp"></jsp:include>
-
-    <script>
-        $(document).ready(function() {
-            $('body').on("click",'.heart',function()
-            {
-
-                var A = $(this).attr("id");
-                var B = A.split("like");
-                $(this).css("background-position","")
-                var D=$(this).attr("rel");
-
-                if(D === 'like')
-                {
-                    $(this).addClass("heartAnimation").attr("rel","unlike");
-
-                }
-                else
-                {
-                    $(this).removeClass("heartAnimation").attr("rel","like");
-                    $(this).css("background-position","left");
-                }
-            });
-
-            var messageID=B[1];
-
-            $('#like-have a').on('click', function(){
-                var sel = $(this).data('title');
-                var tog = $(this).data('toggle');
-                $('#'+tog).prop('value', sel);
-
-                $('a[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').removeClass('active').addClass('notActive');
-                $('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
-            })
-        });
-    </script>
+<jsp:include page="include/header_category.jsp"></jsp:include>
 
     <div class="row after-navbar mgb20"></div>
 
@@ -68,7 +33,7 @@
                 </ul>
 
                 <ul class="portfolio-items list-unstyled" id="grid">
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["blouse-shirt"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["blouse-shirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing" >
                                 <div class="heart" id="like" rel="like"></div>
@@ -85,7 +50,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["blouse-shirt"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["blouse-shirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -102,7 +67,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["skirt"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["skirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -119,7 +84,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["pants"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["pants"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -136,9 +101,7 @@
                         </figure>
                     </li>
 
-                    <div class="row"></div>
-
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["short"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["short"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -155,7 +118,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["pants"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["pants"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -172,7 +135,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["pull"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["pull"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -189,7 +152,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["pull"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["pull"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -206,9 +169,7 @@
                         </figure>
                     </li>
 
-                    <div class="row"></div>
-
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["necklace"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["necklace"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -225,7 +186,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["sandals"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["sandals"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -242,7 +203,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["handbags"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["handbags"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -259,7 +220,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["handbags"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["handbags"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -276,9 +237,7 @@
                         </figure>
                     </li>
 
-                    <div class="row"></div>
-
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["flat"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["flat"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -295,7 +254,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["sneakers"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["sneakers"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -312,7 +271,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["sneakers"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["sneakers"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -329,7 +288,7 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["bracelet"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["bracelet"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -346,9 +305,7 @@
                         </figure>
                     </li>
 
-                    <div class="row"></div>
-
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["blouse-shirt"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["blouse-shirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
                                 <div class="heart" id="like" rel="like"></div>
@@ -366,7 +323,7 @@
                     </li>
 
                     <!-- sizer -->
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shuffle_sizer"></li>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12 shuffle_sizer"></li>
                 </ul>
             </div>
         </div>

@@ -236,7 +236,7 @@ div#image-other-page {
 
 /* CONTENT */
 .content {
-    min-height: 467px;
+    min-height: 567px;
 }
 
 /* SIGNIN-SIGNUP */
@@ -465,12 +465,20 @@ a {
 }
 
 .my-dressing {
+    min-height: 430px;
+}
+
+.my-favorites {
     min-height: 394px;
 }
 
 #nav-wardrobe {
     padding-left: 4.8%;
     padding-right: 4.8%
+}
+
+.my-new-dressing {
+    min-height: 451px;
 }
 
 /* OUTFITS MANAGEMENT PAGE - CALENDAR */
