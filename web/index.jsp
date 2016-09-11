@@ -11,34 +11,6 @@
     <div class="container content mgb20">
         <div class="col-md-8">
             <div class="ootd row mgb20">
-                <!--<div class="row" style="margin-top: 0.8%">
-                    <h4 class="text-center">OUTFIT OF THE DAY</h4>
-                    <div class="col-md-4 mgb10 mgt10"></div>
-                    <div class="col-md-4 mgb10 mgt10">
-                        <img src="assets/img/clothes/AY9005.jpg" class="img-responsive">
-                    </div>
-                    <div class="col-md-4 mgb10 mgt10">
-                        <img src="assets/img/clothes/73063018.jpg" class="img-responsive">
-                    </div>
-                </div>
-
-                <div class="row" style="margin-bottom: 0.8%">
-                    <div class="col-md-4 mgb10"></div>
-                    <div class="col-md-4 mgb10">
-                        <img src="assets/img/clothes/AX5469.jpg" class="img-responsive">
-                    </div>
-                    <div class="col-md-4 mgb10"></div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 mgb10"></div>
-                    <div class="col-md-4 mgb10">
-                        <img src="assets/img/clothes/BB1970.jpg" class="img-responsive">
-                    </div>
-                    <div class="col-md-4 mgb10"></div>
-                </div>-->
-
-
                 <div class="row" style="margin-top: 0.8%">
                     <h4 class="text-center">OUTFIT OF THE DAY</h4>
                     <div class="col-md-4 mgb10 mgt10"></div>

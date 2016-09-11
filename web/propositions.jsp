@@ -29,17 +29,18 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday", "trip"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="assets/img/clothes/looktoday.jpg" class="img-responsive">
+                                <img src="assets/img/clothes/trip1.jpg" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
-                                            <p>Pull : Crop hoodie</p>
+                                            <p>Pull : Blue geology crew sweat</p>
                                             <p>Bottom : 3-Stripes tapered pants</p>
                                             <p>Accessories : Front pocket backpack</p>
-                                            <p>Shoes : NMD_R1 shoes</p>
+                                            <p>Shoes : Superstar</p>
+                                            <p>Jewels : Snake-effect cuff </p>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row" style="margin-top: 17%">
                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
                                             <button type="submit" class="btn btn-primary">Approved</button>
                                         </div>
@@ -176,22 +177,18 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x450&text=Trip 2" class="img-responsive">
+                                <img src="assets/img/clothes/trip2.jpg" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
-                                            <p>Top :</p>
-                                            <p>Bottom :</p>
-                                            <p>Pull :</p>
-                                            <p>Coat :</p>
-                                            <p>Accessories :</p>
-                                            <p>Shoes :</p>
-                                            <p>Jewels :</p>
-                                            <p>Perfume :</p>
-                                            <p>Underwear :</p>
+                                            <p>Top : Poplin shirt</p>
+                                            <p>Bottom : Key printed short</p>
+                                            <p>Accessories : <a href="http://shop.mango.com/US/p0/women/accessories/bags/shoulder-bags/contrasting-hobo-bag/?id=73013578_70&n=1&s=accesorios.bolsos" target="_blank">Contrasting hobo bag</a></p>
+                                            <p>Shoes : <a href="http://shop.mango.com/US/p0/women/accessories/shoes/sneakers/contrast-applique-sneakers/?id=73070268_01&n=1&s=accesorios.zapatos" target="_blank">Contrast appliqué sneakers</a></p>
+                                            <p>Jewels : <a href="http://shop.mango.com/US/p0/women/accessories/jewellery/rings/metal-ring-set/?id=73020141_67&n=1&s=accesorios.bisuteria" target="_blank">Metal ring set</a></p>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row" style="margin-top: 4%">
                                         <div class="col-md-12 text-center">
                                             <a href="#" class="btn btn-primary">Submit to friend vote</a>
                                         </div>
@@ -240,7 +237,7 @@
                                             <p>Jewels : Snake-effect cuff </p>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row" style="margin-top: 6%">
                                         <div class="col-md-12 text-center">
                                             <a href="#" class="btn btn-primary">Submit to friend vote</a>
                                         </div>

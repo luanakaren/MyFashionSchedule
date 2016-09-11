@@ -289,6 +289,22 @@
                         </figure>
                     </li>
 
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["blouse-shirt"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail my-dressing">
+                                <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 10/09/2016"><img src="assets/img/clothes/71030239.jpg" class="img-responsive img-clothing"></a>
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <h5>Poplin shirt</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
                     <!-- sizer -->
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shuffle_sizer"></li>
                 </ul>
