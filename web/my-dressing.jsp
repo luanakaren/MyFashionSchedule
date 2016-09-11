@@ -4,6 +4,41 @@
 <html>
 <jsp:include page="include/header.jsp"></jsp:include>
 
+    <script>
+        $(document).ready(function() {
+            $('body').on("click",'.heart',function()
+            {
+
+                var A = $(this).attr("id");
+                var B = A.split("like");
+                $(this).css("background-position","")
+                var D=$(this).attr("rel");
+
+                if(D === 'like')
+                {
+                    $(this).addClass("heartAnimation").attr("rel","unlike");
+
+                }
+                else
+                {
+                    $(this).removeClass("heartAnimation").attr("rel","like");
+                    $(this).css("background-position","left");
+                }
+            });
+
+            var messageID=B[1];
+
+            $('#like-have a').on('click', function(){
+                var sel = $(this).data('title');
+                var tog = $(this).data('toggle');
+                $('#'+tog).prop('value', sel);
+
+                $('a[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').removeClass('active').addClass('notActive');
+                $('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
+            })
+        });
+    </script>
+
     <div class="row after-navbar mgb20"></div>
 
     <section class="portfolio mgt20 content">
@@ -36,6 +71,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["blouse-shirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing" >
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/71035620.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -52,6 +88,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["blouse-shirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73073511.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -68,6 +105,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["skirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73085594.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -84,6 +122,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["pants"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AE9405.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -97,9 +136,12 @@
                         </figure>
                     </li>
 
+                    <div class="row"></div>
+
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["short"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AE9412.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -116,6 +158,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["pants"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AX5469.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -132,6 +175,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["pull"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AY9005.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -148,6 +192,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["pull"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/BQ0999.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -161,9 +206,12 @@
                         </figure>
                     </li>
 
+                    <div class="row"></div>
+
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["necklace"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73015564.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -180,6 +228,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["sandals"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73060085.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -196,6 +245,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["handbags"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73063018.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -212,6 +262,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["handbags"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73080131.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -225,9 +276,12 @@
                         </figure>
                     </li>
 
+                    <div class="row"></div>
+
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["flat"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73093524.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -244,6 +298,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["sneakers"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/BB1970.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -260,6 +315,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["sneakers"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 10/09/2016"><img src="assets/img/clothes/S75873.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -276,6 +332,7 @@
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["bracelet"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 10/09/2016"><img src="assets/img/clothes/73073010.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
@@ -289,9 +346,12 @@
                         </figure>
                     </li>
 
+                    <div class="row"></div>
+
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["blouse-shirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail my-dressing">
+                                <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 10/09/2016"><img src="assets/img/clothes/71030239.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">

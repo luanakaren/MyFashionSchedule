@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="../assets/css/custom.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-datepicker3.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/toastem.css">
 
     <!--[if lt IE 9]>

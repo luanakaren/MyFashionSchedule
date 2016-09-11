@@ -45,6 +45,18 @@
                     </div>
                 </form>
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hi Luana Karen<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">My profile</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Log out</a></li>
+                    </ul>
+                </li>
+                <li ><a href="http://localhost:8282/wardrobe-add">Wardrobe management</a></li>
+                <li><a href="http://localhost:8282/outfits-management">Outfits management</a></li>
+            </ul>
         </div>
     </div>
 </div>

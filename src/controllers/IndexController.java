@@ -44,6 +44,9 @@ public class IndexController extends BaseController {
     @RequestMapping("outfit-management")
     public String outfitSaturday() { return "outfit-saturday"; }
 
+    @RequestMapping("wardrobe-add")
+    public String newWardrobe() { return "my-dressing-add"; }
+
     @RequestMapping(value="planning",method = RequestMethod.GET)
     public String planning(ModelMap modelMap){ //ce controller est un exemple pour les page simple ( sans REST et avec beaucoup de données)
         //le modelmap est l'objet qu'on enverra à la vue
