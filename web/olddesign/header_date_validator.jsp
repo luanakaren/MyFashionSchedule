@@ -45,7 +45,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li ><a href="dressing.jsp">My dressing</a></li>
-                <li><a href="../planning.jsp">Planning</a></li>
+                <li><a href="planning.jsp">Planning</a></li>
                 <li><a href="#">Future purchases</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Luana Karen<span class="caret"></span></a>

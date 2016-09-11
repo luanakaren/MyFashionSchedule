@@ -189,7 +189,7 @@
                                                 </div>
                                             </div>
 
-                                            <a href="#" class="btn btn-primary btn-block" role="button">SUBMIT</a>
+                                            <a href="http://localhost:8282/occupation" class="btn btn-primary btn-block" role="button">SUBMIT</a>
                                         </form>
                                     </div>
                                 </div>

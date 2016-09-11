@@ -65,6 +65,8 @@
                     Sporty
                 </label>
             </div>
+
+            <a href="http://localhost:8282/profile-fashiontstyle" class="btn btn-primary btn-lg" role="button">SUBMIT</a>
         </div>
     </div>
 

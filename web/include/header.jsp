@@ -24,7 +24,7 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand navbar-brand-centered">
-                <a href="../index.jsp"><img src="../assets/img/logo.png" class="img-responsive" alt="My Fashion Schedule"></a>
+                <a href="http://localhost:8282/home"><img src="../assets/img/logo.png" class="img-responsive" alt="My Fashion Schedule"></a>
             </div>
         </div>
 
@@ -48,8 +48,8 @@
                         <li><a href="#">Log out</a></li>
                     </ul>
                 </li>
-                <li ><a href="../wardrobe-management.jsp">Wardrobe management</a></li>
-                <li><a href="../outfits-management.jsp">Outfits management</a></li>
+                <li ><a href="http://localhost:8282/wardrobe-management">Wardrobe management</a></li>
+                <li><a href="http://localhost:8282/outfits-management">Outfits management</a></li>
             </ul>
         </div>
     </div>
