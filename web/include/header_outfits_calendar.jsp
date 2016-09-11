@@ -53,6 +53,7 @@
                 </li>
                 <li ><a href="http://localhost:8282/wardrobe-management">Wardrobe management</a></li>
                 <li><a href="http://localhost:8282/outfits-management">Outfits management</a></li>
+                <li><a href="http://localhost:8282/add-clothes">Add clothes</a></li>
             </ul>
         </div>
     </div>
