@@ -56,7 +56,7 @@
                         Doesn't suit me
                     </label>
                 </div>
-                <a href="#" class="btn btn-primary" id="btn-submit-index">Submit</a>
+                <a href="#" class="btn btn-default" id="btn-submit-index">Submit</a>
             </div>
 
             <div id="toastem"></div>

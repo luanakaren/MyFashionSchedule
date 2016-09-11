@@ -41,9 +41,6 @@
                                         </div>
                                     </div>
                                     <div class="row" style="margin-top: 17%">
-                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
-                                            <button type="submit" class="btn btn-primary">Approved</button>
-                                        </div>
                                         <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                                             <select class="form-control">
                                                 <option>Today XX/XX/XXXX</option>
@@ -55,6 +52,9 @@
                                                 <option>Saturday XX/XX/XXXX</option>
                                                 <option>Sunday XX/XX/XXXX</option>
                                             </select>
+                                        </div>
+                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
+                                            <button type="submit" class="btn btn-default">Approved</button>
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                            <a href="#" class="btn btn-default">Submit to friend vote</a>
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                            <a href="#" class="btn btn-default">Submit to friend vote</a>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                            <a href="#" class="btn btn-default">Submit to friend vote</a>
                                         </div>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                            <a href="#" class="btn btn-default">Submit to friend vote</a>
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@
                                     </div>
                                     <div class="row" style="margin-top: 4%">
                                         <div class="col-md-12 text-center">
-                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                            <a href="#" class="btn btn-default">Submit to friend vote</a>
                                         </div>
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                            <a href="#" class="btn btn-default">Submit to friend vote</a>
                                         </div>
                                     </div>
                                 </div>
@@ -239,7 +239,7 @@
                                     </div>
                                     <div class="row" style="margin-top: 6%">
                                         <div class="col-md-12 text-center">
-                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                            <a href="#" class="btn btn-default">Submit to friend vote</a>
                                         </div>
                                     </div>
                                 </div>
@@ -267,7 +267,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12 text-center">
-                                            <a href="#" class="btn btn-primary">Submit to friend vote</a>
+                                            <a href="#" class="btn btn-default">Submit to friend vote</a>
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-center">
-                                <button type="submit" class="btn btn-primary">Approved</button>
+                                <button type="submit" class="btn btn-default">Approved</button>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
                                 <select class="form-control">
@@ -338,7 +338,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary">Submit to friend vote</button>
+                                <button type="submit" class="btn btn-default">Submit to friend vote</button>
                             </div>
                         </div>
                     </div>
@@ -364,7 +364,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary">Submit to friend vote</button>
+                                <button type="submit" class="btn btn-default">Submit to friend vote</button>
                             </div>
                         </div>
                     </div>
@@ -392,7 +392,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary">Submit to friend vote</button>
+                                <button type="submit" class="btn btn-default">Submit to friend vote</button>
                             </div>
                         </div>
                     </div>
@@ -418,7 +418,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary">Submit to friend vote</button>
+                                <button type="submit" class="btn btn-default">Submit to friend vote</button>
                             </div>
                         </div>
                     </div>

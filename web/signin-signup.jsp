@@ -80,7 +80,7 @@
                                             </div>
 
                                             <!-- Button -->
-                                            <button type="submit" id="btn-login" href="#" class="btn btn-primary btn-block" role="button">SIGN IN</button>
+                                            <button type="submit" id="btn-login" href="#" class="btn btn-default btn-block" role="button">SIGN IN</button>
                                         </form>
 
                                     </div>
@@ -189,7 +189,7 @@
                                                 </div>
                                             </div>
 
-                                            <a href="http://localhost:8282/occupation" class="btn btn-primary btn-block" role="button">SUBMIT</a>
+                                            <a href="http://localhost:8282/occupation" class="btn btn-default btn-block" role="button">SUBMIT</a>
                                         </form>
                                     </div>
                                 </div>

@@ -34,6 +34,12 @@
     margin-top: 20px;
 }
 
+.btn-default {
+    background-color: black;
+    border-color: transparent;
+    color: #d4af37;
+}
+
 /* NAVBAR */
 @media screen and (min-width:768px){
     .navbar-brand-centered {
@@ -609,7 +615,7 @@ a {
     width: 20px;
     height: 20px;
     text-align: center;
-    background: #ef4f69;
+    background: black;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     cursor: pointer;
     line-height: 13px;
@@ -638,7 +644,7 @@ a {
     padding: 20px;
     background: #fff;
     border-bottom: 1px solid #ddd;
-    border-top: 5px solid #ef4f69;
+    border-top: 5px solid black;
     box-shadow: 0 1px rgba(255,255,255,0.9);
     margin-bottom: 30px;
 }
@@ -703,13 +709,13 @@ a {
 }
 
 .fc-calendar .fc-row > div.fc-today {
-    background: #d4af37;
+    background: white;
     box-shadow: inset 0 -1px 1px rgba(0,0,0,0.1);
 }
 
 .fc-calendar .fc-row > div.fc-today > span.fc-date {
-    color: #fff;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #d4af37;
+    /*text-shadow: 0 1px 1px rgba(0,0,0,0.1);*/
 }
 
 .fc-calendar .fc-row > div.fc-content:after {
@@ -734,7 +740,7 @@ a {
 }
 
 .fc-calendar .fc-row > div.fc-today.fc-content:hover:after{
-    color: #fff;
+    color: #b28d34;
 }
 
 .fc-calendar .fc-row > div > div a,
