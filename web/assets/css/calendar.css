@@ -103,9 +103,9 @@
 	display: none;
 }
 
-.fc-calendar .fc-row > div.fc-today {
+/*.fc-calendar .fc-row > div.fc-today {
 	background: #d4af37;
-}
+}*/
 
 .fc-calendar .fc-row > div.fc-out {
 	opacity: 0.6;
