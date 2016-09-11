@@ -257,6 +257,38 @@
                         </figure>
                     </li>
 
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["sneakers"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail my-dressing">
+                                <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 10/09/2016"><img src="assets/img/clothes/S75873.jpg" class="img-responsive img-clothing"></a>
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <h5>Superstar</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-groups='["bracelet"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail my-dressing">
+                                <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 10/09/2016"><img src="assets/img/clothes/73073010.jpg" class="img-responsive img-clothing"></a>
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <h5>Snake-effect cuff</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
                     <!-- sizer -->
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 shuffle_sizer"></li>
                 </ul>

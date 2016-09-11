@@ -215,8 +215,6 @@
                                             <p>Accessories :</p>
                                             <p>Shoes :</p>
                                             <p>Jewels :</p>
-                                            <p>Perfume :</p>
-                                            <p>Underwear :</p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -232,19 +230,15 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x450&text=Trip 4" class="img-responsive">
+                                <img src="assets/img/clothes/trip4.jpg" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
-                                            <p>Top :</p>
-                                            <p>Bottom :</p>
-                                            <p>Pull :</p>
-                                            <p>Coat :</p>
-                                            <p>Accessories :</p>
-                                            <p>Shoes :</p>
-                                            <p>Jewels :</p>
-                                            <p>Perfume :</p>
-                                            <p>Underwear :</p>
+                                            <p>Top : <a href="http://shop.mango.com/US/p0/women/clothing/t-shirts/short-sleeved/message-cotton-t-shirt/?id=73023652_02&n=0&ts=1473589850944" target="_blank">Message cotton t-shirt</a></p>
+                                            <p>Bottom : <a href="http://shop.mango.com/US/p0/women/clothing/pants/sport/relaxed-cotton-trousers/?id=73043588_99&n=1&s=prendas.pantalones" target="_blank">Relaxed cotton trousers</a></p>
+                                            <p>Accessories : Front pocket backpack</p>
+                                            <p>Shoes : Superstar</p>
+                                            <p>Jewels : Snake-effect cuff </p>
                                         </div>
                                     </div>
                                     <div class="row">
