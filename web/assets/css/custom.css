@@ -724,7 +724,7 @@ a {
     width: 20px;
     margin-left: -10px;
     position: absolute;
-    color: #DDD;
+    color: #d4af37;
     font-size: 70px;
     line-height: 20px;
     left: 50%;
@@ -736,7 +736,7 @@ a {
 }
 
 .fc-calendar .fc-row > div.fc-content:hover:after{
-    color: #ef4f69;
+    color: #b28d34;
 }
 
 .fc-calendar .fc-row > div.fc-today.fc-content:hover:after{

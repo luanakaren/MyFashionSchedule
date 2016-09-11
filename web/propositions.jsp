@@ -40,21 +40,21 @@
                                             <p>Jewels : Snake-effect cuff </p>
                                         </div>
                                     </div>
-                                    <div class="row" style="margin-top: 17%">
+                                    <div class="row" style="margin-top: 9%">
                                         <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                                             <select class="form-control">
-                                                <option>Today XX/XX/XXXX</option>
-                                                <option>Monday XX/XX/XXXX</option>
-                                                <option>Tuesday XX/XX/XXXX</option>
-                                                <option>Wednesday XX/XX/XXXX</option>
-                                                <option>Thursday XX/XX/XXXX</option>
-                                                <option>Friday XX/XX/XXXX</option>
-                                                <option>Saturday XX/XX/XXXX</option>
-                                                <option>Sunday XX/XX/XXXX</option>
+                                                <option value="today">Today : 17-09-2016</option>
+                                                <option value="19-09-2016">19-09-2016</option>
+                                                <option value="20-09-2016">20-09-2016</option>
+                                                <option value="21-09-2016">21-09-2016</option>
+                                                <option value="22-09-2016">22-09-2016</option>
+                                                <option value="23-09-2016">23-09-2016</option>
+                                                <option value="24-09-2016">24-09-2016</option>
+                                                <option value="25-09-2016">25-09-2016</option>
                                             </select>
                                         </div>
                                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
-                                            <button type="submit" class="btn btn-default">Approved</button>
+                                            <button type="submit" class="btn btn-default" id="approved">Approved</button>
                                         </div>
                                     </div>
                                 </div>
@@ -278,6 +278,12 @@
             </div>
         </div>
     </section>
+
+    <script>
+        $("#approved").on('click', function (e) {
+           window.location = "http://localhost:8282/outfit-management";
+        });
+    </script>
 
     <!--<div class="container content mgb20">
         <div class="row">
