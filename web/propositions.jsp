@@ -204,17 +204,16 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x450&text=Trip 3" class="img-responsive">
+                                <img src="assets/img/clothes/trip3.jpg" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
-                                            <p>Top :</p>
-                                            <p>Bottom :</p>
-                                            <p>Pull :</p>
-                                            <p>Coat :</p>
-                                            <p>Accessories :</p>
-                                            <p>Shoes :</p>
-                                            <p>Jewels :</p>
+                                            <p>Top : <a href="http://www.global.adidas.com/blue-geology-blocked-tee/BQ0987.html" target="_blank">Blue geology blocked tee</a></p>
+                                            <p>Bottom : <a href="http://shop.mango.com/US/p0/women/clothing/jeans/skinny/soho-skinny-jeans/?id=73040022_DI&n=1&s=prendas.tejanos" target="_blank">Soho skinny jeans</a> </p>
+                                            <p>Pull : <a href="http://shop.mango.com/US/p0/women/clothing/sweatshirts/printed-message-sweatshirt/?id=73053618_99&n=0&ts=1473594181531" target="_blank">Printed message sweatshirt</a> </p>
+                                            <p>Accessories : <a href="http://shop.mango.com/US/p0/women/accessories/bags/crossbody-bags/cross-body-small-bag/?id=73070134_99&n=0&ts=1473148739136" target="_blank">Cross-body small bag</a> </p>
+                                            <p>Shoes : <a href="http://www.global.adidas.com/stan-smith-shoes/S80501.html" target="_blank">Stan Smith shoes</a></p>
+                                            <p>Jewels : <a href="http://shop.mango.com/US/p0/women/accessories/jewellery/necklaces/2-velvelt-chockers-pack/?id=73097519_51&n=1&s=accesorios.bisuteria" target="_blank">2 velvet chockers pack</a></p>
                                         </div>
                                     </div>
                                     <div class="row">
