@@ -39,8 +39,8 @@
 
     <div class="container content mgb20">
         <h3 class="description"><span class="glyphicon glyphicon-check"></span> Login or register <span class="glyphicon glyphicon-edit"></span></h3>
+
         <div class="text-center mgt20">
-            <h1><b>Hi !</b></h1>
             <h4>Welcome to "My Fashion Schedule", your online dressing.</h4>
             <h4>You need to login or register to access the site.</h4>
             <br>

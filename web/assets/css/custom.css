@@ -35,9 +35,9 @@
 }
 
 .btn-default {
-    background-color: black;
+    background-color: #d4af37;
     border-color: transparent;
-    color: #d4af37;
+    color: black;
 }
 
 /* NAVBAR */
@@ -491,7 +491,7 @@ a {
 }
 
 .my-new-dressing {
-    min-height: 451px;
+    min-height: 420px;
 }
 
 /* OUTFITS MANAGEMENT PAGE - CALENDAR */
@@ -882,4 +882,92 @@ small {
     box-shadow: inset 0 -1px 0 #c6c6c6;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
+}
+
+/* SOCIAL MEDIA */
+.social {
+    position: relative;
+    height: 3em;
+    width: 13.5em;
+    margin: 170px 450px;
+}
+
+.social li {
+    display: block;
+    height: 4em;
+    line-height: 4em;
+    margin: -2.2em -2.2em -2.2em -230%;
+    position: absolute;
+    -webkit-transition: -webkit-transform .7s;
+    -moz-transition: -moz-transform .7s;
+    -ms-transition: -ms-transform .7s;
+    -o-transition: -o-transform .7s;
+    transition: transform .7s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    width: 4em;
+
+}
+
+.social a {
+    color: #fffdf0;
+    display: block;
+    height: 4em;
+    line-height: 6em;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 4em;
+
+}
+
+.social li:hover {
+    -webkit-transform: scale(1.3,1.3) rotate(45deg);
+    -moz-transform: scale(1.3,1.3) rotate(45deg);
+    -ms-transform: scale(1.3,1.3) rotate(45deg);
+    -o-transform: scale(1.3,1.3) rotate(45deg);
+    transform: scale(1.3,1.3) rotate(45deg);
+}
+
+.facebook {
+    background: #155b9d;
+    left: 0;
+    top: 0%;
+}
+
+.twitter {
+    background: #1a9ec4;
+    bottom: 0;
+    left: 25%;
+}
+
+.pinterest {
+    background: #e11a30;
+    left: 50%;
+    top: 0%;
+}
+
+.tumbler {
+    background: #36465D;
+    left: 0;
+    top: 0%;
+}
+
+.email {
+    background: #d4af37;
+    bottom: 0;
+    left: 25%;
+}
+
+.skype {
+    background: #00AFF0;
+    left: 50%;
+    top: 0%;
 }

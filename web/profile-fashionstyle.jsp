@@ -86,7 +86,7 @@
                 <h4 class="text-center">What is your occupation ? <i class="fa fa-black-tie"></i> </h4>
                 <br>
 
-                <div class="col-md-3 col-sm-3 col-xs-12">
+                <div class="col-md-3 col-sm-3 col-xs-12" style="text-align: left; margin-left: 15%">
                     <div class="radio">
                         <label>
                             <input name="occupation" id="pupils" value="Pupils" checked="" type="radio">
@@ -105,15 +105,15 @@
                             Worker
                         </label>
                     </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12" style="text-align: left">
                     <div class="radio">
                         <label>
                             <input name="occupation" id="executive" value="Executive" checked="" type="radio">
                             Executive
                         </label>
                     </div>
-                </div>
-
-                <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="radio">
                         <label>
                             <input name="occupation" id="board-exective" value="Board executive" checked="" type="radio">
@@ -132,15 +132,15 @@
                             Housewife
                         </label>
                     </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12" style="text-align: left">
                     <div class="radio">
                         <label>
                             <input name="occupation" id="fashion-professional" value="Fashion professional" checked="" type="radio">
                             Fashion professional
                         </label>
                     </div>
-                </div>
-
-                <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="radio">
                         <label>
                             <input name="occupation" id="sporty" value="Sporty" checked="" type="radio">
@@ -149,7 +149,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center mgt20">
                     <a href="http://localhost:8282/signin-signup" class="btn btn-default" role="button">REGISTER</a>
                 </div>
             </div>

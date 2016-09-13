@@ -15,7 +15,7 @@
                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/71035620.jpg" class="img-responsive img-clothing"></a>
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-md-12">
                                 <h5>Zip blouse</h5>
                             </div>
                         </div>
@@ -31,7 +31,7 @@
                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73073511.jpg" class="img-responsive img-clothing"></a>
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-md-12">
                                 <h5>Check cotton shirt</h5>
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73085594.jpg" class="img-responsive img-clothing"></a>
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-md-12">
                                 <h5>Zip skirt</h5>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AE9405.jpg" class="img-responsive img-clothing"></a>
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-md-12">
                                 <h5>Pull on ankle pant</h5>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AE9412.jpg" class="img-responsive img-clothing"></a>
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-md-12">
                                 <h5>Key printed short</h5>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AX5469.jpg" class="img-responsive img-clothing"></a>
                     <div class="caption">
                         <div class="row">
-                            <div class="col-md-10">
+                            <div class="col-md-12">
                                 <h5>3-Stripes tapered pants</h5>
                             </div>
                         </div>

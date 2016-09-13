@@ -11,7 +11,11 @@
         <div class="row mgt20">
             <div class="well well-sm">
                 <div class="row">
-                    <div class="col-sm-6 col-md-5" style="padding-left: 5%">
+                    <div class="col-md-2 mgt20" style="padding-left: 5%">
+                        <img src="assets/img/girl.png" class="img-responsive">
+                    </div>
+
+                    <div class="col-sm-6 col-md-4" style="padding-left: 10%">
                         <h4>Luana Karen ANDRIAMAMONJY</h4>
                         <small><cite title="Madagascar">Madagascar<i class="glyphicon glyphicon-map-marker"></i></cite></small>
 
@@ -27,8 +31,10 @@
                         </p>
                     </div>
 
-                    <div class="col-sm-6 col-md-6" style="padding-left: 10%">
+                    <div class="col-sm-6 col-md-5" style="padding-left: 10%">
                         <h4>Parameters</h4>
+
+                        <br>
 
                         <p>
                             <i class="fa fa-child"></i> Tall : 164 (normal)

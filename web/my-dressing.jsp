@@ -42,7 +42,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/71035620.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Zip blouse</h5>
                                         </div>
                                     </div>
@@ -59,7 +59,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73073511.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Check cotton shirt</h5>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73085594.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Zip skirt</h5>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AE9405.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Pull on ankle pant</h5>
                                         </div>
                                     </div>
@@ -110,7 +110,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AE9412.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Key printed short</h5>
                                         </div>
                                     </div>
@@ -127,7 +127,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AX5469.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>3-Stripes tapered pants</h5>
                                         </div>
                                     </div>
@@ -144,7 +144,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AY9005.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Crop hoodie</h5>
                                         </div>
                                     </div>
@@ -161,7 +161,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/BQ0999.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Blue geology crew sweat</h5>
                                         </div>
                                     </div>
@@ -178,7 +178,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73015564.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Bead chain necklace</h5>
                                         </div>
                                     </div>
@@ -195,7 +195,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73060085.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Interwoven cord sandals</h5>
                                         </div>
                                     </div>
@@ -212,7 +212,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73063018.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Front pocket backpack </h5>
                                         </div>
                                     </div>
@@ -229,7 +229,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73080131.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Chain bag</h5>
                                         </div>
                                     </div>
@@ -246,7 +246,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/73093524.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Pointed toe flat shoes</h5>
                                         </div>
                                     </div>
@@ -263,7 +263,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/BB1970.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>NMD_R1 shoes</h5>
                                         </div>
                                     </div>
@@ -280,7 +280,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 10/09/2016"><img src="assets/img/clothes/S75873.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Superstar</h5>
                                         </div>
                                     </div>
@@ -297,7 +297,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 10/09/2016"><img src="assets/img/clothes/73073010.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Snake-effect cuff</h5>
                                         </div>
                                     </div>
@@ -314,7 +314,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 10/09/2016"><img src="assets/img/clothes/71030239.jpg" class="img-responsive img-clothing"></a>
                                 <div class="caption">
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <h5>Poplin shirt</h5>
                                         </div>
                                     </div>

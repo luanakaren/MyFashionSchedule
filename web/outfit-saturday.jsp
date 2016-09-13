@@ -519,13 +519,13 @@
 
                 <div class="panel panel-default">
                     <div class="panel-heading typical-week">
-                        <h4 class="panel-title" id="set-tuesday">Tuesday : Sporty</h4>
+                        <h4 class="panel-title" id="set-tuesday">Tuesday : Skirts</h4>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
                     <div class="panel-heading typical-week">
-                        <h4 class="panel-title" id="set-wednesday">Wednesday : Skirts</h4>
+                        <h4 class="panel-title" id="set-wednesday">Wednesday : Sporty</h4>
                     </div>
                 </div>
 

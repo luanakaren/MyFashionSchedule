@@ -70,12 +70,12 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["earcuffs"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["dress"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail">
                                 <div class="heart" id="like" rel="like"></div>
-                                <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
-                                <a href="http://shop.mango.com/US/p0/women/accessories/jewellery/earrings/hoop-earrings/?id=73003541_PL&n=0&ts=1473150180760" target="_blank"><img src="assets/img/clothes/notmine/73003541.jpg" class="img-responsive"></a>
+                                <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
+                                <a href="http://www.global.adidas.com/allover-print-dress/S97423.html" target="_blank"><img src="assets/img/clothes/notmine/S97423.jpg" class="img-responsive"></a>
                                 <div class="caption">
                                     <div class="row">
                                         <div class="form-group">
@@ -138,12 +138,12 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["handbags"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["dress"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail">
                                 <div class="heart" id="like" rel="like"></div>
-                                <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
-                                <a href="http://shop.mango.com/US/p0/women/accessories/bags/shoulder-bags/contrasting-hobo-bag/?id=73013578_70&n=1&s=accesorios.bolsos" target="_blank"><img src="assets/img/clothes/notmine/73013578.jpg" class="img-responsive"></a>
+                                <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
+                                <a href="http://www.global.adidas.com/floral-burst-tank-top-dress/AZ3240.html" target="_blank"><img src="assets/img/clothes/notmine/AZ3240.jpg" class="img-responsive"></a>
                                 <div class="caption">
                                     <div class="row">
                                         <div class="form-group">
@@ -240,12 +240,12 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["top-tshirt"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["bracelet"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail">
                                 <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
-                                <a href="http://shop.mango.com/US/p0/women/clothing/t-shirts/short-sleeved/message-cotton-t-shirt/?id=73023652_02&n=0&ts=1473589850944" target="_blank"><img src="assets/img/clothes/notmine/73023652.jpg" class="img-responsive"></a>
+                                <a href="http://shop.mango.com/US/p0/women/accessories/jewellery/necklaces/2-velvelt-chockers-pack/?id=73097519_51&n=1&s=accesorios.bisuteria" target="_blank"><img src="assets/img/clothes/notmine/73097519.jpg" class="img-responsive"></a>
                                 <div class="caption">
                                     <div class="row">
                                         <div class="form-group">
@@ -348,6 +348,40 @@
                                 <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
                                 <a href="http://shop.mango.com/US/p0/women/clothing/jeans/skinny/soho-skinny-jeans/?id=73040022_DI&n=1&s=prendas.tejanos" target="_blank"><img src="assets/img/clothes/notmine/73040022.jpg" class="img-responsive"></a>
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-sm-12 col-md-12">
+                                                <div class="input-group">
+                                                    <div id="like-have" class="btn-group">
+                                                        <div class="radio">
+                                                            <label>
+                                                                <input name="choice" value="true" checked="" type="radio">
+                                                                I like it
+                                                            </label>
+                                                        </div>
+                                                        <div class="radio">
+                                                            <label>
+                                                                <input name="choice" id="" value="true" checked="" type="radio">
+                                                                I have it
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["sneakers"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail">
+                                <div class="heart" id="like" rel="like"></div>
+                                <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
+                                <a href="http://www.global.adidas.com/stan-smith-shoes/S80501.html" target="_blank"><img src="assets/img/clothes/notmine/S80501.jpg" class="img-responsive"></a>
                                 <div class="caption">
                                     <div class="row">
                                         <div class="form-group">
@@ -648,12 +682,12 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["bracelet"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["top-tshirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail">
                                 <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
-                                <a href="http://shop.mango.com/US/p0/women/accessories/jewellery/necklaces/2-velvelt-chockers-pack/?id=73097519_51&n=1&s=accesorios.bisuteria" target="_blank"><img src="assets/img/clothes/notmine/73097519.jpg" class="img-responsive"></a>
+                                <a href="http://shop.mango.com/US/p0/women/clothing/t-shirts/short-sleeved/message-cotton-t-shirt/?id=73023652_02&n=0&ts=1473589850944" target="_blank"><img src="assets/img/clothes/notmine/73023652.jpg" class="img-responsive"></a>
                                 <div class="caption">
                                     <div class="row">
                                         <div class="form-group">
@@ -716,12 +750,12 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["dress"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["top-tshirt"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail">
                                 <div class="heart" id="like" rel="like"></div>
                                 <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
-                                <a href="http://www.global.adidas.com/floral-burst-tank-top-dress/AZ3240.html" target="_blank"><img src="assets/img/clothes/notmine/AZ3240.jpg" class="img-responsive"></a>
+                                <a href="http://www.global.adidas.com/blue-geology-blocked-tee/BQ0987.html" target="_blank"><img src="assets/img/clothes/notmine/BQ0987.jpg" class="img-responsive"></a>
                                 <div class="caption">
                                     <div class="row">
                                         <div class="form-group">
@@ -750,12 +784,12 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["top-tshirt"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["handbags"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail">
                                 <div class="heart" id="like" rel="like"></div>
-                                <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
-                                <a href="http://www.global.adidas.com/blue-geology-blocked-tee/BQ0987.html" target="_blank"><img src="assets/img/clothes/notmine/BQ0987.jpg" class="img-responsive"></a>
+                                <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
+                                <a href="http://shop.mango.com/US/p0/women/accessories/bags/shoulder-bags/contrasting-hobo-bag/?id=73013578_70&n=1&s=accesorios.bolsos" target="_blank"><img src="assets/img/clothes/notmine/73013578.jpg" class="img-responsive"></a>
                                 <div class="caption">
                                     <div class="row">
                                         <div class="form-group">
@@ -852,12 +886,12 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["sneakers"]'>
+                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["earcuffs"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail">
                                 <div class="heart" id="like" rel="like"></div>
-                                <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
-                                <a href="http://www.global.adidas.com/stan-smith-shoes/S80501.html" target="_blank"><img src="assets/img/clothes/notmine/S80501.jpg" class="img-responsive"></a>
+                                <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
+                                <a href="http://shop.mango.com/US/p0/women/accessories/jewellery/earrings/hoop-earrings/?id=73003541_PL&n=0&ts=1473150180760" target="_blank"><img src="assets/img/clothes/notmine/73003541.jpg" class="img-responsive"></a>
                                 <div class="caption">
                                     <div class="row">
                                         <div class="form-group">
@@ -885,41 +919,6 @@
                             </div>
                         </figure>
                     </li>
-
-                    <li class="col-lg-3 col-md-3 col-sm-6 col-xs-12" data-groups='["dress"]'>
-                        <figure class="portfolio-item">
-                            <div class="thumbnail">
-                                <div class="heart" id="like" rel="like"></div>
-                                <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
-                                <a href="http://www.global.adidas.com/allover-print-dress/S97423.html" target="_blank"><img src="assets/img/clothes/notmine/S97423.jpg" class="img-responsive"></a>
-                                <div class="caption">
-                                    <div class="row">
-                                        <div class="form-group">
-                                            <div class="col-sm-12 col-md-12">
-                                                <div class="input-group">
-                                                    <div id="like-have" class="btn-group">
-                                                        <div class="radio">
-                                                            <label>
-                                                                <input name="choice" value="true" checked="" type="radio">
-                                                                I like it
-                                                            </label>
-                                                        </div>
-                                                        <div class="radio">
-                                                            <label>
-                                                                <input name="choice" id="" value="true" checked="" type="radio">
-                                                                I have it
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </figure>
-                    </li>
-
                 </ul>
             </div>
         </div>

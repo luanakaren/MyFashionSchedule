@@ -10,33 +10,45 @@
 
     <div class="container content mgb20">
         <h3 class="description"><span class="glyphicon glyphicon-home"></span> Home</h3>
-        <div class="col-md-8 mgt20">
+
+        <div class="col-md-2 mgt20">
+            <ul class="social">
+                <li class="facebook"><a href="#"><i class="fa fa-facebook fa-3x"></i></a></li>
+                <li class="twitter"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
+                <li class="pinterest"><a href="#"><i class="fa fa-pinterest-p fa-3x"></i></a></li>
+            </ul>
+
+            <ul class="social">
+                <li class="tumbler"><a href="#"><i class="fa fa-tumblr fa-3x"></i></a></li>
+                <li class="email"><a href="#"><i class="fa fa-at fa-3x"></i></a></li>
+                <li class="skype"><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-7 mgt20">
             <div class="ootd row mgb20">
                 <div class="row" style="margin-top: 0.8%">
                     <h4 class="text-center">OUTFIT OF THE DAY</h4>
-                    <div class="col-md-4 mgb10 mgt10"></div>
-                    <div class="col-md-4 mgb10 mgt10">
+                    <div class="col-md-6 mgb10 mgt10">
                         <img src="assets/img/clothes/AY9005.jpg" class="img-responsive">
                     </div>
-                    <div class="col-md-4 mgb10 mgt10">
+                    <div class="col-md-6 mgb10 mgt10">
                         <img src="assets/img/clothes/73063018.jpg" class="img-responsive">
                     </div>
                 </div>
 
                 <div class="row" style="margin-bottom: 0.8%">
-                    <div class="col-md-4 mgb10"></div>
-                    <div class="col-md-4 mgb10">
+                    <div class="col-md-6 mgb10">
                         <img src="assets/img/clothes/AX5469.jpg" class="img-responsive">
                     </div>
-                    <div class="col-md-4 mgb10"></div>
+                    <div class="col-md-6 mgb10"></div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4 mgb10"></div>
-                    <div class="col-md-4 mgb10">
+                    <div class="col-md-6 mgb10">
                         <img src="assets/img/clothes/BB1970.jpg" class="img-responsive">
                     </div>
-                    <div class="col-md-4 mgb10"></div>
+                    <div class="col-md-6 mgb10"></div>
                 </div>
             </div>
 
@@ -63,7 +75,7 @@
             <div id="toastem"></div>
         </div>
 
-        <div class="col-md-4 mgt20">
+        <div class="col-md-3 mgt20">
             <div class="row">
                 <div class="thumbnail" >
                     <h4 class="text-center">Vote for friends look</h4>
@@ -81,10 +93,19 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" style="margin-top: 22%">
                 <div class="thumbnail" >
-                    <h4 class="text-center">Purchasing advice</h4>
+                    <h4 class="text-center">Purchasing advice <span class="glyphicon glyphicon-star"></span> </h4>
+                    <br>
+                    <h5 class="text-center">It is available on <a href="http://shop.mango.com/US/p0/women/accessories/shoes/flat-shoes/die-cut-design-shoes/?id=73010132_15&n=0&ts=1473151620958" target="_blank">Mango</a>. It will delight you !</h5>
                     <img src="assets/img/clothes/notmine/73010132.jpg" class="img-responsive img-clothing mgb10">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h5>Die-cut design shoes</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
