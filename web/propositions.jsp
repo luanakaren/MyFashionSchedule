@@ -64,19 +64,16 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x450&text=Everyday 2" class="img-responsive">
+                                <img src="http://placehold.it/650x650&text=Everyday 2" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
                                             <p>Top :</p>
                                             <p>Bottom :</p>
-                                            <p>Pull :</p>
                                             <p>Coat :</p>
                                             <p>Accessories :</p>
                                             <p>Shoes :</p>
                                             <p>Jewels :</p>
-                                            <p>Perfume :</p>
-                                            <p>Underwear :</p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -92,19 +89,16 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x450&text=Everyday 3" class="img-responsive">
+                                <img src="http://placehold.it/650x650&text=Everyday 3" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
                                             <p>Top :</p>
                                             <p>Bottom :</p>
-                                            <p>Pull :</p>
                                             <p>Coat :</p>
                                             <p>Accessories :</p>
                                             <p>Shoes :</p>
                                             <p>Jewels :</p>
-                                            <p>Perfume :</p>
-                                            <p>Underwear :</p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -120,19 +114,16 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x450&text=Everyday 4" class="img-responsive">
+                                <img src="http://placehold.it/650x650&text=Everyday 4" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
                                             <p>Top :</p>
                                             <p>Bottom :</p>
-                                            <p>Pull :</p>
                                             <p>Coat :</p>
                                             <p>Accessories :</p>
                                             <p>Shoes :</p>
                                             <p>Jewels :</p>
-                                            <p>Perfume :</p>
-                                            <p>Underwear :</p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -148,14 +139,14 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x450&text=Everyday 5" class="img-responsive">
+                                <img src="http://placehold.it/650x650&text=Everyday 5" class="img-responsive">
                                 <div class="caption">
-                                    <div class="row">
+                                    <div class="row mgt20">
                                         <div class="col-md-10">
                                             Outftit composed by you
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row mgt20">
                                         <div class="col-md-12 text-center">
                                             <a href="http://localhost:8282/compose-a-look" class="btn btn-default">Compose a look</a>
                                         </div>
@@ -241,14 +232,14 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x450&text=Trip 5" class="img-responsive">
+                                <img src="http://placehold.it/650x650&text=Trip 5" class="img-responsive">
                                 <div class="caption">
-                                    <div class="row">
+                                    <div class="row mgt20">
                                         <div class="col-md-10">
                                             Outftit composed by you
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row mgt20">
                                         <div class="col-md-12 text-center">
                                             <a href="http://localhost:8282/compose-a-look" class="btn btn-default">Compose a look</a>
                                         </div>
