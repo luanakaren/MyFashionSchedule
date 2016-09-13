@@ -8,7 +8,7 @@
 
     <section class="portfolio mgt20 content">
         <div class="container">
-            <h3 class="description"><i class="fa fa-star-half-o"></i> Outfit's propositions for September 17, 2016</h3>
+            <h3 class="description"><i class="fa fa-star-half-o"></i> Outfit's propositions for 17 September, 2016</h3>
             <div class="row mgt20" >
                 <ul class="portfolio-sorting list-inline text-center">
                     <li><a href="#" data-group="all" class="active">All</a></li>
