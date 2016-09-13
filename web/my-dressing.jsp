@@ -8,7 +8,8 @@
 
     <section class="portfolio mgt20 content">
         <div class="container">
-            <div class="row">
+            <h3 class="description"><i class="fa fa-tasks"></i> My dressing</h3>
+            <div class="row mgt20">
                 <ul class="portfolio-sorting list-inline text-center">
                     <li><a href="#" data-group="all" class="active">All</a></li>
                     <li><a href="#" data-group="dress">Dress</a></li>

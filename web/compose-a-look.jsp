@@ -7,7 +7,8 @@
     <div class="row after-navbar mgb20"></div>
 
     <div class="container content mgb20">
-        <div class="col-md-5 col-sm-5 col-xs-12 compose-a-look">
+        <h3 class="description"><span class="glyphicon glyphicon-th"></span> Compose your look</h3>
+        <div class="col-md-5 col-sm-5 col-xs-12 compose-a-look mgt20">
             <h4 class="text-center">Item list</h4>
             <div class="row">
                 <h5>Top</h5>
@@ -166,7 +167,7 @@
             </div>
         </div>
 
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-6 col-sm-6 col-xs-12 mgt20">
             <div class="row compose-a-look">
                 <div class="row" style="margin-top: 0.8%">
                     <h4 class="text-center"><h4 class="text-center">Your look</h4></h4>

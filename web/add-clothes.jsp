@@ -10,7 +10,8 @@
 
     <section class="portfolio mgt20 content">
         <div class="container">
-            <div class="row">
+            <h3 class="description"><span class="glyphicon glyphicon-plus-sign"></span> Add clothes - shoes - accessories</h3>
+            <div class="row mgt20">
                 <ul class="portfolio-sorting list-inline text-center">
                     <li><a href="#" data-group="all" class="active">All</a></li>
                     <li><a href="#" data-group="dress">Dress</a></li>

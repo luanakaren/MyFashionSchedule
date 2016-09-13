@@ -7,7 +7,8 @@
     <div class="row after-navbar mgb20"></div>
 
     <div class="container mgt20 content">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h3 class="description"><i class="fa fa-heart"></i> My favorite items</h3>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mgt20">
             <figure class="portfolio-item">
                 <div class="thumbnail my-favorites" >
                     <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
@@ -23,7 +24,7 @@
             </figure>
         </div>
 
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mgt20">
             <figure class="portfolio-item">
                 <div class="thumbnail my-favorites" >
                     <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
@@ -39,7 +40,7 @@
             </figure>
         </div>
 
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mgt20">
             <figure class="portfolio-item">
                 <div class="thumbnail my-favorites" >
                     <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
@@ -55,7 +56,7 @@
             </figure>
         </div>
 
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mgt20">
             <figure class="portfolio-item">
                 <div class="thumbnail my-favorites" >
                     <h4 class="text-center"><span class="label label-info">MANGO</span></h4>

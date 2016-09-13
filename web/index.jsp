@@ -9,7 +9,8 @@
     <div class="row after-navbar mgb20"></div>
 
     <div class="container content mgb20">
-        <div class="col-md-8">
+        <h3 class="description"><span class="glyphicon glyphicon-home"></span> Home</h3>
+        <div class="col-md-8 mgt20">
             <div class="ootd row mgb20">
                 <div class="row" style="margin-top: 0.8%">
                     <h4 class="text-center">OUTFIT OF THE DAY</h4>
@@ -62,7 +63,7 @@
             <div id="toastem"></div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mgt20">
             <div class="row">
                 <div class="thumbnail" >
                     <h4 class="text-center">Vote for friends look</h4>

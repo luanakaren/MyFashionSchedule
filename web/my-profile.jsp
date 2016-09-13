@@ -7,7 +7,8 @@
     <div class="row after-navbar mgb20"></div>
 
     <div class="container content mgb20">
-        <div class="row">
+        <h3 class="description"><i class="fa fa-female"></i> My profile</h3>
+        <div class="row mgt20">
             <div class="well well-sm">
                 <div class="row">
                     <div class="col-sm-6 col-md-5" style="padding-left: 5%">

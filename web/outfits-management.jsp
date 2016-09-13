@@ -8,8 +8,9 @@
     <div class="row mgb8"></div>
 
     <div class="container content mgb20">
+        <h3 class="description"><span class="glyphicon glyphicon-calendar"></span> Outfits management</h3>
         <!-- SET THE TYPICAL WEEK -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 col-xs-12 mgt20">
             <h4 class="text-center">My typical week</h4>
 
             <div class="panel-group" id="accordion">
@@ -506,7 +507,7 @@
         </div>
 
         <!-- SPECIAL EVENTS -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 col-xs-12 mgt20">
             <h4 class="text-center">My settings</h4>
 
             <div class="panel-group">
@@ -658,7 +659,7 @@
 
         <!-- OUTFITS CALENDAR -->
         <!--<div class="col-md-6 col-sm-12 col-xs-12 outfits-calendar"></div>-->
-        <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="col-md-6 col-sm-12 col-xs-12 mgt20">
             <section class="main">
                 <div class="custom-calendar-wrap">
                     <div id="custom-inner" class="custom-inner">
