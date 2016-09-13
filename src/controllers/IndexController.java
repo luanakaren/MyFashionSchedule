@@ -41,6 +41,9 @@ public class IndexController extends BaseController {
     @RequestMapping("propositions")
     public String propositions() { return "propositions"; }
 
+    @RequestMapping("compose-a-look")
+    public String composeLook() { return "compose-a-look"; }
+
     @RequestMapping("outfit-management")
     public String outfitSaturday() { return "outfit-saturday"; }
 
