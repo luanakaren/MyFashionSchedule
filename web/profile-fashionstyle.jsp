@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
-<jsp:include page="include/header.jsp"></jsp:include>
+<jsp:include page="include/header_signin_signup.jsp"></jsp:include>
 
     <div class="row after-navbar mgb20"></div>
 
@@ -14,7 +14,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="thumbnail" >
                     <h4 class="text-center">Sporty</h4>
-                    <img src="http://placehold.it/650x750&text=Look 1" class="img-responsive">
+                    <img src="assets/img/clothes/look-sporty.jpg" class="img-responsive">
                     <div class="caption">
                         <div class="row">
                             <fieldset class="rating">
@@ -31,7 +31,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="thumbnail" >
                     <h4 class="text-center">Casual</h4>
-                    <img src="http://placehold.it/650x750&text=Look 2" class="img-responsive">
+                    <img src="assets/img/clothes/look-casual.jpg" class="img-responsive">
                     <div class="caption">
                         <div class="row text-center">
                             <fieldset class="rating">
@@ -48,7 +48,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="thumbnail" >
                     <h4 class="text-center">BCBG</h4>
-                    <img src="http://placehold.it/650x750&text=Look 3" class="img-responsive">
+                    <img src="assets/img/clothes/look-bcbg.jpeg" class="img-responsive">
                     <div class="caption">
                         <div class="row text-center">
                             <fieldset class="rating">
@@ -65,7 +65,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="thumbnail" >
                     <h4 class="text-center">Rock</h4>
-                    <img src="http://placehold.it/650x750&text=Look 4" class="img-responsive">
+                    <img src="assets/img/clothes/look-rock.jpg" class="img-responsive">
                     <div class="caption">
                         <div class="row text-center">
                             <fieldset class="rating">
@@ -77,6 +77,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="row text-center">
+                <a href="http://localhost:8282/occupation" class="btn btn-default" role="button">SUBMIT</a>
             </div>
         </div>
     </div>

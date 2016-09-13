@@ -44,6 +44,9 @@ public class IndexController extends BaseController {
     @RequestMapping("compose-a-look")
     public String composeLook() { return "compose-a-look"; }
 
+    @RequestMapping("propositions-add")
+    public String addProposition() { return "propositions-add"; }
+
     @RequestMapping("outfit-management")
     public String outfitSaturday() { return "outfit-saturday"; }
 
@@ -52,6 +55,9 @@ public class IndexController extends BaseController {
 
     @RequestMapping("favorites")
     public String favorites() { return "my-favorites"; }
+
+    @RequestMapping("profile")
+    public String profile() { return "my-profile"; }
 
     @RequestMapping(value="planning",method = RequestMethod.GET)
     public String planning(ModelMap modelMap){ //ce controller est un exemple pour les page simple ( sans REST et avec beaucoup de données)

@@ -80,7 +80,7 @@
                                             </div>
 
                                             <!-- Button -->
-                                            <button type="submit" id="btn-login" href="#" class="btn btn-default btn-block" role="button">SIGN IN</button>
+                                            <a id="btn-login" href="http://localhost:8282/home" class="btn btn-default btn-block" role="button">SIGN IN</a>
                                         </form>
 
                                     </div>
@@ -217,20 +217,16 @@
                         $('#planningForm').formValidation('revalidateField', 'date');
                     });
 
-            $("#btn-login").on('click', function (e) {
+            /*$("#btn-login").on('click', function (e) {
 
                 var username = $("#username").val();
                 var password = $("#password").val();
 
-                if(username == 'luanakaren' && password == 'luanakaren') {
-                    window.location = "http://localhost:8282/home";
-                    alert(window.location);
-                }
-                else {
+                if(username != 'luanakaren' && password != 'luanakaren') {
                     toastem.error("Your username or password is wrong");
                 }
 
-            });
+            });*/
 
 
            /* $('#planningForm').formValidation({

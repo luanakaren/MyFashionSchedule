@@ -44,7 +44,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hi Luana Karen<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">My profile</a></li>
+                        <li><a href="http://localhost:8282/profile">My profile</a></li>
                         <li><a href="http://localhost:8282/favorites">My favorites</a></li>
                         <li class="divider"></li>
                         <li><a href="http://localhost:8282/signin-signup">Log out</a></li>

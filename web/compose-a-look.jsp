@@ -259,7 +259,7 @@
             </div>
 
             <div class="row text-center">
-                <a href="http://localhost:8282/" class="btn btn-default">SAVE THE LOOK</a>
+                <a href="http://localhost:8282/propositions-add" class="btn btn-default">SAVE THE LOOK</a>
             </div>
         </div>
     </div>

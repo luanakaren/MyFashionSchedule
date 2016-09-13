@@ -136,41 +136,6 @@
                         </figure>
                     </li>
 
-                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday", "trip"]'>
-                        <figure class="portfolio-item">
-                            <div class="thumbnail propositions" >
-                                <img src="assets/img/clothes/look-composed.JPG" class="img-responsive">
-                                <div class="caption">
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <p>Top : Check cotton shirt</p>
-                                            <p>Bottom : Key printed short</p>
-                                            <p>Accessories : Front pocket backpack</p>
-                                            <p>Shoes : Superstar</p>
-                                            <p>Jewels : Snake-effect cuff</p>
-                                        </div>
-                                    </div>
-                                    <div class="row" style="margin-top: 9%">
-                                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                                            <select class="form-control">
-                                                <option value="today">17-09-2016</option>
-                                                <option value="19-09-2016">12-09-2016</option>
-                                                <option value="20-09-2016">13-09-2016</option>
-                                                <option value="21-09-2016">14-09-2016</option>
-                                                <option value="22-09-2016">15-09-2016</option>
-                                                <option value="23-09-2016">16-09-2016</option>
-                                                <option value="24-09-2016">18-09-2016</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
-                                            <button type="submit" class="btn btn-default" id="approved">Approved</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </figure>
-                    </li>
-
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
@@ -237,6 +202,41 @@
                                     <div class="row" style="margin-top: 6%">
                                         <div class="col-md-12 text-center">
                                             <a href="#" class="btn btn-default">Submit to friend vote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </li>
+
+                    <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday", "trip"]'>
+                        <figure class="portfolio-item">
+                            <div class="thumbnail propositions" >
+                                <img src="assets/img/clothes/look-composed.JPG" class="img-responsive">
+                                <div class="caption">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <p>Top : Check cotton shirt</p>
+                                            <p>Bottom : Key printed short</p>
+                                            <p>Accessories : Front pocket backpack</p>
+                                            <p>Shoes : Superstar</p>
+                                            <p>Jewels : Snake-effect cuff</p>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-top: 9%">
+                                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                            <select class="form-control">
+                                                <option value="today">17-09-2016</option>
+                                                <option value="19-09-2016">12-09-2016</option>
+                                                <option value="20-09-2016">13-09-2016</option>
+                                                <option value="21-09-2016">14-09-2016</option>
+                                                <option value="22-09-2016">15-09-2016</option>
+                                                <option value="23-09-2016">16-09-2016</option>
+                                                <option value="24-09-2016">18-09-2016</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
+                                            <button type="submit" class="btn btn-default" id="approved2">Approved</button>
                                         </div>
                                     </div>
                                 </div>
