@@ -65,7 +65,7 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x650&text=Everyday 2" class="img-responsive">
+                                <img src="assets/img/clothes/everyday2.png" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
@@ -90,7 +90,7 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x650&text=Everyday 3" class="img-responsive">
+                                <img src="assets/img/clothes/everyday3.png" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
@@ -115,7 +115,7 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x650&text=Everyday 4" class="img-responsive">
+                                <img src="assets/img/clothes/everyday4.png" class="img-responsive">
                                 <div class="caption">
                                     <div class="row">
                                         <div class="col-md-10">
@@ -140,7 +140,7 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["everyday"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x650&text=Everyday 5" class="img-responsive">
+                                <img src="assets/img/clothes/everyday5.png" class="img-responsive">
                                 <div class="caption">
                                     <div class="row mgt20">
                                         <div class="col-md-10">
@@ -233,7 +233,7 @@
                     <li class="col-lg-4 col-md-4 col-sm-6 col-xs-12" data-groups='["trip"]'>
                         <figure class="portfolio-item">
                             <div class="thumbnail propositions" >
-                                <img src="http://placehold.it/650x650&text=Trip 5" class="img-responsive">
+                                <img src="assets/img/clothes/trip5.png" class="img-responsive">
                                 <div class="caption">
                                     <div class="row mgt20">
                                         <div class="col-md-10">

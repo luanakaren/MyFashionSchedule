@@ -59,7 +59,7 @@
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mgt20">
             <figure class="portfolio-item">
                 <div class="thumbnail my-favorites" >
-                    <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
+                    <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AE9405.jpg" class="img-responsive img-clothing"></a>
                     <div class="caption">
                         <div class="row">
@@ -75,7 +75,7 @@
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <figure class="portfolio-item">
                 <div class="thumbnail my-favorites" >
-                    <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
+                    <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AE9412.jpg" class="img-responsive img-clothing"></a>
                     <div class="caption">
                         <div class="row">
@@ -91,7 +91,7 @@
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <figure class="portfolio-item">
                 <div class="thumbnail my-favorites" >
-                    <h4 class="text-center"><span class="label label-info">MANGO</span></h4>
+                    <h4 class="text-center"><span class="label label-info">ADIDAS</span></h4>
                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Adding date : 08/09/2016"><img src="assets/img/clothes/AX5469.jpg" class="img-responsive img-clothing"></a>
                     <div class="caption">
                         <div class="row">
